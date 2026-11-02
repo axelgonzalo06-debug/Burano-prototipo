@@ -10,6 +10,7 @@ export const metadata: Metadata = {
   description:
     'Burano construcciones nace en el año 2014 como una empresa que brinda servicios de proyecto, dirección y ejecución de obras.',
   openGraph: { locale: 'es_UY', siteName: 'Burano S.R.L.', type: 'website' },
+  ...(process.env.NO_INDEXAR === '1' ? { robots: { index: false, follow: false } } : {}),
 };
 
 export const viewport: Viewport = { width: 'device-width', initialScale: 1, viewportFit: 'cover', themeColor: '#eeedea' };
