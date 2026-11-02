@@ -1,0 +1,2987 @@
+[
+ {
+  "pagina": "inicio",
+  "url_wix": "/",
+  "titulo": "Inicio",
+  "seo": "inicio",
+  "textos": [
+   "Burano construcciones nace en el año 2014 como una empresa que brinda servicios de proyecto, dirección y ejecución de obras, desarrollando nuestra actividad en el sector de la construcción, manejando proyectos con principios de calidad, tiempo, alcances y costos. Adaptamos las especificaciones técnicas y los planes a los diversos requerimientos de nuestros clientes, concientizados en respetar al máximo las condiciones del medio ambiente y la prevención de accidentes y seguridad en obra.",
+   "Galería de trabajos",
+   "Servicios",
+   "Nuestra principal misión es el trabajo en equipo, la ética  profesional y un trato cordial con nuestros clientes, garantizando una alta satisfacción de los mismos."
+  ],
+  "imagenes_sueltas": [
+   {
+    "uri": "93ea8a_9c1d546ecabb4657a459fd8f3483c252~mv2_d_4128_2322_s_2.jpg",
+    "w": 4128,
+    "h": 2322,
+    "desc": "",
+    "title": ""
+   },
+   {
+    "uri": "93ea8a_d775b1ab42364ffea2b2430bbeec2108~mv2.jpg",
+    "w": 900,
+    "h": 430,
+    "desc": "",
+    "title": ""
+   }
+  ],
+  "fondos": [],
+  "proyectos": [
+   {
+    "titulo": "Slider de portada",
+    "slug": "slider",
+    "texto": "",
+    "fotos": [
+     {
+      "uri": "93ea8a_efd0f1272c054dd4b5407265d4e9cbff~mv2_d_4128_3096_s_4_2.jpg",
+      "w": 4128,
+      "h": 3096,
+      "desc": "",
+      "title": ""
+     },
+     {
+      "uri": "93ea8a_fa73b1fdb62f45d8a60497db2dd69c41~mv2_d_3072_2304_s_2.jpg",
+      "w": 3072,
+      "h": 2304,
+      "desc": "",
+      "title": "DSC03678"
+     },
+     {
+      "uri": "93ea8a_65cb1ddba0594e8d8d83432a9ad65c4a~mv2_d_4128_3096_s_4_2.jpg",
+      "w": 4128,
+      "h": 3096,
+      "desc": "",
+      "title": ""
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "pagina": "servicios",
+  "url_wix": "/servicios",
+  "titulo": "Servicios",
+  "seo": "servicios",
+  "textos": [
+   "Servicios brindados",
+   "Arquitectura",
+   "Construcción",
+   "Cálculo de estructuras",
+   "Nuestros servicios en el sector arquitectura son:\nProyectos de arquitectura personalizados de variados destinos (vivienda, oficinas, comercial, industria).\nProyectos ejecutivos completos de albañilería, sanitaria y eléctrica\nGerenciamiento y Dirección de Obras.\nEstudio y evaluación de patologías edilicias (Informe de diagnostico).\nTramitación de permisos de construcción en todo el país.\nAsesoramientos personalizados Asesoramiento inicial SIN COSTO.",
+   "Obra nueva de pequeña y mediana escala en estructura de hormigón armado o muro portante.\nReforma y reciclajes de viviendas, oficinas y locales comerciales\nRefuerzos de estructuras con perfiles laminados.\nImpermeabilización de azoteas transitables y no transitables.\nMantenimiento de edificios.\nConstrucción con técnicas constructivas alternativas.\nPresupuestos SIN COSTO.",
+   "Amplia experiencia en cálculo de estructuras, con más de 80.000 m2 de estructuras de hormigón armado y 10.000 m2 de estructuras metálicas calculadas y ejecutadas.\nAlgunos de los trabajos realizados:\nTorre Botavara / Punta del Este     (12.300 m2)\nEdificio Vista Brava / Punta del este(9.200 m2)\nEdificio M28 / Punta del Este (3.600 m2)\nEdificio Vista Carretas / Mvdeo (4.000 m2)\nEdificio Tango Jardín / Punta del Este (2.000m2)\nEdificio / Piriapolis (1.000 m2)\nAmpliación estación ANCAP / San José (750m2)"
+  ],
+  "imagenes_sueltas": [
+   {
+    "uri": "93ea8a_7c34d37de50245a095c297fe37982255~mv2.jpg",
+    "w": 1280,
+    "h": 960,
+    "desc": "",
+    "title": ""
+   }
+  ],
+  "fondos": [],
+  "proyectos": []
+ },
+ {
+  "pagina": "proyectos",
+  "url_wix": "/proyectos",
+  "titulo": "Proyectos",
+  "seo": "proyectos",
+  "textos": [],
+  "imagenes_sueltas": [],
+  "fondos": [],
+  "proyectos": [
+   {
+    "titulo": "",
+    "slug": "slider",
+    "texto": "",
+    "fotos": [
+     {
+      "uri": "93ea8a_d775b1ab42364ffea2b2430bbeec2108~mv2.jpg",
+      "w": 900,
+      "h": 430,
+      "desc": "",
+      "title": "comprar-sobre-plano-900x430"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "pagina": "obras",
+  "url_wix": "/obras",
+  "titulo": "Galería de trabajos",
+  "seo": "obras",
+  "textos": [
+   "Obras"
+  ],
+  "imagenes_sueltas": [],
+  "fondos": [],
+  "proyectos": [
+   {
+    "titulo": "Oficinas Wework Uruguay",
+    "slug": "oficinas-wework-uruguay",
+    "texto": "Oficinas Wework Uruguay\nUbicación:\nMontevideo\nSituación previa:\nDeterioro general de todos los espacios.\nTrabajos realizados:\nReforma general de 400 m2 de oficinas comerciales. Albañilería en seco (yeso), pintura general, empapelado de paredes, instalación de sanitaria, muebles de kitchenette, cambio de pisos e instalación eléctrica.",
+    "fotos": [
+     {
+      "uri": "93ea8a_b69a10f13ca046349d6628736e486e27~mv2_d_4128_3096_s_4_2.jpg",
+      "w": 4128,
+      "h": 3096,
+      "desc": "",
+      "title": ""
+     },
+     {
+      "uri": "93ea8a_6211d01f299a4239940e2cc414f4cf71~mv2.jpg",
+      "w": 1125,
+      "h": 1500,
+      "desc": "SITUACIÓN PREVIA",
+      "title": ""
+     },
+     {
+      "uri": "93ea8a_1ab147776dc0443587559176341a8b32~mv2_d_3096_4128_s_4_2.jpg",
+      "w": 3096,
+      "h": 4128,
+      "desc": "SITUACIÓN PREVIA",
+      "title": ""
+     },
+     {
+      "uri": "93ea8a_f17082dc7666402c8a792b5e6f318524~mv2_d_4128_3096_s_4_2.jpg",
+      "w": 4128,
+      "h": 3096,
+      "desc": "SITUACIÓN PREVIA",
+      "title": ""
+     },
+     {
+      "uri": "93ea8a_f9c1335eaa3f48e48bd572f05fa4d992~mv2_d_4128_3096_s_4_2.jpg",
+      "w": 4128,
+      "h": 3096,
+      "desc": "SITUACIÓN PREVIA",
+      "title": ""
+     },
+     {
+      "uri": "93ea8a_3254de4fa6c74d76ba373dedef613eab~mv2_d_4128_3096_s_4_2.jpg",
+      "w": 4128,
+      "h": 3096,
+      "desc": "",
+      "title": ""
+     },
+     {
+      "uri": "93ea8a_46acd47fc4cd42d6abcc29d60c92e22b~mv2.jpg",
+      "w": 1125,
+      "h": 1500,
+      "desc": "",
+      "title": ""
+     },
+     {
+      "uri": "93ea8a_f938721685394e648ead673e039a3bac~mv2_d_4128_3096_s_4_2.jpg",
+      "w": 4128,
+      "h": 3096,
+      "desc": "",
+      "title": ""
+     },
+     {
+      "uri": "93ea8a_d05608ce2c304d1a95f82632fcc2dc90~mv2_d_4128_3096_s_4_2.jpg",
+      "w": 4128,
+      "h": 3096,
+      "desc": "",
+      "title": ""
+     },
+     {
+      "uri": "93ea8a_c8ce1438b9ed4260b553436dfd3ffbb6~mv2_d_4128_3096_s_4_2.jpg",
+      "w": 4128,
+      "h": 3096,
+      "desc": "",
+      "title": ""
+     },
+     {
+      "uri": "93ea8a_f3374c07749b4835bb61d8be95568810~mv2_d_4128_3096_s_4_2.jpg",
+      "w": 4128,
+      "h": 3096,
+      "desc": "",
+      "title": ""
+     },
+     {
+      "uri": "93ea8a_0b512c187ac24e99842588ad4d9b1c80~mv2_d_4128_3096_s_4_2.jpg",
+      "w": 4128,
+      "h": 3096,
+      "desc": "",
+      "title": ""
+     },
+     {
+      "uri": "93ea8a_60373d16d4df4963bb8b9a4171d68ed2~mv2_d_4128_3096_s_4_2.jpg",
+      "w": 4128,
+      "h": 3096,
+      "desc": "",
+      "title": ""
+     },
+     {
+      "uri": "93ea8a_aee7f6993605454297a0f3f064d3dc4a~mv2_d_2322_4128_s_2.jpg",
+      "w": 2322,
+      "h": 4128,
+      "desc": "",
+      "title": ""
+     },
+     {
+      "uri": "93ea8a_a02fd9d480a64607862789dc774bb341~mv2_d_4128_3096_s_4_2.jpg",
+      "w": 4128,
+      "h": 3096,
+      "desc": "",
+      "title": ""
+     },
+     {
+      "uri": "93ea8a_83fbf2fdbed94985b2ec3f8c899004e9~mv2_d_4128_3096_s_4_2.jpg",
+      "w": 4128,
+      "h": 3096,
+      "desc": "",
+      "title": ""
+     },
+     {
+      "uri": "93ea8a_82b1fbeac159473e8259eda3fdb853c1~mv2_d_4128_3096_s_4_2.jpg",
+      "w": 4128,
+      "h": 3096,
+      "desc": "",
+      "title": ""
+     },
+     {
+      "uri": "93ea8a_5566aba4b9aa494886b8aced39ed3779~mv2_d_4128_3096_s_4_2.jpg",
+      "w": 4128,
+      "h": 3096,
+      "desc": "",
+      "title": ""
+     },
+     {
+      "uri": "93ea8a_9a489e9d0bda42ea9ecf94f011c911b1~mv2_d_3096_4128_s_4_2.jpg",
+      "w": 3096,
+      "h": 4128,
+      "desc": "",
+      "title": ""
+     },
+     {
+      "uri": "93ea8a_b69a10f13ca046349d6628736e486e27~mv2_d_4128_3096_s_4_2.jpg",
+      "w": 4128,
+      "h": 3096,
+      "desc": "",
+      "title": ""
+     },
+     {
+      "uri": "93ea8a_0512ef0f7a584f6aa399019b4f4c8f69~mv2_d_4128_3096_s_4_2.jpg",
+      "w": 4128,
+      "h": 3096,
+      "desc": "",
+      "title": ""
+     },
+     {
+      "uri": "93ea8a_e41f11860f4a466387028abbde010896~mv2_d_4128_3096_s_4_2.jpg",
+      "w": 4128,
+      "h": 3096,
+      "desc": "",
+      "title": ""
+     },
+     {
+      "uri": "93ea8a_f5d980d23ce047c1bb9dbe49f88947bd~mv2_d_3096_4128_s_4_2.jpg",
+      "w": 3096,
+      "h": 4128,
+      "desc": "",
+      "title": ""
+     },
+     {
+      "uri": "93ea8a_5fea7c8475324ed89593066b07f1bb27~mv2.jpg",
+      "w": 844,
+      "h": 1500,
+      "desc": "",
+      "title": ""
+     },
+     {
+      "uri": "93ea8a_ffc6b043f8c541beba1a3a0e14090515~mv2_d_3096_4128_s_4_2.jpg",
+      "w": 3096,
+      "h": 4128,
+      "desc": "",
+      "title": ""
+     }
+    ]
+   },
+   {
+    "titulo": "Agencia BROU La Paz",
+    "slug": "agencia-brou-la-paz",
+    "texto": "Agencia BROU La Paz\nUbicación:\nLa Paz / Canelones\nSituación previa:\nVivienda con humedades y deterioro general por falta de mantenimiento.\nTrabajos realizados:\nReparación de revoques interiores de paredes y cielorrasos. Pintura general de paredes, cielorrasos, carpintería de madera y hierro de toda la vivienda. Hidrolavado exterior de vivienda y pintura de acceso. Cambio de todas las cortinas de enrrollar. Pulido de pisos de madera.",
+    "fotos": [
+     {
+      "uri": "93ea8a_79a63927fe8a4ad4bb005503348f53eb~mv2_d_3096_4128_s_4_2.jpg",
+      "w": 3096,
+      "h": 4128,
+      "desc": "",
+      "title": ""
+     },
+     {
+      "uri": "93ea8a_ab56c5d1c87b4e1c962438ebda7f17bf~mv2_d_4128_2322_s_2.jpg",
+      "w": 4128,
+      "h": 2322,
+      "desc": "SITUACIÓN PREVIA",
+      "title": ""
+     },
+     {
+      "uri": "93ea8a_3e495f6e51c249fc8f42704c20fc2e58~mv2_d_4128_2322_s_2.jpg",
+      "w": 4128,
+      "h": 2322,
+      "desc": "SITUACIÓN PREVIA",
+      "title": ""
+     },
+     {
+      "uri": "93ea8a_630b2dec2da1424fb0eb68a4313dc814~mv2_d_4128_2322_s_2.jpg",
+      "w": 4128,
+      "h": 2322,
+      "desc": "SITUACIÓN PREVIA",
+      "title": ""
+     },
+     {
+      "uri": "93ea8a_82b8cf5761ad4f7fb9da2cd9a327a3af~mv2_d_2322_4128_s_2.jpg",
+      "w": 2322,
+      "h": 4128,
+      "desc": "SITUACIÓN PREVIA",
+      "title": ""
+     },
+     {
+      "uri": "93ea8a_e0e7049e134b4ea58440ecd4e44cce77~mv2_d_2322_4128_s_2.jpg",
+      "w": 2322,
+      "h": 4128,
+      "desc": "SITUACIÓN PREVIA",
+      "title": ""
+     },
+     {
+      "uri": "93ea8a_e24e505a3a7a4c499eb432101b50d861~mv2_d_2322_4128_s_2.jpg",
+      "w": 2322,
+      "h": 4128,
+      "desc": "",
+      "title": ""
+     },
+     {
+      "uri": "93ea8a_dc2e8d3a26a1408791b93424c7aab679~mv2_d_4128_3096_s_4_2.jpg",
+      "w": 4128,
+      "h": 3096,
+      "desc": "",
+      "title": ""
+     },
+     {
+      "uri": "93ea8a_a03c0a553ab945d09025d287df0259fc~mv2_d_4128_3096_s_4_2.jpg",
+      "w": 4128,
+      "h": 3096,
+      "desc": "",
+      "title": ""
+     },
+     {
+      "uri": "93ea8a_19c33def3d0c4dc391d6468c7333d90c~mv2_d_4128_3096_s_4_2.jpg",
+      "w": 4128,
+      "h": 3096,
+      "desc": "",
+      "title": ""
+     },
+     {
+      "uri": "93ea8a_0864c95883044ffc99c5167c670834e8~mv2_d_4128_3096_s_4_2.jpg",
+      "w": 4128,
+      "h": 3096,
+      "desc": "",
+      "title": ""
+     },
+     {
+      "uri": "93ea8a_fc13c8a924aa4bba9f2325aee2fd35d7~mv2_d_4128_3096_s_4_2.jpg",
+      "w": 4128,
+      "h": 3096,
+      "desc": "",
+      "title": ""
+     },
+     {
+      "uri": "93ea8a_f747922af0eb4287a6306face3bed672~mv2_d_3096_4128_s_4_2.jpg",
+      "w": 3096,
+      "h": 4128,
+      "desc": "",
+      "title": ""
+     },
+     {
+      "uri": "93ea8a_79a63927fe8a4ad4bb005503348f53eb~mv2_d_3096_4128_s_4_2.jpg",
+      "w": 3096,
+      "h": 4128,
+      "desc": "",
+      "title": ""
+     },
+     {
+      "uri": "93ea8a_cf42c1c4470d434c9e9f45f6ab288555~mv2_d_4128_3096_s_4_2.jpg",
+      "w": 4128,
+      "h": 3096,
+      "desc": "",
+      "title": ""
+     },
+     {
+      "uri": "93ea8a_c0fcabcec0a24021a27267bb765b73ee~mv2_d_3096_4128_s_4_2.jpg",
+      "w": 3096,
+      "h": 4128,
+      "desc": "",
+      "title": ""
+     },
+     {
+      "uri": "93ea8a_6fb1719da2ab4d8c856cccd88a4d5009~mv2_d_3096_4128_s_4_2.jpg",
+      "w": 3096,
+      "h": 4128,
+      "desc": "",
+      "title": ""
+     },
+     {
+      "uri": "93ea8a_c43a3f787d344808ba25d2c72753afb6~mv2_d_3096_4128_s_4_2.jpg",
+      "w": 3096,
+      "h": 4128,
+      "desc": "",
+      "title": ""
+     },
+     {
+      "uri": "93ea8a_33535838125141b7a004261b142a7d45~mv2_d_3096_4128_s_4_2.jpg",
+      "w": 3096,
+      "h": 4128,
+      "desc": "",
+      "title": ""
+     },
+     {
+      "uri": "93ea8a_c8780c6b433d437fae12f4c3f0033828~mv2_d_3096_4128_s_4_2.jpg",
+      "w": 3096,
+      "h": 4128,
+      "desc": "",
+      "title": ""
+     },
+     {
+      "uri": "93ea8a_0485feb020eb4fb1834620e78e138ca6~mv2_d_1600_1200_s_2.jpg",
+      "w": 1600,
+      "h": 1200,
+      "desc": "",
+      "title": ""
+     },
+     {
+      "uri": "93ea8a_b02f24b60c6d4729a87842b48e1574a8~mv2_d_3096_4128_s_4_2.jpg",
+      "w": 3096,
+      "h": 4128,
+      "desc": "",
+      "title": ""
+     },
+     {
+      "uri": "93ea8a_90f21b76feec47c69a5cd0f48d544b0f~mv2_d_4128_3096_s_4_2.jpg",
+      "w": 4128,
+      "h": 3096,
+      "desc": "",
+      "title": ""
+     },
+     {
+      "uri": "93ea8a_f20b0dcc59a94537a7ea4b44b01d2b85~mv2_d_3096_4128_s_4_2.jpg",
+      "w": 3096,
+      "h": 4128,
+      "desc": "",
+      "title": ""
+     }
+    ]
+   },
+   {
+    "titulo": "Azotea edifico \"EL Castaño\"",
+    "slug": "azotea-edifico-el-castano",
+    "texto": "Azotea edifico \"EL Castaño\"\nUbicación:\nMontevideo\nSituación previa:\nProblemas de infiltración en azotea y perdida en tanque superior de agua potable.\nTrabajos realizados:\nRetiro y cambio de 220 m2 de membrana asfáltica de azotea, sustitución de desagües existentes por nuevos EPDM.\nReparación de fisuras interiores y exteriores en tanque de agua.",
+    "fotos": [
+     {
+      "uri": "93ea8a_a9d18a6ccd7d42f0a600326d7f347016~mv2_d_3096_4128_s_4_2.jpg",
+      "w": 3096,
+      "h": 4128,
+      "desc": "",
+      "title": ""
+     },
+     {
+      "uri": "93ea8a_858eba6b4a854b9ca4aa2ab87563c980~mv2_d_4128_3096_s_4_2.jpg",
+      "w": 4128,
+      "h": 3096,
+      "desc": "",
+      "title": "20181003_101525"
+     },
+     {
+      "uri": "93ea8a_8d113eb2d05c4d30b015cced15f3287c~mv2.jpg",
+      "w": 1600,
+      "h": 900,
+      "desc": "",
+      "title": "IMG-20181005-WA0063"
+     },
+     {
+      "uri": "93ea8a_a0e9e9ace4a34e4b8a8910172a9191b8~mv2_d_4128_2322_s_2.jpg",
+      "w": 4128,
+      "h": 2322,
+      "desc": "",
+      "title": "20180427_165854"
+     },
+     {
+      "uri": "93ea8a_3c325f0912aa40ca8efbc61da3b65c66~mv2.jpg",
+      "w": 1600,
+      "h": 900,
+      "desc": "",
+      "title": "IMG-20181003-WA0033"
+     },
+     {
+      "uri": "93ea8a_c55cc0b8670d4903a6b8e43fc02ac0d7~mv2.jpg",
+      "w": 1600,
+      "h": 900,
+      "desc": "",
+      "title": "IMG-20181006-WA0051"
+     },
+     {
+      "uri": "93ea8a_740e2bc2fce348fa97fd2a355bf44de2~mv2_d_4128_3096_s_4_2.jpg",
+      "w": 4128,
+      "h": 3096,
+      "desc": "",
+      "title": "20181008_100343"
+     },
+     {
+      "uri": "93ea8a_c59830a024384fa59b873b33a5abb597~mv2_d_4128_3096_s_4_2.jpg",
+      "w": 4128,
+      "h": 3096,
+      "desc": "",
+      "title": "20181008_095501"
+     },
+     {
+      "uri": "93ea8a_38e688d11cda4996b7af1138f529559a~mv2_d_4128_3096_s_4_2.jpg",
+      "w": 4128,
+      "h": 3096,
+      "desc": "",
+      "title": "20181008_100217"
+     },
+     {
+      "uri": "93ea8a_cde73e367dca43a7a7a0ce1478434b38~mv2.jpg",
+      "w": 1600,
+      "h": 900,
+      "desc": "",
+      "title": "IMG-20181005-WA0064"
+     },
+     {
+      "uri": "93ea8a_3d32f07c0621438faa794ec99ace78c3~mv2_d_3096_4128_s_4_2.jpg",
+      "w": 3096,
+      "h": 4128,
+      "desc": "",
+      "title": "20181010_100739"
+     },
+     {
+      "uri": "93ea8a_b15c99cd1ca1477d868a21e96759b20f~mv2_d_4128_3096_s_4_2.jpg",
+      "w": 4128,
+      "h": 3096,
+      "desc": "",
+      "title": "20181010_100543"
+     },
+     {
+      "uri": "93ea8a_d1eeb58075d94d63af85eb96cd7be706~mv2_d_4128_3096_s_4_2.jpg",
+      "w": 4128,
+      "h": 3096,
+      "desc": "",
+      "title": "20181016_103253"
+     },
+     {
+      "uri": "93ea8a_757eca96db294649881902c2ee5efc48~mv2_d_4128_3096_s_4_2.jpg",
+      "w": 4128,
+      "h": 3096,
+      "desc": "",
+      "title": "20181016_103217"
+     },
+     {
+      "uri": "93ea8a_23619e11d7f5479889f3a7db109341ec~mv2_d_4128_3096_s_4_2.jpg",
+      "w": 4128,
+      "h": 3096,
+      "desc": "",
+      "title": "20181016_103229"
+     }
+    ]
+   },
+   {
+    "titulo": "Refuerzo estructural MRU",
+    "slug": "refuerzo-estructural-mru",
+    "texto": "Refuerzo estructural MRU\nUbicación:\nMontevideo\nSituación previa:\nRefuerzo de estructuras necesarios para sobrecarga de maquinaria.\nSuperficie a reforzar 265 m2\nTrabajos realizados:\nSuministro y colocación de pilares y vigas de perfiles laminados de refuerzo estructural en nave industrial del MRU (Molino Río Uruguay).",
+    "fotos": [
+     {
+      "uri": "93ea8a_e70f6db3cbee41cebf2813d35c22b2d7~mv2_d_2560_1920_s_2.jpg",
+      "w": 2560,
+      "h": 1920,
+      "desc": "",
+      "title": ""
+     },
+     {
+      "uri": "93ea8a_f5de864904f34994b05cd2e63698e721~mv2_d_2560_1920_s_2.jpg",
+      "w": 2560,
+      "h": 1920,
+      "desc": "",
+      "title": ""
+     },
+     {
+      "uri": "93ea8a_0e60e818f9494657bca1430697af7704~mv2_d_2560_1920_s_2.jpg",
+      "w": 2560,
+      "h": 1920,
+      "desc": "",
+      "title": ""
+     },
+     {
+      "uri": "93ea8a_91582e083ff8467485672f4ac56cae70~mv2_d_2560_1920_s_2.jpg",
+      "w": 2560,
+      "h": 1920,
+      "desc": "",
+      "title": ""
+     },
+     {
+      "uri": "93ea8a_370f508bc806420ba6375ce13a4eeffa~mv2_d_2560_1920_s_2.jpg",
+      "w": 2560,
+      "h": 1920,
+      "desc": "",
+      "title": ""
+     },
+     {
+      "uri": "93ea8a_560908881b9749ba8682db7bd81477e3~mv2_d_2560_1920_s_2.jpg",
+      "w": 2560,
+      "h": 1920,
+      "desc": "",
+      "title": ""
+     },
+     {
+      "uri": "93ea8a_662654afa2544ecda1fdc17c45e863c5~mv2_d_2560_1920_s_2.jpg",
+      "w": 2560,
+      "h": 1920,
+      "desc": "",
+      "title": ""
+     },
+     {
+      "uri": "93ea8a_5e742614c5a54840aeca7cf3a7514639~mv2_d_2560_1920_s_2.jpg",
+      "w": 2560,
+      "h": 1920,
+      "desc": "",
+      "title": ""
+     },
+     {
+      "uri": "93ea8a_11a2e61f6d1f41da8dab6622f09b4695~mv2_d_2560_1920_s_2.jpg",
+      "w": 2560,
+      "h": 1920,
+      "desc": "",
+      "title": ""
+     },
+     {
+      "uri": "93ea8a_63af81d97afa4a8c895fc665ed39ac88~mv2_d_2560_1920_s_2.jpg",
+      "w": 2560,
+      "h": 1920,
+      "desc": "",
+      "title": ""
+     },
+     {
+      "uri": "93ea8a_480b31123cb44edea949fb3ab20270f9~mv2_d_2560_1920_s_2.jpg",
+      "w": 2560,
+      "h": 1920,
+      "desc": "",
+      "title": ""
+     },
+     {
+      "uri": "93ea8a_c9af319ed1154b0799c76e244442cecd~mv2_d_1920_2560_s_2.jpg",
+      "w": 1920,
+      "h": 2560,
+      "desc": "",
+      "title": ""
+     },
+     {
+      "uri": "93ea8a_bd8a1c6be5c044a18866c785627eb1c1~mv2_d_2560_1920_s_2.jpg",
+      "w": 2560,
+      "h": 1920,
+      "desc": "",
+      "title": ""
+     },
+     {
+      "uri": "93ea8a_e70f6db3cbee41cebf2813d35c22b2d7~mv2_d_2560_1920_s_2.jpg",
+      "w": 2560,
+      "h": 1920,
+      "desc": "",
+      "title": ""
+     }
+    ]
+   },
+   {
+    "titulo": "Sede central de AGADU",
+    "slug": "sede-central-de-agadu",
+    "texto": "Sede central de AGADU\nUbicación:\nMontevideo\nSituación previa:\nMantenimiento en azotea y cambio de cielorrasos en dos oficinas.\nTrabajos realizados:\nHidrolavado de tanque superior de agua. Pintura exterior de tanque y herrería del mismo. Retiro y sustitución de cielorraso tipo Armstrong en 2 oficinas (60m2 de superficie).",
+    "fotos": [
+     {
+      "uri": "93ea8a_14d0d8b85233401fa1be64f90dc63262~mv2_d_2560_1920_s_2.jpg",
+      "w": 2560,
+      "h": 1920,
+      "desc": "",
+      "title": ""
+     },
+     {
+      "uri": "93ea8a_4c343ac31e5946dfb34c1d525e3d961a~mv2_d_1920_2560_s_2.jpg",
+      "w": 1920,
+      "h": 2560,
+      "desc": "",
+      "title": ""
+     },
+     {
+      "uri": "93ea8a_bbb5b3e010db4cb69b9493d7981e9600~mv2_d_2560_1920_s_2.jpg",
+      "w": 2560,
+      "h": 1920,
+      "desc": "",
+      "title": ""
+     },
+     {
+      "uri": "93ea8a_4f862b4c48dd4b5bb05f2fc1aa4f8694~mv2_d_1920_2560_s_2.jpg",
+      "w": 1920,
+      "h": 2560,
+      "desc": "",
+      "title": ""
+     },
+     {
+      "uri": "93ea8a_a36fdba471f34560baee89f7a9a87890~mv2_d_2560_1920_s_2.jpg",
+      "w": 2560,
+      "h": 1920,
+      "desc": "",
+      "title": ""
+     },
+     {
+      "uri": "93ea8a_d56983587112418081ebd606bb35a4a3~mv2_d_2560_1920_s_2.jpg",
+      "w": 2560,
+      "h": 1920,
+      "desc": "",
+      "title": ""
+     },
+     {
+      "uri": "93ea8a_4730e7f5d0784598a38e16746713550b~mv2_d_1600_1200_s_2.jpg",
+      "w": 1600,
+      "h": 1200,
+      "desc": "",
+      "title": ""
+     },
+     {
+      "uri": "93ea8a_909cc16e51514799ad8ea02cd9a6b20f~mv2_d_2560_1920_s_2.jpg",
+      "w": 2560,
+      "h": 1920,
+      "desc": "",
+      "title": ""
+     },
+     {
+      "uri": "93ea8a_2a38794fae9241ea80a25b96d4896d85~mv2_d_2560_1920_s_2.jpg",
+      "w": 2560,
+      "h": 1920,
+      "desc": "",
+      "title": ""
+     },
+     {
+      "uri": "93ea8a_0e5e639b703d45aab3b08b94006c742e~mv2_d_2560_1920_s_2.jpg",
+      "w": 2560,
+      "h": 1920,
+      "desc": "",
+      "title": ""
+     },
+     {
+      "uri": "93ea8a_12d59069d5994bec9c145dcf62299b6e~mv2_d_2560_1920_s_2.jpg",
+      "w": 2560,
+      "h": 1920,
+      "desc": "",
+      "title": ""
+     },
+     {
+      "uri": "93ea8a_67c6647a81bb46389efcbf06634f6f64~mv2_d_2560_1920_s_2.jpg",
+      "w": 2560,
+      "h": 1920,
+      "desc": "",
+      "title": ""
+     },
+     {
+      "uri": "93ea8a_e9650398d38c4cc180059234c4037da5~mv2_d_1200_1600_s_2.jpg",
+      "w": 1200,
+      "h": 1600,
+      "desc": "",
+      "title": ""
+     }
+    ]
+   },
+   {
+    "titulo": "Hotel HEA Windham Montevideo",
+    "slug": "hotel-hea-windham-montevideo",
+    "texto": "Hotel HEA Windham Montevideo\nUbicación:\nMontevideo\nTrabajos realizados:\nTrabajos en la zona de azotea del piso 7. Trabajos rústicos de levantamiento de pretiles, tabiques exteriores curvos de ticholo y muros de contención. Terminaciones varias en toda la azotea, revoques finos y baños de zona piscina exterior. Realización de tabiques de yeso interiores.",
+    "fotos": [
+     {
+      "uri": "93ea8a_6bd8e529d9f54d59959bab213ec0f13f~mv2_d_3171_2175_s_2.jpg",
+      "w": 3171,
+      "h": 2175,
+      "desc": "",
+      "title": ""
+     },
+     {
+      "uri": "93ea8a_57a6dddf77dd410ba7db4fd9e5d687e0~mv2_d_2592_1944_s_2.jpg",
+      "w": 2592,
+      "h": 1944,
+      "desc": "",
+      "title": ""
+     },
+     {
+      "uri": "93ea8a_81c147f7f4b3495ba61d8842715a7ae5~mv2_d_2592_1944_s_2.jpg",
+      "w": 2592,
+      "h": 1944,
+      "desc": "",
+      "title": ""
+     },
+     {
+      "uri": "93ea8a_dfbb9a8ae1b0498b9bd6b0699d39b90d~mv2_d_2592_1944_s_2.jpg",
+      "w": 2592,
+      "h": 1944,
+      "desc": "",
+      "title": ""
+     },
+     {
+      "uri": "93ea8a_992d5f4e4d61423e959d2581e26ad3da~mv2_d_4128_2322_s_2.jpg",
+      "w": 4128,
+      "h": 2322,
+      "desc": "",
+      "title": ""
+     },
+     {
+      "uri": "93ea8a_cf85127f3dd04d9fa0137589b16a0c76~mv2_d_2322_4128_s_2.jpg",
+      "w": 2322,
+      "h": 4128,
+      "desc": "",
+      "title": ""
+     },
+     {
+      "uri": "93ea8a_d29fc4b360ab4a708adbccd27055fab3~mv2_d_1836_3264_s_2.jpg",
+      "w": 1836,
+      "h": 3264,
+      "desc": "",
+      "title": ""
+     },
+     {
+      "uri": "93ea8a_9190450f9a954cabaee4431e7ba469e8~mv2_d_3264_1836_s_2.jpg",
+      "w": 3264,
+      "h": 1836,
+      "desc": "",
+      "title": ""
+     },
+     {
+      "uri": "93ea8a_b2f6a591030e45e2aa42e75e4461d736~mv2_d_3264_1836_s_2.jpg",
+      "w": 3264,
+      "h": 1836,
+      "desc": "",
+      "title": ""
+     },
+     {
+      "uri": "93ea8a_d8dd61d3b66f46d8af52c841896326fb~mv2_d_4128_3096_s_4_2.jpg",
+      "w": 4128,
+      "h": 3096,
+      "desc": "",
+      "title": ""
+     },
+     {
+      "uri": "93ea8a_6870033f9ae142579c4838eb9a7d795d~mv2_d_4128_2322_s_2.jpg",
+      "w": 4128,
+      "h": 2322,
+      "desc": "",
+      "title": ""
+     },
+     {
+      "uri": "93ea8a_84e5284acfe5411396c38d341f331434~mv2.jpg",
+      "w": 844,
+      "h": 1500,
+      "desc": "",
+      "title": "20160331_142000_edited"
+     },
+     {
+      "uri": "93ea8a_30dffbf178dd49dd90f5e97ee53134cb~mv2_d_4128_3096_s_4_2.jpg",
+      "w": 4128,
+      "h": 3096,
+      "desc": "",
+      "title": ""
+     },
+     {
+      "uri": "93ea8a_6a4fc1ec8386449bb8429fc3a6397e0b~mv2_d_3264_1836_s_2.jpg",
+      "w": 3264,
+      "h": 1836,
+      "desc": "",
+      "title": ""
+     },
+     {
+      "uri": "93ea8a_e36843b123e444059d5ddaeb7c53baad~mv2_d_3264_1836_s_2.jpg",
+      "w": 3264,
+      "h": 1836,
+      "desc": "",
+      "title": ""
+     },
+     {
+      "uri": "93ea8a_7b98bf7f206145d1a72f8335c3ef583f~mv2_d_3264_1836_s_2.jpg",
+      "w": 3264,
+      "h": 1836,
+      "desc": "",
+      "title": ""
+     },
+     {
+      "uri": "93ea8a_50a6853f8aba4bf3bf8145b689dd01bd~mv2_d_3264_1836_s_2.jpg",
+      "w": 3264,
+      "h": 1836,
+      "desc": "",
+      "title": ""
+     },
+     {
+      "uri": "93ea8a_1c2c59360d0f4ac3a3d07fe7e126c0a5~mv2_d_3264_1836_s_2.jpg",
+      "w": 3264,
+      "h": 1836,
+      "desc": "",
+      "title": ""
+     },
+     {
+      "uri": "93ea8a_f1898b1327114ebc8dde73c34ba18bc6~mv2_d_4128_3096_s_4_2.jpg",
+      "w": 4128,
+      "h": 3096,
+      "desc": "",
+      "title": ""
+     },
+     {
+      "uri": "93ea8a_3e1afd02dcda4c2e97b4ce0ea4e91225~mv2_d_4128_3096_s_4_2.jpg",
+      "w": 4128,
+      "h": 3096,
+      "desc": "",
+      "title": ""
+     },
+     {
+      "uri": "93ea8a_2caf2eb0e65e411e9f304fc19bf88e2f~mv2_d_4128_3096_s_4_2.jpg",
+      "w": 4128,
+      "h": 3096,
+      "desc": "",
+      "title": "20180405_145656"
+     },
+     {
+      "uri": "93ea8a_388a680dca7545a8a6eaa47e0f9e9b5b~mv2_d_4128_3096_s_4_2.jpg",
+      "w": 4128,
+      "h": 3096,
+      "desc": "",
+      "title": "20180405_145710"
+     },
+     {
+      "uri": "93ea8a_547c8c2086014877876c00808c5e99c6~mv2_d_1836_3264_s_2.jpg",
+      "w": 1836,
+      "h": 3264,
+      "desc": "",
+      "title": ""
+     },
+     {
+      "uri": "93ea8a_d523608927e44e23b31ef668d011b180~mv2.jpg",
+      "w": 844,
+      "h": 1500,
+      "desc": "",
+      "title": ""
+     },
+     {
+      "uri": "93ea8a_80885209a6b54e5da1df523e4dec3883~mv2.jpg",
+      "w": 844,
+      "h": 1500,
+      "desc": "",
+      "title": ""
+     },
+     {
+      "uri": "93ea8a_4154ee76efc143ceae9d5c9c73a6b347~mv2_d_2592_1944_s_2.jpg",
+      "w": 2592,
+      "h": 1944,
+      "desc": "",
+      "title": ""
+     },
+     {
+      "uri": "93ea8a_6a0403243aa743b48ed24a844a7d6afe~mv2_d_1944_2592_s_2.jpg",
+      "w": 1944,
+      "h": 2592,
+      "desc": "",
+      "title": ""
+     },
+     {
+      "uri": "93ea8a_a603eb4e134e4cf2ab8ad1e375b8bbc5~mv2_d_3264_1836_s_2.jpg",
+      "w": 3264,
+      "h": 1836,
+      "desc": "",
+      "title": ""
+     },
+     {
+      "uri": "93ea8a_dfd6982b154e4e8fbc49eeeef605474c~mv2_d_3264_1836_s_2.jpg",
+      "w": 3264,
+      "h": 1836,
+      "desc": "",
+      "title": ""
+     },
+     {
+      "uri": "93ea8a_b1a846b96e25449e908472ca7c2a1f16~mv2.jpg",
+      "w": 1125,
+      "h": 1500,
+      "desc": "",
+      "title": ""
+     },
+     {
+      "uri": "93ea8a_d4d9746d0e4949fe96823e8d99529188~mv2.jpg",
+      "w": 1125,
+      "h": 1500,
+      "desc": "",
+      "title": ""
+     }
+    ]
+   },
+   {
+    "titulo": "Edificio Sarmiento",
+    "slug": "edificio-sarmiento",
+    "texto": "Edificio Sarmiento\nUbicación:\nMontevideo\nSituación previa:\nDeterioro de vereda perimetral de edificio. Infiltración humedad aptos subsuelo.\nTrabajos realizados:\nRetiro de toda la vereda perimetral (90m2).\nCompactación de suelo natural y tosca cementada hasta el nivel de contrapiso. Nuevo contrapiso de hormigón y terminación con baldosas de granito partido.",
+    "fotos": [
+     {
+      "uri": "93ea8a_7a476822d5b94ed9b5324e6ba26ae005~mv2_d_1920_2560_s_2.jpg",
+      "w": 1920,
+      "h": 2560,
+      "desc": "",
+      "title": ""
+     },
+     {
+      "uri": "93ea8a_4ea2cbaa464c4c3b8dea557a78a246b8~mv2_d_4608_3456_s_4_2.jpg",
+      "w": 4608,
+      "h": 3456,
+      "desc": "SITUACIÓN PREVIA",
+      "title": ""
+     },
+     {
+      "uri": "93ea8a_2a04f0fc66d9429186b0abcbf8898d23~mv2_d_4608_3456_s_4_2.jpg",
+      "w": 4608,
+      "h": 3456,
+      "desc": "SITUACIÓN PREVIA",
+      "title": ""
+     },
+     {
+      "uri": "93ea8a_6cca62bd9c1c46e890e77261e411f92d~mv2_d_2592_1944_s_2.jpg",
+      "w": 2592,
+      "h": 1944,
+      "desc": "",
+      "title": ""
+     },
+     {
+      "uri": "93ea8a_3583620b325d427abad3dbe3b630e804~mv2_d_2560_1920_s_2.jpg",
+      "w": 2560,
+      "h": 1920,
+      "desc": "",
+      "title": ""
+     },
+     {
+      "uri": "93ea8a_cf45cfa574b4470696bb8f0a0845b839~mv2_d_2592_1944_s_2.jpg",
+      "w": 2592,
+      "h": 1944,
+      "desc": "",
+      "title": ""
+     },
+     {
+      "uri": "93ea8a_0a40632995824d30b97de36d61c58b82~mv2_d_2592_1944_s_2.jpg",
+      "w": 2592,
+      "h": 1944,
+      "desc": "",
+      "title": ""
+     },
+     {
+      "uri": "93ea8a_d63088bd49a24f0abb88a2720b627259~mv2_d_2592_1944_s_2.jpg",
+      "w": 2592,
+      "h": 1944,
+      "desc": "",
+      "title": ""
+     },
+     {
+      "uri": "93ea8a_f5e03e7ebc554266a20f91719abb3e3c~mv2_d_2592_1944_s_2.jpg",
+      "w": 2592,
+      "h": 1944,
+      "desc": "",
+      "title": ""
+     },
+     {
+      "uri": "93ea8a_8fd10488b5fe475d98b593ac7bbb4344~mv2_d_2592_1944_s_2.jpg",
+      "w": 2592,
+      "h": 1944,
+      "desc": "",
+      "title": ""
+     },
+     {
+      "uri": "93ea8a_cd10dc501f824cb48fb97b7c1102c39b~mv2_d_2592_1944_s_2.jpg",
+      "w": 2592,
+      "h": 1944,
+      "desc": "",
+      "title": ""
+     }
+    ]
+   },
+   {
+    "titulo": "Oficinas CONECTA S.A.",
+    "slug": "oficinas-conecta-s-a",
+    "texto": "Oficinas CONECTA S.A.\nUbicación:\nMontevideo\nSituación previa:\nFalta de acceso a las oficinas\nTrabajos realizados:\nConstrucción de rampa de acceso y escalera en madera a las oficinas de la empresa en Punta Gorda.",
+    "fotos": [
+     {
+      "uri": "93ea8a_857aa9c0fee542a194af61ebb5e5c9bc~mv2_d_2322_4128_s_2.jpg",
+      "w": 2322,
+      "h": 4128,
+      "desc": "",
+      "title": ""
+     },
+     {
+      "uri": "93ea8a_74e6a99523b546268a7f4d93a4eaff9c~mv2_d_2322_4128_s_2.jpg",
+      "w": 2322,
+      "h": 4128,
+      "desc": "SITUACIÓN PREVIA",
+      "title": ""
+     },
+     {
+      "uri": "93ea8a_4f2bfd388c3241609b1d4aeed46ba7f6~mv2.jpg",
+      "w": 720,
+      "h": 1280,
+      "desc": "",
+      "title": ""
+     },
+     {
+      "uri": "93ea8a_14c2206cba5545888c0a02409df665ca~mv2_d_2322_4128_s_2.jpg",
+      "w": 2322,
+      "h": 4128,
+      "desc": "",
+      "title": ""
+     },
+     {
+      "uri": "93ea8a_c68c96267fa84fd1b36cd4beec353a77~mv2_d_2322_4128_s_2.jpg",
+      "w": 2322,
+      "h": 4128,
+      "desc": "",
+      "title": ""
+     },
+     {
+      "uri": "93ea8a_7a434d055d504a1c9ac68406766c0d60~mv2_d_2322_4128_s_2.jpg",
+      "w": 2322,
+      "h": 4128,
+      "desc": "",
+      "title": ""
+     },
+     {
+      "uri": "93ea8a_ee0fa62d11364cd0974300b47646caf1~mv2_d_2322_4128_s_2.jpg",
+      "w": 2322,
+      "h": 4128,
+      "desc": "",
+      "title": ""
+     },
+     {
+      "uri": "93ea8a_36f9474ed4a64109be206d949f737271~mv2_d_2322_4128_s_2.jpg",
+      "w": 2322,
+      "h": 4128,
+      "desc": "",
+      "title": ""
+     },
+     {
+      "uri": "93ea8a_27f86b658afe43d39d8a6ab5bf69049b~mv2_d_4128_2322_s_2.jpg",
+      "w": 4128,
+      "h": 2322,
+      "desc": "",
+      "title": ""
+     }
+    ]
+   },
+   {
+    "titulo": "Sucursal BROU Paso Molino",
+    "slug": "sucursal-brou-paso-molino",
+    "texto": "Sucursal BROU Paso Molino\nUbicación:\nMontevideo\nSituación previa:\nMal estado de la pintura de fachada y grafitis.\nTrabajos realizados:\nHidrolavado de parte de la fachada y reparaciones menores de revoques.\nPintura con 3 manos de latex exterior.",
+    "fotos": [
+     {
+      "uri": "93ea8a_98cd88981f59422dab43fb7762d36c44~mv2_d_4128_3096_s_4_2.jpg",
+      "w": 4128,
+      "h": 3096,
+      "desc": "",
+      "title": ""
+     },
+     {
+      "uri": "93ea8a_73846fef8c17458cae8c2d972218fe63~mv2_d_4128_3096_s_4_2.jpg",
+      "w": 4128,
+      "h": 3096,
+      "desc": "",
+      "title": ""
+     },
+     {
+      "uri": "93ea8a_0a29b004394445f296f4a7427748fb22~mv2_d_4128_3096_s_4_2.jpg",
+      "w": 4128,
+      "h": 3096,
+      "desc": "",
+      "title": ""
+     }
+    ]
+   },
+   {
+    "titulo": "Sucursal BROU Villa Biarritz",
+    "slug": "sucursal-brou-villa-biarritz",
+    "texto": "Sucursal BROU Villa Biarritz\nUbicación:\nMontevideo\nSituación previa:\nDeterioro de fachada y cornisa de sucursal. Armaduras expuestas.\nTrabajos realizados:\nHidrolavado de fachada. Tratamiento de armaduras en mal estado con sikatop armatec 108. Reparación de revoques con mejorador de adherencia sikadur 32 gel. Pintura de fachada de la sucursal.",
+    "fotos": [
+     {
+      "uri": "93ea8a_69433f6d853840269205d731cd8f6ea7~mv2_d_4128_3096_s_4_2.jpg",
+      "w": 4128,
+      "h": 3096,
+      "desc": "",
+      "title": ""
+     },
+     {
+      "uri": "93ea8a_ae49224221434c31834e9d5b1915f96b~mv2_d_4128_3096_s_4_2.jpg",
+      "w": 4128,
+      "h": 3096,
+      "desc": "",
+      "title": ""
+     },
+     {
+      "uri": "93ea8a_ca2c952880af42c1bab492f26a989613~mv2_d_4128_3096_s_4_2.jpg",
+      "w": 4128,
+      "h": 3096,
+      "desc": "",
+      "title": ""
+     },
+     {
+      "uri": "93ea8a_2dcca79d90484fe8b2c3170e7b53fdb2~mv2_d_4128_3096_s_4_2.jpg",
+      "w": 4128,
+      "h": 3096,
+      "desc": "",
+      "title": ""
+     },
+     {
+      "uri": "93ea8a_b89be079efbc4c1d903d20693eb36863~mv2_d_4128_3096_s_4_2.jpg",
+      "w": 4128,
+      "h": 3096,
+      "desc": "",
+      "title": ""
+     },
+     {
+      "uri": "93ea8a_90546ff9adcb42bc80975dc9eb94c668~mv2_d_4128_3096_s_4_2.jpg",
+      "w": 4128,
+      "h": 3096,
+      "desc": "",
+      "title": ""
+     },
+     {
+      "uri": "93ea8a_fcab3b79cf5741c49271467f69b9013a~mv2_d_4128_3096_s_4_2.jpg",
+      "w": 4128,
+      "h": 3096,
+      "desc": "",
+      "title": ""
+     },
+     {
+      "uri": "93ea8a_9064bca885cd44ff8ce2db61c4740cf2~mv2_d_4128_3096_s_4_2.jpg",
+      "w": 4128,
+      "h": 3096,
+      "desc": "",
+      "title": ""
+     },
+     {
+      "uri": "93ea8a_3492fb92372544a5b0e2e2fb254935ad~mv2_d_4128_3096_s_4_2.jpg",
+      "w": 4128,
+      "h": 3096,
+      "desc": "",
+      "title": ""
+     },
+     {
+      "uri": "93ea8a_1c8f9e6ef26a4066a87f8193f0d92e95~mv2_d_4128_3096_s_4_2.jpg",
+      "w": 4128,
+      "h": 3096,
+      "desc": "",
+      "title": ""
+     },
+     {
+      "uri": "93ea8a_7d9a59ee52f343ff82fb681648ce65ac~mv2_d_4128_3096_s_4_2.jpg",
+      "w": 4128,
+      "h": 3096,
+      "desc": "",
+      "title": ""
+     },
+     {
+      "uri": "93ea8a_42925f95b3b040b58c46497a72f65b48~mv2_d_4128_3096_s_4_2.jpg",
+      "w": 4128,
+      "h": 3096,
+      "desc": "",
+      "title": ""
+     },
+     {
+      "uri": "93ea8a_febf5636fa084db3a4d8e8f5762f3887~mv2_d_4128_3096_s_4_2.jpg",
+      "w": 4128,
+      "h": 3096,
+      "desc": "",
+      "title": ""
+     }
+    ]
+   },
+   {
+    "titulo": "Sucursal BROU Paso Molino",
+    "slug": "sucursal-brou-paso-molino-2",
+    "texto": "Sucursal BROU Paso Molino\nUbicación:\nMontevideo\nSituación previa:\nPlataforma para generador de respaldo de la sucursal.\nTrabajos realizados:\nCálculo y construcción de plataforma de hormigón armado para la ubicación de un generador de respaldo de la sucursal.",
+    "fotos": [
+     {
+      "uri": "93ea8a_c35be7ae86ad4e69a132cc052fc2f8e1~mv2_d_3264_1836_s_2.jpg",
+      "w": 3264,
+      "h": 1836,
+      "desc": "",
+      "title": ""
+     },
+     {
+      "uri": "93ea8a_45dcb7dc23b445b4a26e530b1a27d3ec~mv2_d_4128_2322_s_2.jpg",
+      "w": 4128,
+      "h": 2322,
+      "desc": "",
+      "title": ""
+     },
+     {
+      "uri": "93ea8a_991924f0af3840a88e215f6901cd3372~mv2_d_4128_2322_s_2.jpg",
+      "w": 4128,
+      "h": 2322,
+      "desc": "",
+      "title": ""
+     },
+     {
+      "uri": "93ea8a_dd89ce3a40f4479582d01ee40d3b2076~mv2_d_4128_2322_s_2.jpg",
+      "w": 4128,
+      "h": 2322,
+      "desc": "",
+      "title": ""
+     },
+     {
+      "uri": "93ea8a_b40e55093f404f099338d152c0bc0ecd~mv2_d_4128_2322_s_2.jpg",
+      "w": 4128,
+      "h": 2322,
+      "desc": "",
+      "title": ""
+     },
+     {
+      "uri": "93ea8a_c85e6abd043d4fe2b12aeef821112045~mv2_d_4128_2322_s_2.jpg",
+      "w": 4128,
+      "h": 2322,
+      "desc": "",
+      "title": ""
+     },
+     {
+      "uri": "93ea8a_e0648e2a19f146f898d9e2cf2a6d1e2a~mv2_d_4128_2322_s_2.jpg",
+      "w": 4128,
+      "h": 2322,
+      "desc": "",
+      "title": ""
+     },
+     {
+      "uri": "93ea8a_472a5f25bee249cb943fa685eeabaac1~mv2_d_4128_2322_s_2.jpg",
+      "w": 4128,
+      "h": 2322,
+      "desc": "",
+      "title": ""
+     },
+     {
+      "uri": "93ea8a_791b12fc82fb4b15b8f0f649d9c60d2c~mv2_d_4128_2322_s_2.jpg",
+      "w": 4128,
+      "h": 2322,
+      "desc": "",
+      "title": ""
+     },
+     {
+      "uri": "93ea8a_06276749986a4a419007ace8f655fdc6~mv2_d_4128_2322_s_2.jpg",
+      "w": 4128,
+      "h": 2322,
+      "desc": "",
+      "title": ""
+     },
+     {
+      "uri": "93ea8a_c69e52e653ea4006ba9185a246696d44~mv2_d_2322_4128_s_2.jpg",
+      "w": 2322,
+      "h": 4128,
+      "desc": "",
+      "title": ""
+     },
+     {
+      "uri": "93ea8a_cb70ca7614c0453c9970b47272e3227d~mv2_d_4128_2322_s_2.jpg",
+      "w": 4128,
+      "h": 2322,
+      "desc": "",
+      "title": ""
+     }
+    ]
+   },
+   {
+    "titulo": "Cálculo, diseño y colocación de platinas",
+    "slug": "calculo-diseno-y-colocacion-de-platinas",
+    "texto": "Cálculo, diseño y colocación de platinas\nUbicación:\nCanelones\nSituación previa:\nFalta de puntos de anclaje para lineas de vida.\nTrabajos realizados:\nCálculo, diseño e instalación de 9 platinas metálicas con anclaje químico a la estructura existente de local comercial.",
+    "fotos": [
+     {
+      "uri": "93ea8a_05aaea917a634d66ae6294869b118c31~mv2_d_4128_2322_s_2.jpeg",
+      "w": 4128,
+      "h": 2322,
+      "desc": "",
+      "title": ""
+     },
+     {
+      "uri": "93ea8a_c082584f7af044dbaa207f7909f95f76~mv2_d_3000_2245_s_2.jpg",
+      "w": 3000,
+      "h": 2245,
+      "desc": "",
+      "title": ""
+     },
+     {
+      "uri": "93ea8a_25b2fcd959b54ebe92e2f648eb67166e~mv2_d_2034_1391_s_2.jpeg",
+      "w": 2034,
+      "h": 1391,
+      "desc": "",
+      "title": ""
+     }
+    ]
+   },
+   {
+    "titulo": "Pintura fachada Hogar del Bebé",
+    "slug": "pintura-fachada-hogar-del-bebe",
+    "texto": "Pintura fachada Hogar del Bebé\nUbicación:\nMontevideo\nSituación previa:\nCambio de color de la fachada.\nTrabajos realizados:\nHidrolavado de toda la fachada.\nReparaciones de revoques y mochetas, pintura con 2 manos de latex exterior.",
+    "fotos": [
+     {
+      "uri": "93ea8a_ff4c16c251e845f1b8135d4afcbec825~mv2_d_3096_4128_s_4_2.jpg",
+      "w": 3096,
+      "h": 4128,
+      "desc": "",
+      "title": ""
+     },
+     {
+      "uri": "93ea8a_1ac5e6f4c66b4ce899aba7bc3e1b3dc8~mv2_d_4128_3096_s_4_2.jpg",
+      "w": 4128,
+      "h": 3096,
+      "desc": "",
+      "title": "Situación Previa"
+     },
+     {
+      "uri": "93ea8a_00b02b4efa534e9aa8c54ad4c56fa057~mv2_d_4128_3096_s_4_2.jpg",
+      "w": 4128,
+      "h": 3096,
+      "desc": "",
+      "title": "Situación Previa"
+     },
+     {
+      "uri": "93ea8a_ef5b5a573bc444eaa0580d5b9b061eca~mv2_d_4128_3096_s_4_2.jpg",
+      "w": 4128,
+      "h": 3096,
+      "desc": "",
+      "title": "Situación Previa"
+     },
+     {
+      "uri": "93ea8a_358058c4f3a043d986651f364a0b504a~mv2_d_3096_4128_s_4_2.jpg",
+      "w": 3096,
+      "h": 4128,
+      "desc": "",
+      "title": ""
+     },
+     {
+      "uri": "93ea8a_6ab15c1e82c84d869453333fb52dc1e4~mv2_d_1200_1600_s_2.jpg",
+      "w": 1200,
+      "h": 1600,
+      "desc": "",
+      "title": ""
+     },
+     {
+      "uri": "93ea8a_c1081f7727d94f82af206b630ca1fe3d~mv2_d_1200_1600_s_2.jpg",
+      "w": 1200,
+      "h": 1600,
+      "desc": "",
+      "title": ""
+     },
+     {
+      "uri": "93ea8a_28b2b86fa2ad40b7ac7be1c44ff5281b~mv2_d_1200_1600_s_2.jpg",
+      "w": 1200,
+      "h": 1600,
+      "desc": "",
+      "title": ""
+     },
+     {
+      "uri": "93ea8a_7e9989455d7148b4b0cb73432d7a0256~mv2_d_3096_4128_s_4_2.jpg",
+      "w": 3096,
+      "h": 4128,
+      "desc": "",
+      "title": ""
+     },
+     {
+      "uri": "93ea8a_e61bb3fb2a45437cae4236a760fa9a8a~mv2_d_4128_3096_s_4_2.jpg",
+      "w": 4128,
+      "h": 3096,
+      "desc": "",
+      "title": ""
+     },
+     {
+      "uri": "93ea8a_ff4c16c251e845f1b8135d4afcbec825~mv2_d_3096_4128_s_4_2.jpg",
+      "w": 3096,
+      "h": 4128,
+      "desc": "",
+      "title": ""
+     }
+    ]
+   },
+   {
+    "titulo": "Pintura cubierta depósito Sitiland",
+    "slug": "pintura-cubierta-deposito-sitiland",
+    "texto": "Pintura cubierta depósito Sitiland\nUbicación:\nMontevideo\nSituación previa:\nCubierta de chapa con recubrimiento de espuma de poliuretano sin protección.\nTrabajos realizados:\nHidrolavado de toda la superficie.\nAplicación de 2 manos de membrana liquida como protección.",
+    "fotos": [
+     {
+      "uri": "93ea8a_564b9a9016684542bced5e26916c4080~mv2_d_1200_1600_s_2.jpg",
+      "w": 1200,
+      "h": 1600,
+      "desc": "",
+      "title": ""
+     },
+     {
+      "uri": "93ea8a_5f8434b97d204c3190e2f31f251ad25d~mv2_d_2322_4128_s_2.jpeg",
+      "w": 2322,
+      "h": 4128,
+      "desc": "",
+      "title": "Situación Previa"
+     },
+     {
+      "uri": "93ea8a_b5d4331f28f64251b42bc9e8b16a89aa~mv2_d_4128_2322_s_2.jpeg",
+      "w": 4128,
+      "h": 2322,
+      "desc": "",
+      "title": "Situación Previa"
+     },
+     {
+      "uri": "93ea8a_247eb5e8b412444a8f876688d95ab016~mv2.jpg",
+      "w": 900,
+      "h": 1600,
+      "desc": "",
+      "title": "Instalación den puntos de anclajes"
+     },
+     {
+      "uri": "93ea8a_f91d85e15bf740b4948c9ba5fffee5d2~mv2.jpg",
+      "w": 1600,
+      "h": 900,
+      "desc": "",
+      "title": "Instalación den puntos de anclajes"
+     },
+     {
+      "uri": "93ea8a_937fa84235174dd09308f29933798224~mv2.jpg",
+      "w": 1600,
+      "h": 900,
+      "desc": "",
+      "title": "Instalación den puntos de anclajes"
+     },
+     {
+      "uri": "93ea8a_a7ccb1ac86a748a28715b50c4bd8f08e~mv2.jpg",
+      "w": 1600,
+      "h": 900,
+      "desc": "",
+      "title": ""
+     },
+     {
+      "uri": "93ea8a_7ae53e89b7b84849bfb20cb762326c9a~mv2.jpg",
+      "w": 1600,
+      "h": 900,
+      "desc": "",
+      "title": ""
+     },
+     {
+      "uri": "93ea8a_23c377d90d9944fca29f0e5a7ed10a3a~mv2_d_1600_1200_s_2.jpg",
+      "w": 1600,
+      "h": 1200,
+      "desc": "",
+      "title": ""
+     },
+     {
+      "uri": "93ea8a_814f7a2a6fe04f5785828a772669033d~mv2_d_1600_1200_s_2.jpg",
+      "w": 1600,
+      "h": 1200,
+      "desc": "",
+      "title": ""
+     },
+     {
+      "uri": "93ea8a_d514b67b49554e84891952969626ff84~mv2_d_1600_1200_s_2.jpg",
+      "w": 1600,
+      "h": 1200,
+      "desc": "",
+      "title": ""
+     },
+     {
+      "uri": "93ea8a_564b9a9016684542bced5e26916c4080~mv2_d_1200_1600_s_2.jpg",
+      "w": 1200,
+      "h": 1600,
+      "desc": "",
+      "title": ""
+     },
+     {
+      "uri": "93ea8a_9f06ebf1ecf84fb4a495c46ce18ea7f1~mv2_d_1600_1200_s_2.jpg",
+      "w": 1600,
+      "h": 1200,
+      "desc": "",
+      "title": ""
+     },
+     {
+      "uri": "93ea8a_85d1bbd2f0e641c48dc1fd3ec12adfa0~mv2_d_1200_1600_s_2.jpg",
+      "w": 1200,
+      "h": 1600,
+      "desc": "",
+      "title": ""
+     }
+    ]
+   },
+   {
+    "titulo": "Edificio Breogan",
+    "slug": "edificio-breogan",
+    "texto": "Edificio Breogan\nUbicación:\nMontevideo\nSituación previa:\nProblemas de humedad en acceso al edificio y fachada.\nTrabajos realizados:\nHidrolavado de fachada y reparación de revoques en mal estado. Sellado de fisuras y recomposición de mochetas. Pintura de la fachada y acceso al edificio.",
+    "fotos": [
+     {
+      "uri": "93ea8a_f3b646faaee6428e95da39659a56172a~mv2_d_2560_1920_s_2.jpg",
+      "w": 2560,
+      "h": 1920,
+      "desc": "",
+      "title": ""
+     },
+     {
+      "uri": "93ea8a_33e1f090a2f94f64b89ce9ac879a4186~mv2_d_2560_1920_s_2.jpg",
+      "w": 2560,
+      "h": 1920,
+      "desc": "SITUACIÓN PREVIA",
+      "title": ""
+     },
+     {
+      "uri": "93ea8a_fbcc17e8b3d243e49d256c7efd25005f~mv2_d_2560_1920_s_2.jpg",
+      "w": 2560,
+      "h": 1920,
+      "desc": "SITUACIÓN PREVIA",
+      "title": ""
+     },
+     {
+      "uri": "93ea8a_5507143080e04b6fae29adf16d64ca30~mv2_d_2560_1920_s_2.jpg",
+      "w": 2560,
+      "h": 1920,
+      "desc": "",
+      "title": "20151014_114021"
+     },
+     {
+      "uri": "93ea8a_b1b7a12156934960887c9aa103f58496~mv2_d_1920_2560_s_2.jpg",
+      "w": 1920,
+      "h": 2560,
+      "desc": "",
+      "title": ""
+     },
+     {
+      "uri": "93ea8a_b75dccb985314c8da2ad4dd239a7e596~mv2_d_2560_1920_s_2.jpg",
+      "w": 2560,
+      "h": 1920,
+      "desc": "",
+      "title": ""
+     },
+     {
+      "uri": "93ea8a_69641e4f3bd44044af1af394f1de00fe~mv2_d_2560_1920_s_2.jpg",
+      "w": 2560,
+      "h": 1920,
+      "desc": "",
+      "title": ""
+     },
+     {
+      "uri": "93ea8a_0e3aa955986d4f18bf4664245255a200~mv2_d_2560_1920_s_2.jpg",
+      "w": 2560,
+      "h": 1920,
+      "desc": "",
+      "title": ""
+     }
+    ]
+   },
+   {
+    "titulo": "Cubierta apto 701 ed. Thenos",
+    "slug": "cubierta-apto-701-ed-thenos",
+    "texto": "Cubierta apto 701 ed. Thenos\nUbicación:\nMontevideo\nSituación previa:\nHumedad en cubierta liviana\nTrabajos realizados:\nRetiro y cambio de estructura de cubierta de madera y teja colonial.",
+    "fotos": [
+     {
+      "uri": "93ea8a_21470af8ec2c4b16be9d42099f753f9a~mv2_d_1600_1200_s_2.jpg",
+      "w": 1600,
+      "h": 1200,
+      "desc": "",
+      "title": ""
+     },
+     {
+      "uri": "93ea8a_7125416f608d44c4bc2bf13a32b919cb~mv2_d_3096_4128_s_4_2.jpg",
+      "w": 3096,
+      "h": 4128,
+      "desc": "Situación Previa",
+      "title": ""
+     },
+     {
+      "uri": "93ea8a_fffad2f405e44bc4993165eb0e5f8e96~mv2_d_1600_1200_s_2.jpg",
+      "w": 1600,
+      "h": 1200,
+      "desc": "",
+      "title": ""
+     },
+     {
+      "uri": "93ea8a_cba4c4472174497c8e4a0dc38b986049~mv2_d_1600_1200_s_2.jpg",
+      "w": 1600,
+      "h": 1200,
+      "desc": "",
+      "title": ""
+     },
+     {
+      "uri": "93ea8a_21470af8ec2c4b16be9d42099f753f9a~mv2_d_1600_1200_s_2.jpg",
+      "w": 1600,
+      "h": 1200,
+      "desc": "",
+      "title": ""
+     },
+     {
+      "uri": "93ea8a_778ee6e3f4ba40479cfea7029be4da43~mv2_d_1600_1200_s_2.jpg",
+      "w": 1600,
+      "h": 1200,
+      "desc": "",
+      "title": ""
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "pagina": "informacion",
+  "url_wix": "/informacion",
+  "titulo": "Información",
+  "seo": "informacion",
+  "textos": [
+   "Arq. Carolina Cantieri\n2008  Arquitecta | UDELAR\nCel.: 099 038 317",
+   "Arq. Leandro Cantieri\n2012 Arquitecto | UDELAR\nCel.: 098 073 303",
+   "Arq. Leandro Cantieri\n2012 Arquitecto | UDELAR\nCel.: 098 073 303",
+   "Ing. Marcelo Cantieri\n2001 Ing. Civil | UDELAR\nCel.: 099 151 290",
+   "Equipo técnico",
+   "Los técnicos que integramos esta empresa somos Profesionales Universitarios, jóvenes y con una sólida experiencia de más de 10 años, garantizando un asesoramiento profesional de primera línea que respalda las obras que realizamos.\nNuestra actitud por una actualización permanente y la aplicación de tecnologías de vanguardia, brinda a nuestros clientes una mayor seguridad y tranquilidad a la hora de contratar nuestros servicios.",
+   "Experiencia\nEquipo técnico Burano srl (2016 - Presente)\nArquitecta en estudio Ingefund (2007 - 2015)\nDiplomas extracurriculares\nSem. normas y etiquetas de eficiencia energética I.M.M. (2014)\nUso racional de la energía I.M.M. (2013)\nIntroducción al Ac. acúsitco de recintos S.A.U (2012)\nArquitectura + Estructura S.A.U (2011)",
+   "Experiencia\nEquipo técnico Burano srl (2014 - Presente)\nGestor de obras en constructora AyC (2013)\nGestor de obras en constructora De Luca (2010 - 2013)\nAyudante de Arquitecto Ingefund (2009 - 2010)\nDiplomas extracurriculares\nIniciación a la profesión de la Arquitectura S.A.U. (2013)\nCostos y presupuestación de obra S.A.U. (2013)",
+   "Experiencia\nEquipo técnico Burano srl (2014 - Presente)\nIngeniero civil calculista (2001 - Presente)\nIngeniero civil en estudio Ingefund (2003 - 2009)\nIngeniero civil en Nuevo puente Santa Lucia (2001 - 2003)"
+  ],
+  "imagenes_sueltas": [
+   {
+    "uri": "93ea8a_f18ea9779dc746b5aed1e52cf8d88afc~mv2.jpg",
+    "w": 876,
+    "h": 1112,
+    "desc": "",
+    "title": ""
+   },
+   {
+    "uri": "93ea8a_0983b56ffc0e4014903036f4da0698f6~mv2.jpg",
+    "w": 480,
+    "h": 640,
+    "desc": "",
+    "title": ""
+   },
+   {
+    "uri": "93ea8a_0983b56ffc0e4014903036f4da0698f6~mv2.jpg",
+    "w": 480,
+    "h": 640,
+    "desc": "",
+    "title": ""
+   },
+   {
+    "uri": "93ea8a_cc9276deb3894da0b7a6e4c77f32c526~mv2.jpg",
+    "w": 450,
+    "h": 450,
+    "desc": "",
+    "title": ""
+   }
+  ],
+  "fondos": [],
+  "proyectos": []
+ },
+ {
+  "pagina": "vivienda",
+  "url_wix": "/copia-de-proyectos",
+  "titulo": "Vivienda",
+  "seo": "copia-de-proyectos",
+  "textos": [
+   "Vivienda"
+  ],
+  "imagenes_sueltas": [],
+  "fondos": [],
+  "proyectos": [
+   {
+    "titulo": "Vivienda San Francisco",
+    "slug": "vivienda-san-francisco",
+    "texto": "Vivienda San Francisco\nUbicación: San Francisco / Maldonado\nPrograma: Vivienda\nSuperficie proyectada: 170m2\nEspacios exteriores: 70 m2\nAnteproyecto y proyecto ejecutivo (albañilería, estructura, sanitaria, eléctrica, planillas, memorias) de dos viviendas contiguas con estructura de hormigón armado.\nGestión y firma técnica del permiso de construcción.\nDirección de obras de construcción de primer etapa de 100 m2 de vivienda y 35 m2 de espacios exteriores (decks, pergolas, parrillero).",
+    "fotos": [
+     {
+      "uri": "93ea8a_4f7dff36a0c14b74bab5033e11fed11d~mv2_d_4128_3096_s_4_2.jpg",
+      "w": 4128,
+      "h": 3096,
+      "desc": "",
+      "title": "Fachada Posterior"
+     },
+     {
+      "uri": "93ea8a_95159715b69a471fb17bb89ab52d9171~mv2_d_9934_7017_s_4_2.jpg",
+      "w": 9934,
+      "h": 7017,
+      "desc": "",
+      "title": "Plano de Albañilería"
+     },
+     {
+      "uri": "93ea8a_e3897dfb1d5743e7b507889978a51a13~mv2_d_10630_7384_s_4_2.jpg",
+      "w": 10630,
+      "h": 7384,
+      "desc": "",
+      "title": "Plano de Sanitaria"
+     },
+     {
+      "uri": "93ea8a_bd36f8c0cf5847b9ae39ddee485d8956~mv2_d_4128_2322_s_2.jpg",
+      "w": 4128,
+      "h": 2322,
+      "desc": "",
+      "title": "Terreno"
+     },
+     {
+      "uri": "93ea8a_c13f8298f81240539128dcea0d9f66c6~mv2_d_4128_3096_s_4_2.jpg",
+      "w": 4128,
+      "h": 3096,
+      "desc": "",
+      "title": ""
+     },
+     {
+      "uri": "93ea8a_1976aadc09704613b55b9494739f1b52~mv2_d_4128_3096_s_4_2.jpg",
+      "w": 4128,
+      "h": 3096,
+      "desc": "",
+      "title": ""
+     },
+     {
+      "uri": "93ea8a_40505551c17346f3853395de02800a85~mv2_d_3264_1836_s_2.jpg",
+      "w": 3264,
+      "h": 1836,
+      "desc": "",
+      "title": ""
+     },
+     {
+      "uri": "93ea8a_9fda406ff8fd4e32bde85825fc1e0547~mv2_d_4128_3096_s_4_2.jpg",
+      "w": 4128,
+      "h": 3096,
+      "desc": "",
+      "title": ""
+     },
+     {
+      "uri": "93ea8a_0b0c6f0236464b7d93142700dcd98598~mv2_d_3264_1836_s_2.jpg",
+      "w": 3264,
+      "h": 1836,
+      "desc": "",
+      "title": ""
+     },
+     {
+      "uri": "93ea8a_bf78a99222b14f87961d0e2010a819dd~mv2_d_4128_3096_s_4_2.jpg",
+      "w": 4128,
+      "h": 3096,
+      "desc": "",
+      "title": ""
+     },
+     {
+      "uri": "93ea8a_36fe521c4b854e9d9935d978e6f2742e~mv2.jpg",
+      "w": 1125,
+      "h": 1500,
+      "desc": "",
+      "title": ""
+     },
+     {
+      "uri": "93ea8a_6745bc72a99b481e83738d544bd04e8b~mv2.jpg",
+      "w": 1125,
+      "h": 1500,
+      "desc": "",
+      "title": ""
+     },
+     {
+      "uri": "93ea8a_92cf07d779964fc7980000e371ff1dbb~mv2.jpg",
+      "w": 1599,
+      "h": 899,
+      "desc": "",
+      "title": ""
+     },
+     {
+      "uri": "93ea8a_c93ec4d8f6284a7eb7437be2efaf4b13~mv2.jpg",
+      "w": 1125,
+      "h": 1500,
+      "desc": "",
+      "title": ""
+     },
+     {
+      "uri": "93ea8a_1c069359a99445d986435b55bcd3a518~mv2_d_4128_3096_s_4_2.jpg",
+      "w": 4128,
+      "h": 3096,
+      "desc": "",
+      "title": ""
+     },
+     {
+      "uri": "93ea8a_44abb660e907480c91029f728d2b9402~mv2.jpg",
+      "w": 1125,
+      "h": 1500,
+      "desc": "",
+      "title": ""
+     },
+     {
+      "uri": "93ea8a_6d6f13501d8348e79a29de97fe56fe89~mv2_d_4128_3096_s_4_2.jpg",
+      "w": 4128,
+      "h": 3096,
+      "desc": "",
+      "title": ""
+     },
+     {
+      "uri": "93ea8a_4729299006dc4b82a7cf6086ee3e52e9~mv2_d_4128_3096_s_4_2.jpg",
+      "w": 4128,
+      "h": 3096,
+      "desc": "",
+      "title": ""
+     },
+     {
+      "uri": "93ea8a_f9f883f17bbb42c8a3e27d89de5b38ba~mv2_d_3096_4128_s_4_2.jpg",
+      "w": 3096,
+      "h": 4128,
+      "desc": "",
+      "title": ""
+     },
+     {
+      "uri": "93ea8a_aae4c214985448e69124b223fc18aa6c~mv2_d_3096_4128_s_4_2.jpg",
+      "w": 3096,
+      "h": 4128,
+      "desc": "",
+      "title": ""
+     },
+     {
+      "uri": "93ea8a_a481dc072c7e467f93dc6df0e74cd852~mv2_d_3096_4128_s_4_2.jpg",
+      "w": 3096,
+      "h": 4128,
+      "desc": "",
+      "title": ""
+     },
+     {
+      "uri": "93ea8a_d0470b481c7c42c6baa35ee562dbe4e7~mv2_d_3096_4128_s_4_2.jpg",
+      "w": 3096,
+      "h": 4128,
+      "desc": "",
+      "title": ""
+     },
+     {
+      "uri": "93ea8a_62f8d211ca064383937b05018eb0a98a~mv2_d_4128_3096_s_4_2.jpg",
+      "w": 4128,
+      "h": 3096,
+      "desc": "",
+      "title": "Fachada Principal"
+     }
+    ]
+   },
+   {
+    "titulo": "Vivienda Jacarandá",
+    "slug": "vivienda-jacaranda",
+    "texto": "Vivienda Jacarandá\nUbicación: San Francisco / Maldonado\nPrograma: Vivienda\nSuperficie proyectada: 100m2\nEspacios exteriores: 40 m2\nAnteproyecto y proyecto ejecutivo (albañilería, estructura, sanitaria, eléctrica, planillas, memorias) de vivienda unifamiliar con estructura de hormigón armado.\nGestión y firma técnica del permiso de construcción.\nDirección de obras de construcción de todo el proyecto y espacios exteriores (decks, pergola y parrillero",
+    "fotos": [
+     {
+      "uri": "93ea8a_c48e3ab250894c6f97f532dbbd705ecf~mv2.jpg",
+      "w": 1280,
+      "h": 960,
+      "desc": "",
+      "title": ""
+     },
+     {
+      "uri": "93ea8a_df2ca883bb25498d88cc28d1aa07fed5~mv2_d_9934_7017_s_4_2.jpg",
+      "w": 9934,
+      "h": 7017,
+      "desc": "",
+      "title": "Plano de Albañilería"
+     },
+     {
+      "uri": "93ea8a_3daacab081154759937d9af6a113b71e~mv2_d_9934_7017_s_4_2.jpg",
+      "w": 9934,
+      "h": 7017,
+      "desc": "",
+      "title": "Plano de Sanitaria"
+     },
+     {
+      "uri": "93ea8a_b4e9556f130e4b129d5ec8f9b2b6b25e~mv2_d_2592_1944_s_2.jpg",
+      "w": 2592,
+      "h": 1944,
+      "desc": "",
+      "title": "Terreno"
+     },
+     {
+      "uri": "93ea8a_703e32819c7249bc946541108557a34e~mv2_d_3264_1836_s_2.jpg",
+      "w": 3264,
+      "h": 1836,
+      "desc": "",
+      "title": ""
+     },
+     {
+      "uri": "93ea8a_b80a44947a434efa96063732453602c8~mv2.jpg",
+      "w": 844,
+      "h": 1500,
+      "desc": "",
+      "title": ""
+     },
+     {
+      "uri": "93ea8a_80d4e095ce3f46e8b619bc110ae8406c~mv2_d_3264_1836_s_2.jpg",
+      "w": 3264,
+      "h": 1836,
+      "desc": "",
+      "title": ""
+     },
+     {
+      "uri": "93ea8a_9cf51eed69df42e48f9bba887516d62d~mv2_d_3264_1836_s_2.jpg",
+      "w": 3264,
+      "h": 1836,
+      "desc": "",
+      "title": ""
+     },
+     {
+      "uri": "93ea8a_519262b4fdb64db5b0efad6c2ee2478f~mv2_d_3264_1836_s_2.jpg",
+      "w": 3264,
+      "h": 1836,
+      "desc": "",
+      "title": ""
+     },
+     {
+      "uri": "93ea8a_aae5fc0acc514edcb320eaa220e25078~mv2_d_3264_1836_s_2.jpg",
+      "w": 3264,
+      "h": 1836,
+      "desc": "",
+      "title": ""
+     },
+     {
+      "uri": "93ea8a_b10207e2a96c4c7aa7f5ff5058dd8787~mv2_d_4128_2322_s_2.jpg",
+      "w": 4128,
+      "h": 2322,
+      "desc": "",
+      "title": ""
+     },
+     {
+      "uri": "93ea8a_78116b19ac904f8dabfd12caf85af980~mv2.jpg",
+      "w": 1125,
+      "h": 1500,
+      "desc": "",
+      "title": ""
+     },
+     {
+      "uri": "93ea8a_1b88de260bba43f096851e8d74bec6ad~mv2.jpg",
+      "w": 1125,
+      "h": 1500,
+      "desc": "",
+      "title": ""
+     },
+     {
+      "uri": "93ea8a_be28012117824cc39eb3abb9b0903414~mv2_d_4128_2322_s_2.jpg",
+      "w": 4128,
+      "h": 2322,
+      "desc": "",
+      "title": ""
+     },
+     {
+      "uri": "93ea8a_e4da5febd52d49d9ba100d00a92395b9~mv2.jpg",
+      "w": 1125,
+      "h": 1500,
+      "desc": "",
+      "title": ""
+     },
+     {
+      "uri": "93ea8a_b81b94082f5a4217ad243c5b0068adfb~mv2_d_2322_4128_s_2.jpg",
+      "w": 2322,
+      "h": 4128,
+      "desc": "",
+      "title": ""
+     },
+     {
+      "uri": "93ea8a_a398cc61ce1b477c9bf1e260d44b2cd5~mv2.jpg",
+      "w": 1032,
+      "h": 581,
+      "desc": "",
+      "title": ""
+     },
+     {
+      "uri": "93ea8a_d8baf92c2fd14d468457012bbe6365ad~mv2_d_4128_3096_s_4_2.jpg",
+      "w": 4128,
+      "h": 3096,
+      "desc": "",
+      "title": ""
+     },
+     {
+      "uri": "93ea8a_65fd05ca44884909931155b083846c05~mv2_d_4128_2322_s_2.jpg",
+      "w": 4128,
+      "h": 2322,
+      "desc": "",
+      "title": ""
+     },
+     {
+      "uri": "93ea8a_c2c4ab6f4c914b52883746bafaea5cb8~mv2_d_4128_2322_s_2.jpg",
+      "w": 4128,
+      "h": 2322,
+      "desc": "",
+      "title": ""
+     },
+     {
+      "uri": "93ea8a_f114656a884e4f38989d3ba4bd62c820~mv2_d_4128_2322_s_2.jpg",
+      "w": 4128,
+      "h": 2322,
+      "desc": "",
+      "title": ""
+     },
+     {
+      "uri": "93ea8a_70476f0eba834851bca60fed841f2f93~mv2.jpg",
+      "w": 1032,
+      "h": 581,
+      "desc": "",
+      "title": ""
+     },
+     {
+      "uri": "93ea8a_baee7f24175d4b3394b87e1c2af68562~mv2_d_4128_2322_s_2.jpg",
+      "w": 4128,
+      "h": 2322,
+      "desc": "",
+      "title": ""
+     },
+     {
+      "uri": "93ea8a_f3e1c8559d5644e6aa9bad8b49b3d76e~mv2.jpg",
+      "w": 1032,
+      "h": 581,
+      "desc": "",
+      "title": ""
+     },
+     {
+      "uri": "93ea8a_1e91409f3d6040e1a638bfb28129620a~mv2_d_4128_3096_s_4_2.jpg",
+      "w": 4128,
+      "h": 3096,
+      "desc": "",
+      "title": ""
+     }
+    ]
+   },
+   {
+    "titulo": "Vivienda en Punta Rubia",
+    "slug": "vivienda-en-punta-rubia",
+    "texto": "Vivienda en Punta Rubia\nUbicación: Punta Rubia / Rocha\nPrograma: Vivienda\nSuperficie proyectada: 70m2\nEspacios exteriores: 20 m2\nAnteproyecto y proyecto ejecutivo (albañilería, estructura, sanitaria, eléctrica, planillas, memorias) de vivienda unifamiliar con estructura de hormigón armado.\nGestión y firma técnica del permiso de construcción.\nDirección de obras de construcción de todo el proyecto y espacios exteriores (parrillero, pergola).",
+    "fotos": [
+     {
+      "uri": "93ea8a_9852bd14826448558e124f71a2ba713d~mv2.jpg",
+      "w": 640,
+      "h": 480,
+      "desc": "",
+      "title": ""
+     },
+     {
+      "uri": "93ea8a_d6f3a03970be424eb80deefb5a909445~mv2_d_2048_1536_s_2.jpg",
+      "w": 2048,
+      "h": 1536,
+      "desc": "",
+      "title": ""
+     },
+     {
+      "uri": "93ea8a_b2db0666d1a143fbbfddc9e1b9cbcb4a~mv2_d_2272_1704_s_2.jpg",
+      "w": 2272,
+      "h": 1704,
+      "desc": "",
+      "title": ""
+     },
+     {
+      "uri": "93ea8a_5fe0bd9fd5f04267a7b5933f7814c938~mv2_d_2272_1704_s_2.jpg",
+      "w": 2272,
+      "h": 1704,
+      "desc": "",
+      "title": ""
+     },
+     {
+      "uri": "93ea8a_39b4087b549a47c4a876c3f06eb2b968~mv2_d_3072_2304_s_2.jpg",
+      "w": 3072,
+      "h": 2304,
+      "desc": "",
+      "title": ""
+     },
+     {
+      "uri": "93ea8a_6ed407f102734148bab4483aee34d850~mv2_d_3072_2304_s_2.jpg",
+      "w": 3072,
+      "h": 2304,
+      "desc": "",
+      "title": ""
+     },
+     {
+      "uri": "93ea8a_58759487ce1442709c0e0e8598c05266~mv2_d_3072_2304_s_2.jpg",
+      "w": 3072,
+      "h": 2304,
+      "desc": "",
+      "title": ""
+     },
+     {
+      "uri": "93ea8a_ca70a6e2e5fa40e08500571f4de62e09~mv2_d_3072_2304_s_2.jpg",
+      "w": 3072,
+      "h": 2304,
+      "desc": "",
+      "title": ""
+     },
+     {
+      "uri": "93ea8a_f52cb00dd31f4a25834337f28e3f6b27~mv2_d_3072_2304_s_2.jpg",
+      "w": 3072,
+      "h": 2304,
+      "desc": "",
+      "title": ""
+     },
+     {
+      "uri": "93ea8a_cb1bfd2cf5224ad4afb590a5bc70f685~mv2_d_3072_2304_s_2.jpg",
+      "w": 3072,
+      "h": 2304,
+      "desc": "",
+      "title": ""
+     },
+     {
+      "uri": "93ea8a_722b8bfbadbe480295d40f3efcb85269~mv2.jpg",
+      "w": 640,
+      "h": 480,
+      "desc": "",
+      "title": ""
+     },
+     {
+      "uri": "93ea8a_d4797426caed4ee28a64a6cd174416b1~mv2.jpg",
+      "w": 640,
+      "h": 480,
+      "desc": "",
+      "title": ""
+     },
+     {
+      "uri": "93ea8a_95d2cd9656f445f0baf3cc933a07aba5~mv2_d_2304_3072_s_2.jpg",
+      "w": 2304,
+      "h": 3072,
+      "desc": "",
+      "title": ""
+     },
+     {
+      "uri": "93ea8a_e7554543a8004c3ca6ffe1ccb4a201fd~mv2.jpg",
+      "w": 640,
+      "h": 480,
+      "desc": "",
+      "title": ""
+     },
+     {
+      "uri": "93ea8a_9852bd14826448558e124f71a2ba713d~mv2.jpg",
+      "w": 640,
+      "h": 480,
+      "desc": "",
+      "title": ""
+     }
+    ]
+   },
+   {
+    "titulo": "Vivienda en Punta Negra",
+    "slug": "vivienda-en-punta-negra",
+    "texto": "Vivienda en Punta Negra\nUbicación: Punta Negra / Maldonado\nPrograma: Vivienda\nSuperficie proyectada: 66 m2\nEspacios exteriores: 30 m2\nAnteproyecto y proyecto ejecutivo (albañilería, estructura, sanitaria, eléctrica, planillas, memorias) de vivienda unifamiliar con estructura de hormigón armado.\nGestión y firma técnica del permiso de construcción.",
+    "fotos": [
+     {
+      "uri": "93ea8a_ae5a76e1bf5e44159938a3156ed0acbf~mv2.jpg",
+      "w": 1600,
+      "h": 1143,
+      "desc": "",
+      "title": "AL01"
+     },
+     {
+      "uri": "93ea8a_ddd51690285b41ca8661d4f6fb164706~mv2.jpg",
+      "w": 1600,
+      "h": 1135,
+      "desc": "",
+      "title": "AL02"
+     },
+     {
+      "uri": "93ea8a_5bc2051f5c774d55aeaa36e2fb3464b6~mv2.jpg",
+      "w": 1600,
+      "h": 1138,
+      "desc": "",
+      "title": "SA01"
+     },
+     {
+      "uri": "93ea8a_24616d91705c45b794370a967c535993~mv2.jpg",
+      "w": 1600,
+      "h": 1135,
+      "desc": "",
+      "title": "SA02"
+     }
+    ]
+   },
+   {
+    "titulo": "Reforma vivienda Cerro",
+    "slug": "reforma-vivienda-cerro",
+    "texto": "Reforma vivienda Cerro\nUbicación: Cerro / Montevideo\nPrograma: Vivienda\nSuperficie proyectada: 33 m2\nAnteproyecto y proyecto ejecutivo (albañilería, estructura, sanitaria, eléctrica, planillas, memorias) de ampliación de vivienda unifamiliar en dos niveles con estructura de hormigón armado.",
+    "fotos": [
+     {
+      "uri": "93ea8a_1d48178b2b5443d590d3831dedb739c9~mv2_d_14042_9934_s_6_4_3.jpg",
+      "w": 14042,
+      "h": 9934,
+      "desc": "",
+      "title": "Plano de Albañilería"
+     },
+     {
+      "uri": "93ea8a_d692dee2a2ff480685467fb09566ce21~mv2_d_9934_7017_s_4_2.jpg",
+      "w": 9934,
+      "h": 7017,
+      "desc": "",
+      "title": "Plano de estructura"
+     },
+     {
+      "uri": "93ea8a_2a24ff2403fd4fc69582e527c4abafb5~mv2_d_14042_9934_s_6_4_3.jpg",
+      "w": 14042,
+      "h": 9934,
+      "desc": "",
+      "title": ""
+     },
+     {
+      "uri": "93ea8a_85b2f4dc397942a5be4fa77e07f77689~mv2_d_4963_3509_s_4_2.jpg",
+      "w": 4963,
+      "h": 3509,
+      "desc": "",
+      "title": ""
+     }
+    ]
+   },
+   {
+    "titulo": "Reforma vivienda Malvin",
+    "slug": "reforma-vivienda-malvin",
+    "texto": "Reforma vivienda Malvin\nUbicación: Malvin / Montevideo\nPrograma: Vivienda\nSuperficie proyectada: 25 m2\nProyecto ejecutivo (albañilería, sanitaria, eléctrica, planillas) de reforma parcial de vivienda.\nDirección de obras de la reforma realizada.",
+    "fotos": [
+     {
+      "uri": "93ea8a_28fd2f79ac5e464cb686ee7a235f6e72~mv2.jpg",
+      "w": 1280,
+      "h": 722,
+      "desc": "",
+      "title": ""
+     },
+     {
+      "uri": "93ea8a_3be4f90ada5a40b8851c95cffaf78891~mv2_d_1836_3264_s_2.jpg",
+      "w": 1836,
+      "h": 3264,
+      "desc": "",
+      "title": "Situación Previa"
+     },
+     {
+      "uri": "93ea8a_d10fb2f6cedd4906b1b17bc0101eb750~mv2_d_3264_1836_s_2.jpg",
+      "w": 3264,
+      "h": 1836,
+      "desc": "",
+      "title": "Situación Previa"
+     },
+     {
+      "uri": "93ea8a_a4940f9ad8cc4e5ba9bbe197aff84deb~mv2_d_1836_3264_s_2.jpg",
+      "w": 1836,
+      "h": 3264,
+      "desc": "",
+      "title": "Situación Previa"
+     },
+     {
+      "uri": "93ea8a_9927fb540603476e9ab3fa706b4830d6~mv2.jpg",
+      "w": 844,
+      "h": 1500,
+      "desc": "",
+      "title": "Situación Previa"
+     },
+     {
+      "uri": "93ea8a_d5cb1cd1c4034992907137c7ef855702~mv2_d_4608_3456_s_4_2.jpg",
+      "w": 4608,
+      "h": 3456,
+      "desc": "",
+      "title": ""
+     },
+     {
+      "uri": "93ea8a_393f162df7ce45d4ac667f67e383dabd~mv2_d_4608_3456_s_4_2.jpg",
+      "w": 4608,
+      "h": 3456,
+      "desc": "",
+      "title": ""
+     },
+     {
+      "uri": "93ea8a_191594abe9974335a8e5533b33b01c04~mv2.jpg",
+      "w": 1125,
+      "h": 1500,
+      "desc": "",
+      "title": ""
+     },
+     {
+      "uri": "93ea8a_41471530ed4f40c99ba9e1851d1623b0~mv2.jpg",
+      "w": 722,
+      "h": 1280,
+      "desc": "",
+      "title": ""
+     },
+     {
+      "uri": "93ea8a_1c5af143b8e04aefb80a2cbc571d1c5b~mv2_d_4128_3096_s_4_2.jpg",
+      "w": 4128,
+      "h": 3096,
+      "desc": "",
+      "title": ""
+     },
+     {
+      "uri": "93ea8a_a7e8e851adaf42eba1828e1b5c55ec65~mv2_d_4128_2322_s_2.jpg",
+      "w": 4128,
+      "h": 2322,
+      "desc": "",
+      "title": ""
+     },
+     {
+      "uri": "93ea8a_526e792112e14fc4a779f67fe06a5600~mv2_d_3456_4608_s_4_2.jpg",
+      "w": 3456,
+      "h": 4608,
+      "desc": "",
+      "title": ""
+     },
+     {
+      "uri": "93ea8a_2cfbf997cdbe4d05ba78b0d6838bc285~mv2.jpg",
+      "w": 844,
+      "h": 1500,
+      "desc": "",
+      "title": ""
+     },
+     {
+      "uri": "93ea8a_8a6b2d53152f4920bf7af65f671afe6c~mv2_d_4128_3096_s_4_2.jpg",
+      "w": 4128,
+      "h": 3096,
+      "desc": "",
+      "title": ""
+     },
+     {
+      "uri": "93ea8a_205807160b8a46f38e4683e72189c2aa~mv2_d_4608_3456_s_4_2.jpg",
+      "w": 4608,
+      "h": 3456,
+      "desc": "",
+      "title": ""
+     }
+    ]
+   },
+   {
+    "titulo": "Reforma vivienda Solymar",
+    "slug": "reforma-vivienda-solymar",
+    "texto": "Reforma vivienda Solymar\nUbicación: Solymar / Canelones\nPrograma: Vivienda\nSuperficie nueva: 22 m2\nSuperficie reforma: 58 m2\nEspacios exteriores: 60 m2\nAnteproyecto y proyecto ejecutivo (albañilería, estructura, sanitaria, eléctrica, planillas, memorias) de ampliación y reforma de vivienda unifamiliar.\nGestión y firma técnica del permiso de construcción.\nDirección de obras de construcción de todo el proyecto y espacios exteriores (pergolas y parrillero).",
+    "fotos": [
+     {
+      "uri": "93ea8a_75dd5ba19ac44f4b86ea49efb4235be3~mv2.jpg",
+      "w": 1125,
+      "h": 1500,
+      "desc": "",
+      "title": ""
+     },
+     {
+      "uri": "93ea8a_1403eea886d747fd8e4343ef4b51e7fe~mv2_d_4128_3096_s_4_2.jpg",
+      "w": 4128,
+      "h": 3096,
+      "desc": "",
+      "title": "Situación Previa"
+     },
+     {
+      "uri": "93ea8a_95148ccd5b07474e92eeb18c81f54cca~mv2_d_4128_3096_s_4_2.jpg",
+      "w": 4128,
+      "h": 3096,
+      "desc": "",
+      "title": "Situación Previa"
+     },
+     {
+      "uri": "93ea8a_ad1ecf458113472cba18c12ee5b756b9~mv2.jpg",
+      "w": 1125,
+      "h": 1500,
+      "desc": "",
+      "title": "Situación Previa"
+     },
+     {
+      "uri": "93ea8a_9d9ede2450844c7d841b6b060d212155~mv2_d_4128_3096_s_4_2.jpg",
+      "w": 4128,
+      "h": 3096,
+      "desc": "",
+      "title": "Situación Previa"
+     },
+     {
+      "uri": "93ea8a_e72584c4491844b1a7da2cdae734a22b~mv2_d_4128_3096_s_4_2.jpg",
+      "w": 4128,
+      "h": 3096,
+      "desc": "",
+      "title": ""
+     },
+     {
+      "uri": "93ea8a_c7670fdf9ccc47e7b17543c57a3d6f8a~mv2_d_4128_3096_s_4_2.jpg",
+      "w": 4128,
+      "h": 3096,
+      "desc": "",
+      "title": ""
+     },
+     {
+      "uri": "93ea8a_b753ad31db8f478ebca8bcaf07a2e326~mv2_d_4128_3096_s_4_2.jpg",
+      "w": 4128,
+      "h": 3096,
+      "desc": "",
+      "title": ""
+     },
+     {
+      "uri": "93ea8a_7f42279b576c4d2a8a65e07302415a45~mv2_d_4128_3096_s_4_2.jpg",
+      "w": 4128,
+      "h": 3096,
+      "desc": "",
+      "title": ""
+     },
+     {
+      "uri": "93ea8a_6410596cd99a40039edf72b0543798fe~mv2.jpg",
+      "w": 1125,
+      "h": 1500,
+      "desc": "",
+      "title": ""
+     },
+     {
+      "uri": "93ea8a_5d43d93fd1f74e53b671b1d23b3a0cce~mv2.jpg",
+      "w": 1280,
+      "h": 720,
+      "desc": "",
+      "title": ""
+     },
+     {
+      "uri": "93ea8a_24335945a4af4d2fa80b241f8700e7f6~mv2.jpg",
+      "w": 1280,
+      "h": 720,
+      "desc": "",
+      "title": ""
+     },
+     {
+      "uri": "93ea8a_42e6ca37f93d4d6e9fbf6327c9e8faa0~mv2.jpg",
+      "w": 720,
+      "h": 1280,
+      "desc": "",
+      "title": ""
+     },
+     {
+      "uri": "93ea8a_b99e5f1aa6314e08948941b39fbc2225~mv2.jpg",
+      "w": 844,
+      "h": 1500,
+      "desc": "",
+      "title": ""
+     },
+     {
+      "uri": "93ea8a_dd9dc6caec064be1bf3494c9e3ad097a~mv2.jpg",
+      "w": 1280,
+      "h": 720,
+      "desc": "",
+      "title": ""
+     },
+     {
+      "uri": "93ea8a_d5eaf066261143cb811fa011d939c833~mv2.jpg",
+      "w": 1125,
+      "h": 1500,
+      "desc": "",
+      "title": ""
+     },
+     {
+      "uri": "93ea8a_58de1a54b79145a99bd7b78d286a6c7a~mv2.jpg",
+      "w": 1125,
+      "h": 1500,
+      "desc": "",
+      "title": ""
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "pagina": "oficinas",
+  "url_wix": "/copia-de-proyectos-2",
+  "titulo": "Oficinas",
+  "seo": "copia-de-proyectos-2",
+  "textos": [
+   "Oficinas"
+  ],
+  "imagenes_sueltas": [],
+  "fondos": [],
+  "proyectos": [
+   {
+    "titulo": "Junta departamental Florida",
+    "slug": "junta-departamental-florida",
+    "texto": "Junta departamental Florida\nUbicación: Florida\nPrograma: Oficinas\nSuperficie proyectada: 750m2\nDiseño y reestructura de el edificio de la Junta departamental de Florida.\nProyecto ejecutivo general de albañilería, estructura, sanitaria, eléctrica,ac. térmico, instalación de bomberos, planillas, memoria constructiva y pliego general de condiciones.",
+    "fotos": [
+     {
+      "uri": "93ea8a_471d9155d9174a628950eab0bb194e10~mv2_d_15355_10630_s_4_3.jpg",
+      "w": 15355,
+      "h": 10630,
+      "desc": "",
+      "title": "Plano de Albañilería"
+     },
+     {
+      "uri": "93ea8a_72de423df9f94c0793e97aaf45acef0f~mv2_d_9934_7017_s_4_2.jpg",
+      "w": 9934,
+      "h": 7017,
+      "desc": "",
+      "title": "Plano de Eléctrica"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "pagina": "contacto",
+  "url_wix": "/contacto",
+  "titulo": "Contacto",
+  "seo": "contacto",
+  "textos": [
+   "Contacto",
+   "BURANO   S.R.L.\nAvenida Sarmiento N° 2504 /102\nMontevideo / Uruguay\nTel.: 2711 3877\ncontacto@burano.com.uy",
+   "¡Tus datos se enviaron con éxito!"
+  ],
+  "imagenes_sueltas": [],
+  "fondos": [],
+  "proyectos": []
+ },
+ {
+  "pagina": "industria",
+  "url_wix": "/copia-de-proyectos-1",
+  "titulo": "Industria",
+  "seo": "copia-de-proyectos-1",
+  "textos": [
+   "Industria"
+  ],
+  "imagenes_sueltas": [],
+  "fondos": [],
+  "proyectos": [
+   {
+    "titulo": "Silos Puntas de Valdez",
+    "slug": "silos-puntas-de-valdez",
+    "texto": "Silos Puntas de Valdez\nUbicación: Puntas de Valdez/San José\nPrograma: Industria\nSuperficie proyectada: 2700 m2\nProyecto ejecutivo para la instalación de batería de 4 silos metálicos de 5000 toneladas c/u con instalación de plataforma de descarga y torre de elevación de grano.\nDirección de obras de construcción de todo el proyecto.",
+    "fotos": [
+     {
+      "uri": "93ea8a_80a11fbab40649938993b5d2cb9c137e~mv2_d_2664_1692_s_2.jpg",
+      "w": 2664,
+      "h": 1692,
+      "desc": "",
+      "title": "0"
+     },
+     {
+      "uri": "93ea8a_4a33d0bfb75e41b5802741c425aef728~mv2_d_2048_1536_s_2.jpg",
+      "w": 2048,
+      "h": 1536,
+      "desc": "",
+      "title": ""
+     },
+     {
+      "uri": "93ea8a_d0edae25a4df43e390ec8ee1f5c1273e~mv2_d_2048_1536_s_2.jpg",
+      "w": 2048,
+      "h": 1536,
+      "desc": "",
+      "title": ""
+     },
+     {
+      "uri": "93ea8a_d539b6ea42f441919874f1374a360192~mv2_d_2048_1536_s_2.jpg",
+      "w": 2048,
+      "h": 1536,
+      "desc": "",
+      "title": ""
+     },
+     {
+      "uri": "93ea8a_43a89a8a6a1e419089e1becfd5554b67~mv2_d_2048_1536_s_2.jpg",
+      "w": 2048,
+      "h": 1536,
+      "desc": "",
+      "title": ""
+     },
+     {
+      "uri": "93ea8a_6c94e735514042118f2bfed2f826495f~mv2_d_2048_1536_s_2.jpg",
+      "w": 2048,
+      "h": 1536,
+      "desc": "",
+      "title": ""
+     },
+     {
+      "uri": "93ea8a_c6f4525577da48ffafb904f8cf90935a~mv2_d_2048_1536_s_2.jpg",
+      "w": 2048,
+      "h": 1536,
+      "desc": "",
+      "title": ""
+     },
+     {
+      "uri": "93ea8a_d58c835d2ec24380bef7ee1939e56fc6~mv2_d_2048_1536_s_2.jpg",
+      "w": 2048,
+      "h": 1536,
+      "desc": "",
+      "title": ""
+     },
+     {
+      "uri": "93ea8a_89b56cd1690c467b80195172658707ce~mv2_d_2048_1536_s_2.jpg",
+      "w": 2048,
+      "h": 1536,
+      "desc": "",
+      "title": ""
+     },
+     {
+      "uri": "93ea8a_2f54261ca2584f6485b52995d9afab02~mv2_d_2048_1536_s_2.jpg",
+      "w": 2048,
+      "h": 1536,
+      "desc": "",
+      "title": ""
+     },
+     {
+      "uri": "93ea8a_fffaa76dd1a1463db96215f58836fba6~mv2_d_2048_1536_s_2.jpg",
+      "w": 2048,
+      "h": 1536,
+      "desc": "",
+      "title": ""
+     },
+     {
+      "uri": "93ea8a_aa2bdbf5d1db4915a5ebefcbaca06a3e~mv2_d_2048_1536_s_2.jpg",
+      "w": 2048,
+      "h": 1536,
+      "desc": "",
+      "title": ""
+     },
+     {
+      "uri": "93ea8a_aa4761e1701d4d81b066c6bffd46ad85~mv2_d_1536_2048_s_2.jpg",
+      "w": 1536,
+      "h": 2048,
+      "desc": "",
+      "title": ""
+     },
+     {
+      "uri": "93ea8a_cc4b9e926d89455e9780edaac74ea73d~mv2_d_2048_1536_s_2.jpg",
+      "w": 2048,
+      "h": 1536,
+      "desc": "",
+      "title": ""
+     },
+     {
+      "uri": "93ea8a_4eb548cd188f4999a68f00f2b0c3b3f6~mv2_d_2048_1536_s_2.jpg",
+      "w": 2048,
+      "h": 1536,
+      "desc": "",
+      "title": ""
+     },
+     {
+      "uri": "93ea8a_b1c6d44cea6f41ca9189067747a6d293~mv2_d_3072_2304_s_2.jpg",
+      "w": 3072,
+      "h": 2304,
+      "desc": "",
+      "title": ""
+     },
+     {
+      "uri": "93ea8a_aa36fae2fed843ae845c4e98df6d9601~mv2_d_2048_1536_s_2.jpg",
+      "w": 2048,
+      "h": 1536,
+      "desc": "",
+      "title": ""
+     },
+     {
+      "uri": "93ea8a_95476fa6258147a79993300a106b56fe~mv2_d_2048_1536_s_2.jpg",
+      "w": 2048,
+      "h": 1536,
+      "desc": "",
+      "title": ""
+     },
+     {
+      "uri": "93ea8a_d3a6f8cf690b49d2a25930cc0af33237~mv2_d_2048_1536_s_2.jpg",
+      "w": 2048,
+      "h": 1536,
+      "desc": "",
+      "title": ""
+     },
+     {
+      "uri": "93ea8a_cab9dccdc8254525a5c8feee381b3320~mv2_d_1536_2048_s_2.jpg",
+      "w": 1536,
+      "h": 2048,
+      "desc": "",
+      "title": ""
+     },
+     {
+      "uri": "93ea8a_417a82fe06c54eac97732d0770a585d3~mv2_d_2048_1536_s_2.jpg",
+      "w": 2048,
+      "h": 1536,
+      "desc": "",
+      "title": ""
+     },
+     {
+      "uri": "93ea8a_fa73b1fdb62f45d8a60497db2dd69c41~mv2_d_3072_2304_s_2.jpg",
+      "w": 3072,
+      "h": 2304,
+      "desc": "",
+      "title": ""
+     },
+     {
+      "uri": "93ea8a_679b526eb4f742f799233a9d5e51827b~mv2_d_3072_2304_s_2.jpg",
+      "w": 3072,
+      "h": 2304,
+      "desc": "",
+      "title": ""
+     },
+     {
+      "uri": "93ea8a_49d652ac183740a78bfc6427e8b03c59~mv2_d_3072_2304_s_2.jpg",
+      "w": 3072,
+      "h": 2304,
+      "desc": "",
+      "title": ""
+     },
+     {
+      "uri": "93ea8a_0a8b7fdf0e5f4aa9be79e5b36f6d8d9a~mv2_d_3072_2304_s_2.jpg",
+      "w": 3072,
+      "h": 2304,
+      "desc": "",
+      "title": ""
+     }
+    ]
+   },
+   {
+    "titulo": "Galpón en MRU S.A.",
+    "slug": "galpon-en-mru-s-a",
+    "texto": "Galpón en MRU S.A.\nUbicación: Montevideo\nPrograma: Industria\nSuperficie proyectada: 800 m2\nAnteproyecto y proyecto ejecutivo (albañilería, estructura, sanitaria, eléctrica, planillas, memorias) de ls ampliación de nave industrial de la empresa Molino Río Uruguay s.a.\nGestión y firma técnica del permiso de construcción.\nDirección de obras de construcción de todo el proyecto.",
+    "fotos": [
+     {
+      "uri": "93ea8a_5404ae3ccc7c47cea36bb3f3d4a2680f~mv2.jpg",
+      "w": 716,
+      "h": 505,
+      "desc": "",
+      "title": "fachada"
+     },
+     {
+      "uri": "93ea8a_810bbe843fbe415bb80af9ccfe9a4c74~mv2_d_4320_3240_s_4_2.jpg",
+      "w": 4320,
+      "h": 3240,
+      "desc": "",
+      "title": "Situación Previa"
+     },
+     {
+      "uri": "93ea8a_99f576bfb0b643ec9dc0289e1e516f5b~mv2_d_3072_2304_s_2.jpg",
+      "w": 3072,
+      "h": 2304,
+      "desc": "",
+      "title": ""
+     },
+     {
+      "uri": "93ea8a_c0abbe5acc8340d3b1155aa0c3facb83~mv2_d_4320_3240_s_4_2.jpg",
+      "w": 4320,
+      "h": 3240,
+      "desc": "",
+      "title": ""
+     },
+     {
+      "uri": "93ea8a_c0fff364f9084195bf3dd72b9affaf4d~mv2_d_4320_3240_s_4_2.jpg",
+      "w": 4320,
+      "h": 3240,
+      "desc": "",
+      "title": ""
+     },
+     {
+      "uri": "93ea8a_aa49ad35ead5403b8b4e0b3f2e8a5066~mv2_d_4320_3240_s_4_2.jpg",
+      "w": 4320,
+      "h": 3240,
+      "desc": "",
+      "title": ""
+     },
+     {
+      "uri": "93ea8a_f4eae90d25654437878af9bbca6d4c4e~mv2_d_2048_1536_s_2.jpg",
+      "w": 2048,
+      "h": 1536,
+      "desc": "",
+      "title": ""
+     },
+     {
+      "uri": "93ea8a_32d501a91f9145c1a06e09fae4ad2052~mv2_d_4320_3240_s_4_2.jpg",
+      "w": 4320,
+      "h": 3240,
+      "desc": "",
+      "title": "DSC00347"
+     },
+     {
+      "uri": "93ea8a_54c1821f85b44e78b9197dd8e0c41b76~mv2_d_2048_1536_s_2.jpg",
+      "w": 2048,
+      "h": 1536,
+      "desc": "",
+      "title": ""
+     },
+     {
+      "uri": "93ea8a_a89d69c05e954d8f8dd26b7805596153~mv2_d_2048_1536_s_2.jpg",
+      "w": 2048,
+      "h": 1536,
+      "desc": "",
+      "title": ""
+     },
+     {
+      "uri": "93ea8a_888bfa4ac3b64a12b0b7e522116f88b9~mv2_d_4320_3240_s_4_2.jpg",
+      "w": 4320,
+      "h": 3240,
+      "desc": "",
+      "title": ""
+     },
+     {
+      "uri": "93ea8a_d645b60145a54485ba116945e950b7a2~mv2_d_2048_1536_s_2.jpg",
+      "w": 2048,
+      "h": 1536,
+      "desc": "",
+      "title": ""
+     },
+     {
+      "uri": "93ea8a_eb68153a57524fd88b49114d73ad036b~mv2_d_4320_3240_s_4_2.jpg",
+      "w": 4320,
+      "h": 3240,
+      "desc": "",
+      "title": ""
+     },
+     {
+      "uri": "93ea8a_4be802dda20e476c99c5a4b1e5cbfd69~mv2_d_3072_2304_s_2.jpg",
+      "w": 3072,
+      "h": 2304,
+      "desc": "",
+      "title": ""
+     },
+     {
+      "uri": "93ea8a_9009135950ea414898fb0829c4afd74a~mv2_d_4320_3240_s_4_2.jpg",
+      "w": 4320,
+      "h": 3240,
+      "desc": "",
+      "title": ""
+     },
+     {
+      "uri": "93ea8a_3f630351415743e590ec98e75d4a3a3c~mv2_d_3072_2304_s_2.jpg",
+      "w": 3072,
+      "h": 2304,
+      "desc": "",
+      "title": ""
+     },
+     {
+      "uri": "93ea8a_c10ee22640c74b78ad164fdce2a3bc96~mv2_d_4320_3240_s_4_2.jpg",
+      "w": 4320,
+      "h": 3240,
+      "desc": "",
+      "title": ""
+     },
+     {
+      "uri": "93ea8a_024cde2482b24d3886da315f92efa8ad~mv2_d_4320_3240_s_4_2.jpg",
+      "w": 4320,
+      "h": 3240,
+      "desc": "",
+      "title": ""
+     },
+     {
+      "uri": "93ea8a_ab817cc3f4c7476ea69c16d48caf1609~mv2_d_4320_3240_s_4_2.jpg",
+      "w": 4320,
+      "h": 3240,
+      "desc": "",
+      "title": ""
+     },
+     {
+      "uri": "93ea8a_afea7570f77d4a8aa723d282d51dffad~mv2_d_4320_3240_s_4_2.jpg",
+      "w": 4320,
+      "h": 3240,
+      "desc": "",
+      "title": ""
+     },
+     {
+      "uri": "93ea8a_112e436c17454f209dd0cb5b49e7cc71~mv2_d_4320_3240_s_4_2.jpg",
+      "w": 4320,
+      "h": 3240,
+      "desc": "",
+      "title": ""
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "pagina": "global",
+  "url_wix": "(header/footer)",
+  "titulo": null,
+  "seo": null,
+  "textos": [
+   "© 2018 Burano srl | Diseño web Datatex",
+   "Burano",
+   "ARQUITECTURA | INGENIERíA | CONSTRUCCIÓN"
+  ],
+  "imagenes_sueltas": [
+   {
+    "uri": "93ea8a_d7f5fa7a791a44098690e2d34222bc29~mv2.jpg",
+    "w": 1000,
+    "h": 715,
+    "desc": "",
+    "title": ""
+   }
+  ],
+  "fondos": [],
+  "proyectos": [
+   {
+    "titulo": "",
+    "slug": "logo-galeria",
+    "texto": "",
+    "fotos": [
+     {
+      "uri": "ed86bdfa6aecf88649d305e11d76ac33.wix_mp",
+      "w": 205,
+      "h": 205,
+      "desc": "",
+      "title": "facebook"
+     }
+    ]
+   }
+  ]
+ }
+]
