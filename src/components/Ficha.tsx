@@ -70,7 +70,12 @@ export default async function Ficha({ slug, base }: { slug: string; base: 'obras
       </div>
       <section className="sec" style={{ paddingTop: 24 }}>
         <div className="wrap ficha-grid">
-          <div>
+          <div className="ficha-cab">
+            <p className="tag">{TIPOS[p.tipo]}</p>
+            <h1>{p.titulo}</h1>
+            {p.subtitulo && <p className="meta" style={{ marginTop: 10, fontSize: 16 }}>{p.subtitulo}</p>}
+          </div>
+          <div className="ficha-media">
             {previas.length > 0 && finales.length > 0 ? (
               <AntesDespues antes={previas[0].url} despues={finales[0].url} titulo={p.titulo} />
             ) : fotoPrincipal ? (
@@ -79,10 +84,7 @@ export default async function Ficha({ slug, base }: { slug: string; base: 'obras
             <Galeria titulo={p.titulo} fotos={[...previas, ...finales].map((f) => ({ url: f.url, alt: f.alt, pie: f.pie, previa: f.previa }))} />
             <p className="meta" style={{ marginTop: 10 }}>{p.fotos.length} fotos{previas.length ? ` · ${previas.length} de la situación previa` : ''}</p>
           </div>
-          <div>
-            <p className="tag">{TIPOS[p.tipo]}</p>
-            <h1>{p.titulo}</h1>
-            {p.subtitulo && <p className="meta" style={{ marginTop: 10, fontSize: 16 }}>{p.subtitulo}</p>}
+          <div className="ficha-info">
             <dl className="dl">{datos.map(([k, v], i) => <Fragment key={i}><dt>{k}</dt><dd>{v}</dd></Fragment>)}</dl>
             {p.descripcion && <p className="texto-largo" style={{ marginTop: 22 }}>{p.descripcion}</p>}
             {p.avance != null && (
@@ -109,21 +111,21 @@ export default async function Ficha({ slug, base }: { slug: string; base: 'obras
       {avance.length > 0 && (
         <section className="sec" style={{ paddingTop: 0 }}>
           <div className="wrap">
-            <h2 style={{ fontSize: 28, marginBottom: 16 }}>Avance de obra</h2>
+            <h2 style={{ fontSize: 38, marginBottom: 16 }}>Avance de obra</h2>
             <Galeria titulo={`${p.titulo}, avance`} fotos={avance.map((f) => ({ url: f.url, alt: f.alt, pie: f.pie, previa: false, fecha: f.fecha ? f.fecha.toLocaleDateString('es-UY') : null }))} />
           </div>
         </section>
       )}
       <section className="sec" id="consulta" style={{ background: 'var(--surface)' }}>
         <div className="wrap contacto">
-          <div><h2 style={{ fontSize: 'clamp(26px,3vw,40px)' }}>Contacto</h2><p className="meta" style={{ marginTop: 12, fontSize: 16 }}>Tel.: {a.telefono} · {a.email}</p></div>
+          <div><h2 style={{ fontSize: 'clamp(36px,4vw,54px)' }}>Contacto</h2><p className="meta" style={{ marginTop: 12, fontSize: 16 }}>Tel.: {a.telefono} · {a.email}</p></div>
           <div><FormContacto proyecto={p.titulo} proyectoId={p.id} whatsapp={a.whatsapp} /></div>
         </div>
       </section>
       {relacionados.length > 0 && (
         <section className="sec relacionados">
           <div className="wrap">
-            <div className="sec-head"><h2 style={{ fontSize: 28 }}>Más trabajos</h2></div>
+            <div className="sec-head"><h2 style={{ fontSize: 38 }}>Más trabajos</h2></div>
             <div className="grid">{relacionados.map((r) => <Tarjeta key={r.id} p={r} />)}</div>
           </div>
         </section>

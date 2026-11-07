@@ -1,8 +1,12 @@
 import type { Metadata, Viewport } from 'next';
-import { Archivo } from 'next/font/google';
+import { Archivo, Big_Shoulders_Display, Hanken_Grotesk } from 'next/font/google';
 import './globals.css';
 
-const archivo = Archivo({ subsets: ['latin'], axes: ['wdth'], variable: '--f-archivo', display: 'swap' });
+// Ruta tipográfica "Obra": condensada industrial para títulos y cifras, grotesca limpia para el texto.
+// Archivo ancha queda solo para el logotipo BURANO, que es parte de la marca.
+const titulos = Big_Shoulders_Display({ subsets: ['latin'], weight: ['600', '800'], variable: '--f-titulos', display: 'swap' });
+const texto = Hanken_Grotesk({ subsets: ['latin'], variable: '--f-texto', display: 'swap' });
+const logo = Archivo({ subsets: ['latin'], axes: ['wdth'], variable: '--f-logo', display: 'swap' });
 
 export const metadata: Metadata = {
   metadataBase: new URL(process.env.NEXT_PUBLIC_SITIO_URL || 'https://www.burano.com.uy'),
@@ -17,7 +21,7 @@ export const viewport: Viewport = { width: 'device-width', initialScale: 1, view
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="es-UY" className={archivo.variable} style={{ ['--f-display' as string]: 'var(--f-archivo)', ['--f-body' as string]: 'var(--f-archivo)' }}>
+    <html lang="es-UY" className={`${titulos.variable} ${texto.variable} ${logo.variable}`} style={{ ['--f-display' as string]: 'var(--f-titulos)', ['--f-body' as string]: 'var(--f-texto)' }}>
       <body>{children}</body>
     </html>
   );

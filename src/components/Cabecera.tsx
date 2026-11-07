@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import { db } from '@/lib/db';
-import { getAjustes } from '@/lib/ajustes';
+import { getAjustes, waLink } from '@/lib/ajustes';
 import MenuMovil from './MenuMovil';
 
 export const MENU_BASE = [
@@ -36,7 +36,7 @@ export default async function Cabecera() {
             <small>{a.lema}</small>
           </span>
         </Link>
-        <MenuMovil>
+        <MenuMovil contacto={{ telefono: a.telefono, email: a.email, direccion: a.direccion, wa: waLink(a.whatsapp, 'Hola, quisiera hacer una consulta.') || '', facebook: a.facebook }}>
           <ul className="menu">
             {items.map((i) => (
               <li key={i.href + i.texto}>

@@ -11,7 +11,7 @@ export default async function Contacto() {
     <section className="sec">
       <div className="wrap contacto">
         <div>
-          <h1 style={{ fontSize: 'clamp(30px,4vw,54px)', marginBottom: 26 }}>Contacto</h1>
+          <h1 style={{ fontSize: 'clamp(42px,5.6vw,78px)', marginBottom: 26 }}>Contacto</h1>
           <address className="datos" style={{ fontStyle: 'normal' }}>
             <span className="grande">{a.razonSocial}</span>
             <span>{a.direccion}</span>

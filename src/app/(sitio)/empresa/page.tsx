@@ -27,7 +27,7 @@ export default async function Empresa() {
               <div className="person" key={m.id}>
                 <div className="foto">{m.foto && <Image src={m.foto} alt={m.nombre} fill sizes="120px" />}</div>
                 <div>
-                  <h2 style={{ fontSize: 20 }}>{m.nombre}</h2>
+                  <h2 style={{ fontSize: 27 }}>{m.nombre}</h2>
                   <p>{m.titulo}{m.celular ? `\nCel.: ${m.celular}` : ''}</p>
                   {m.linkedin && <p><a href={m.linkedin} target="_blank" rel="noopener">LinkedIn</a></p>}
                   {(m.experiencia || m.diplomas) && (
@@ -51,7 +51,7 @@ export default async function Empresa() {
       {hitos.length > 0 && (
         <section className="sec" style={{ background: 'var(--surface)' }}>
           <div className="wrap intro">
-            <h2 style={{ fontSize: 'clamp(28px,3.4vw,46px)' }}>Historia</h2>
+            <h2 style={{ fontSize: 'clamp(38px,4.6vw,62px)' }}>Historia</h2>
             <ol className="linea">
               {hitos.map((h) => <li key={h.id}><b>{h.anio}</b><p style={{ fontWeight: 600, marginTop: 4 }}>{h.titulo}</p>{h.texto && <p style={{ color: 'var(--muted)' }}>{h.texto}</p>}</li>)}
             </ol>

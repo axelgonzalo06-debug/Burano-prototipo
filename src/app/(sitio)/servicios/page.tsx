@@ -21,7 +21,7 @@ export default async function Servicios() {
             const dest = new Set(lineas(s.destacados));
             return (
               <article key={s.id}>
-                <h2 style={{ fontSize: 'clamp(24px,2.4vw,32px)', marginBottom: 18 }}>{s.titulo}</h2>
+                <h2 style={{ fontSize: 'clamp(32px,3.2vw,44px)', marginBottom: 18 }}>{s.titulo}</h2>
                 {s.intro && <p className="intro-serv">{s.intro}</p>}
                 <ul>{lineas(s.items).map((l) => <li key={l} className={dest.has(l) ? 'destacado' : ''}>{l}</li>)}</ul>
               </article>

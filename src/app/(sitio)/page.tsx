@@ -39,7 +39,7 @@ export default async function Inicio() {
           <div className="wrap">
             {stats.map((s) => (
               <div className="stat" key={s.id}>
-                <b>{s.prefijo && <em>{s.prefijo}</em>}<Contador valor={s.valor} />{s.sufijo && ` ${s.sufijo}`}</b>
+                <b><span className="num">{s.prefijo && <em>{s.prefijo}</em>}<Contador valor={s.valor} /></span>{s.sufijo && <small> {s.sufijo}</small>}</b>
                 <span>{s.texto}</span>
               </div>
             ))}
@@ -48,9 +48,11 @@ export default async function Inicio() {
       )}
 
       <section className="sec">
-        <div className="wrap intro">
-          <p className="eyebrow">Quiénes somos</p>
-          <p>{a.intro}</p>
+        <div className="wrap">
+          <div className="intro">
+            <p className="idx"><b>01</b>Quiénes somos</p>
+            <p>{a.intro}</p>
+          </div>
         </div>
       </section>
 
@@ -58,17 +60,17 @@ export default async function Inicio() {
         <section className="sec" style={{ paddingTop: 0 }}>
           <div className="wrap">
             <div className="sec-head">
-              <h2>Galería de trabajos</h2>
+              <div><p className="idx" style={{ marginBottom: 14 }}><b>02</b>Obras</p><h2>Galería de trabajos</h2></div>
               <Link className="btn" href="/obras">Ver todas las obras</Link>
             </div>
-            <div className="grid">
+            <div className="grid editorial">
               {destacados.map((p) => <Tarjeta key={p.id} p={p} fotos={p._count.fotos} />)}
             </div>
           </div>
         </section>
       )}
 
-      <section className="sec mision">
+      <section className="sec mision" style={slides[1] ? ({ '--fondo': `url(${slides[1].imagen})` } as React.CSSProperties) : undefined}>
         <div className="wrap">
           <img src="/isotipo-claro.png" alt="" width={84} height={60} />
           <blockquote>{a.mision}</blockquote>
