@@ -3,8 +3,12 @@ import Link from 'next/link';
 import { db } from '@/lib/db';
 import { getAjustes } from '@/lib/ajustes';
 import { lineas } from '@/lib/proyectos';
+import { metaPagina } from '@/lib/seo';
 
-export const metadata: Metadata = { title: 'Servicios', alternates: { canonical: '/servicios' } };
+export async function generateMetadata(): Promise<Metadata> {
+  const servicios = await db.servicio.findMany({ orderBy: { orden: 'asc' }, select: { titulo: true } });
+  return metaPagina({ titulo: 'Servicios', descripcion: servicios.map((s) => s.titulo).join(' · '), ruta: '/servicios' });
+}
 
 export default async function Servicios() {
   const [a, servicios, calculo] = await Promise.all([

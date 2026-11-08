@@ -1,10 +1,13 @@
 import type { Metadata } from 'next';
 import Listado from '@/components/Listado';
 import { TIPOS } from '@/lib/proyectos';
+import { getAjustes } from '@/lib/ajustes';
+import { metaPagina } from '@/lib/seo';
 
-export function generateMetadata({ searchParams }: { searchParams: { tipo?: string } }): Metadata {
+export async function generateMetadata({ searchParams }: { searchParams: { tipo?: string } }): Promise<Metadata> {
   const t = searchParams.tipo?.toUpperCase() as keyof typeof TIPOS | undefined;
-  return { title: t && TIPOS[t] ? TIPOS[t] : 'Proyectos', alternates: { canonical: '/proyectos' } };
+  const a = await getAjustes();
+  return metaPagina({ titulo: t && TIPOS[t] ? TIPOS[t] : 'Proyectos', descripcion: a.intro, ruta: '/proyectos' });
 }
 
 export default function Proyectos({ searchParams }: { searchParams: { tipo?: string; estado?: string; zona?: string } }) {

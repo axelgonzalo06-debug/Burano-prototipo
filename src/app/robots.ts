@@ -4,5 +4,5 @@ import type { MetadataRoute } from 'next';
 export default function robots(): MetadataRoute.Robots {
   const url = process.env.NEXT_PUBLIC_SITIO_URL || 'https://www.burano.com.uy';
   if (process.env.NO_INDEXAR === '1') return { rules: [{ userAgent: '*', disallow: '/' }] };
-  return { rules: [{ userAgent: '*', allow: '/', disallow: ['/admin', '/api'] }], sitemap: `${url}/sitemap.xml` };
+  return { rules: [{ userAgent: '*', allow: '/', disallow: ['/admin', '/api'] }], sitemap: `${url}/sitemap.xml`, host: url };
 }

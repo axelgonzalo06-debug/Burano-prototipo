@@ -1,5 +1,14 @@
 # Historial de cambios
 
+## 0.3.0 — 2026-11-08
+
+- SEO completo: descripción propia por página (de los textos existentes), canónicas, Open Graph y tarjeta grande de X en todas las páginas.
+- Imagen para compartir 1200×630 (`public/og.jpg`).
+- JSON-LD: GeneralContractor ampliado (descripción, lema, coordenadas, área de servicio) y WebSite; las fichas siguen con CreativeWork y BreadcrumbList.
+- `manifest.webmanifest`, `apple-icon.png`, sitemap con `lastModified` y robots con `host`.
+- Vercel Analytics.
+- Fotos repetidas de Wix eliminadas (7).
+
 ## 0.2.0 · 2026-11-07
 - Tipografía nueva "Obra": Big Shoulders Display en títulos y cifras, Hanken Grotesk en el texto. El logotipo BURANO no cambia.
 - Rediseño: portada con la obra a pantalla completa, secciones numeradas, grilla editorial de obras, fotos que aparecen al hacer scroll y pie oscuro con la marca.

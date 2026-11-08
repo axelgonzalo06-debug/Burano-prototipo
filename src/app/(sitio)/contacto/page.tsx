@@ -1,8 +1,12 @@
 import type { Metadata } from 'next';
 import { getAjustes } from '@/lib/ajustes';
+import { metaPagina } from '@/lib/seo';
 import FormContacto from '@/components/FormContacto';
 
-export const metadata: Metadata = { title: 'Contacto', alternates: { canonical: '/contacto' } };
+export async function generateMetadata(): Promise<Metadata> {
+  const a = await getAjustes();
+  return metaPagina({ titulo: 'Contacto', descripcion: [`${a.direccion}, ${a.ciudad}`, a.telefono && `Tel.: ${a.telefono}`, a.email].filter(Boolean).join(' · '), ruta: '/contacto' });
+}
 
 export default async function Contacto() {
   const a = await getAjustes();

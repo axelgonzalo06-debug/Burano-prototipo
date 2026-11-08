@@ -1,7 +1,18 @@
 // Cada cambio publicado sube APP_VERSION y suma una entrada arriba de todo en HISTORIAL (y en CHANGELOG.md).
-export const APP_VERSION = '0.2.0';
+export const APP_VERSION = '0.3.0';
 
 export const HISTORIAL: { version: string; fecha: string; cambios: string[] }[] = [
+  {
+    version: '0.3.0',
+    fecha: '2026-11-08',
+    cambios: [
+      'SEO completo: cada página con su descripción (tomada de los textos del sitio), dirección canónica e imagen para compartir en WhatsApp, Facebook y X.',
+      'Imagen para compartir de 1200×630 con la obra de la portada y el isotipo.',
+      'Datos estructurados para Google: empresa constructora con dirección, coordenadas y redes; sitio web; y cada obra con su ruta de navegación.',
+      'Manifest del sitio, ícono para iPhone, mapa del sitio con fechas y medición de visitas con Vercel Analytics.',
+      'Se sacaron 7 fotos repetidas que venían de Wix.',
+    ],
+  },
   {
     version: '0.2.0',
     fecha: '2026-11-07',

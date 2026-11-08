@@ -10,21 +10,30 @@ export default async function SitioLayout({ children }: { children: React.ReactN
   const org = {
     '@context': 'https://schema.org',
     '@type': 'GeneralContractor',
+    '@id': `${url}/#empresa`,
     name: a.nombre,
+    alternateName: 'Burano',
+    description: a.intro,
+    slogan: a.lema,
     url,
     logo: `${url}/isotipo.png`,
+    image: `${url}/og.jpg`,
+    areaServed: { '@type': 'Country', name: 'Uruguay' },
     email: a.email,
     telephone: a.telefono,
     foundingDate: '2014',
     address: { '@type': 'PostalAddress', streetAddress: a.direccion, addressLocality: 'Montevideo', addressCountry: 'UY' },
+    ...(a.lat && a.lng ? { geo: { '@type': 'GeoCoordinates', latitude: Number(a.lat), longitude: Number(a.lng) } } : {}),
     sameAs: [a.facebook, a.instagram, a.linkedin].filter(Boolean),
   };
+  const sitio = { '@context': 'https://schema.org', '@type': 'WebSite', name: a.nombre, url, inLanguage: 'es-UY', publisher: { '@id': `${url}/#empresa` } };
   return (
     <>
       <Cabecera />
       <main id="contenido">{children}</main>
       <Pie />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(org) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(sitio) }} />
     </>
   );
 }

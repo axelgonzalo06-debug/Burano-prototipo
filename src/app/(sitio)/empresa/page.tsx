@@ -3,8 +3,12 @@ import Image from 'next/image';
 import { db } from '@/lib/db';
 import { getAjustes } from '@/lib/ajustes';
 import { lineas } from '@/lib/proyectos';
+import { metaPagina } from '@/lib/seo';
 
-export const metadata: Metadata = { title: 'Información', alternates: { canonical: '/empresa' } };
+export async function generateMetadata(): Promise<Metadata> {
+  const a = await getAjustes();
+  return metaPagina({ titulo: 'Información', descripcion: a.equipoTexto1 || a.intro, ruta: '/empresa' });
+}
 
 export default async function Empresa() {
   const [a, equipo, hitos, clientes] = await Promise.all([

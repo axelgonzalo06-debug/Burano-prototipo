@@ -1,6 +1,6 @@
 {
   "name": "burano-web",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -11,6 +11,7 @@
   },
   "dependencies": {
     "@prisma/client": "5.22.0",
+    "@vercel/analytics": "^1.5.0",
     "@vercel/blob": "0.27.3",
     "bcryptjs": "2.4.3",
     "jose": "5.9.6",

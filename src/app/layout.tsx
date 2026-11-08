@@ -1,5 +1,7 @@
 import type { Metadata, Viewport } from 'next';
 import { Archivo, Big_Shoulders_Display, Hanken_Grotesk } from 'next/font/google';
+import { Analytics } from '@vercel/analytics/next';
+import { OG_GENERICA } from '@/lib/seo';
 import './globals.css';
 
 // Ruta tipográfica "Obra": condensada industrial para títulos y cifras, grotesca limpia para el texto.
@@ -13,7 +15,11 @@ export const metadata: Metadata = {
   title: { default: 'Burano S.R.L. · Arquitectura | Ingeniería | Construcción', template: '%s | Burano S.R.L.' },
   description:
     'Burano construcciones nace en el año 2014 como una empresa que brinda servicios de proyecto, dirección y ejecución de obras.',
-  openGraph: { locale: 'es_UY', siteName: 'Burano S.R.L.', type: 'website' },
+  applicationName: 'Burano S.R.L.',
+  alternates: { canonical: '/' },
+  openGraph: { locale: 'es_UY', siteName: 'Burano S.R.L.', type: 'website', url: '/', images: [OG_GENERICA] },
+  twitter: { card: 'summary_large_image', images: [OG_GENERICA.url] },
+  formatDetection: { telephone: false },
   ...(process.env.NO_INDEXAR === '1' ? { robots: { index: false, follow: false } } : {}),
 };
 
@@ -22,7 +28,7 @@ export const viewport: Viewport = { width: 'device-width', initialScale: 1, view
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="es-UY" className={`${titulos.variable} ${texto.variable} ${logo.variable}`} style={{ ['--f-display' as string]: 'var(--f-titulos)', ['--f-body' as string]: 'var(--f-texto)' }}>
-      <body>{children}</body>
+      <body>{children}<Analytics /></body>
     </html>
   );
 }

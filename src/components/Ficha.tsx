@@ -4,6 +4,7 @@ import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import { draftMode } from 'next/headers';
 import type { Metadata } from 'next';
+import { metaPagina } from '@/lib/seo';
 import { db } from '@/lib/db';
 import { getAjustes, waLink } from '@/lib/ajustes';
 import { ESTADOS, TIPOS, lineas, proyectoPublico, rutaProyecto, visibles } from '@/lib/proyectos';
@@ -15,13 +16,8 @@ import Tarjeta from './Tarjeta';
 export async function metaFicha(slug: string): Promise<Metadata> {
   const p = await proyectoPublico(slug, draftMode().isEnabled);
   if (!p) return {};
-  const desc = (p.trabajos || p.descripcion || p.situacionPrevia).replace(/\s+/g, ' ').slice(0, 160);
-  return {
-    title: p.titulo,
-    description: desc,
-    alternates: { canonical: rutaProyecto(p) },
-    openGraph: { title: p.titulo, description: desc, images: p.portada ? [{ url: p.portada, width: p.portadaAncho ?? undefined, height: p.portadaAlto ?? undefined }] : [] },
-  };
+  const desc = [p.ubicacion, p.trabajos || p.descripcion || p.situacionPrevia].filter(Boolean).join(' · ');
+  return metaPagina({ titulo: p.titulo, descripcion: desc, ruta: rutaProyecto(p), tipo: 'article', imagen: p.portada ? { url: p.portada, width: p.portadaAncho, height: p.portadaAlto } : undefined });
 }
 
 export default async function Ficha({ slug, base }: { slug: string; base: 'obras' | 'proyectos' }) {

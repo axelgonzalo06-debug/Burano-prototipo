@@ -1,7 +1,12 @@
 import type { Metadata } from 'next';
 import Listado from '@/components/Listado';
+import { getAjustes } from '@/lib/ajustes';
+import { metaPagina } from '@/lib/seo';
 
-export const metadata: Metadata = { title: 'Galería de trabajos', alternates: { canonical: '/obras' } };
+export async function generateMetadata(): Promise<Metadata> {
+  const a = await getAjustes();
+  return metaPagina({ titulo: 'Galería de trabajos', descripcion: a.intro, ruta: '/obras' });
+}
 
 export default function Obras({ searchParams }: { searchParams: { estado?: string; zona?: string } }) {
   return (

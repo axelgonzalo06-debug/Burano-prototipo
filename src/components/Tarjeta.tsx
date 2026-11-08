@@ -13,7 +13,7 @@ export default function Tarjeta({ p, fotos }: { p: Proyecto; fotos?: number }) {
   return (
     <Link className="card" href={rutaProyecto(p)}>
       <div className="ph">
-        {p.portada && <Image src={p.portada} alt="" fill sizes="(max-width: 560px) 100vw, (max-width: 900px) 50vw, 400px" />}
+        {p.portada && <Image src={p.portada} alt={p.titulo} fill sizes="(max-width: 560px) 100vw, (max-width: 900px) 50vw, 400px" />}
         {p.estado !== 'TERMINADO' && <span className="estado">{ESTADOS[p.estado]}</span>}
       </div>
       <span className="tag">{TIPOS[p.tipo]}</span>
