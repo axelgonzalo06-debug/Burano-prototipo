@@ -89,6 +89,23 @@ footer{background:var(--lab-ink);color:var(--lab-grey);padding:32px 0;font-size:
 footer b{color:#fff;font-weight:500;letter-spacing:.16em}
 footer b i{font-style:normal;color:var(--lab-orange)}
 :focus-visible{outline:2px solid var(--lab-orange);outline-offset:3px}
+@page{size:A4;margin:0}
+@media print{
+  *{-webkit-print-color-adjust:exact;print-color-adjust:exact}
+  body{font-size:12.5px}
+  .wrap{width:calc(100% - 28mm)}
+  header.cover{padding:18mm 0 16mm}
+  section{padding:12mm 0;break-inside:auto}
+  section h2{break-after:avoid}
+  figure,.duo,.trio,.phones,.palette,details{break-inside:avoid}
+  .links,.copy{display:none}
+  .meta{grid-template-columns:repeat(4,1fr)}
+  .duo{grid-template-columns:1fr 1fr}.trio{grid-template-columns:repeat(3,1fr)}.phones{grid-template-columns:repeat(4,1fr)}
+  .prompts{break-before:page}
+  summary::after{content:""}
+  pre{font-size:10.5px}
+  footer{padding:8mm 0}
+}
 </style>
 </head>
 <body>
