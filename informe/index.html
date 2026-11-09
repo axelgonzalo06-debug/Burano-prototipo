@@ -1,0 +1,278 @@
+<!doctype html>
+<html lang="es-UY">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Informe rediseño Burano · LAB by Host Up</title>
+<meta name="description" content="Cambios aplicados en el prototipo de rediseño del sitio de Burano S.R.L., con capturas y prompts para aplicarlos al sitio original.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{
+  --lab-ink:#333333;      /* fondo del logo */
+  --lab-ink-2:#2a2a2a;
+  --lab-white:#ffffff;
+  --lab-orange:#f0913c;   /* "LAB" y el trazo vertical */
+  --lab-grey:#b8b8b8;     /* "by" */
+  --paper:#f6f5f3;
+  --line:#e2e0dc;
+  --text:#2b2b2b;
+  --muted:#6b6b6b;
+}
+*{box-sizing:border-box}
+html,body{margin:0}
+body{font:400 16px/1.65 "Montserrat",Arial,sans-serif;color:var(--text);background:var(--paper)}
+a{color:inherit}
+.wrap{width:min(100% - 48px,1080px);margin-inline:auto}
+header.cover{background:var(--lab-ink);color:var(--lab-white);padding:56px 0 64px}
+.logo{display:flex;align-items:flex-end;gap:20px;margin-bottom:56px}
+.logo svg{width:64px;height:48px}
+.logo .lab{font-weight:300;font-size:28px;letter-spacing:.5em;color:var(--lab-orange);line-height:1}
+.logo .by{font-size:12px;color:var(--lab-grey);letter-spacing:.06em}
+.logo .by b{color:#fff;font-weight:500;letter-spacing:.18em}
+.logo .by b i{font-style:normal;color:var(--lab-orange)}
+.cover small{color:var(--lab-orange);letter-spacing:.24em;text-transform:uppercase;font-size:12px;font-weight:500}
+.cover h1{font-weight:300;font-size:clamp(34px,5vw,56px);line-height:1.08;margin:12px 0 20px;letter-spacing:-.01em}
+.cover h1 strong{font-weight:600}
+.cover p{color:#d6d6d6;max-width:62ch;margin:0}
+.links{display:flex;flex-wrap:wrap;gap:12px;margin-top:32px}
+.btn{display:inline-flex;align-items:center;gap:10px;min-height:44px;padding:0 20px;text-decoration:none;font-weight:500;font-size:14px;letter-spacing:.06em;border:1px solid var(--lab-orange);transition:background .25s,color .25s}
+.btn--fill{background:var(--lab-orange);color:var(--lab-ink)}
+.btn--fill:hover{background:#fff;border-color:#fff}
+.btn--line{color:#fff}
+.btn--line:hover{background:var(--lab-orange);color:var(--lab-ink)}
+.meta{display:grid;grid-template-columns:repeat(4,1fr);gap:24px;margin-top:48px;border-top:1px solid rgba(255,255,255,.15);padding-top:24px;font-size:14px}
+.meta dt{color:var(--lab-grey);font-size:12px;letter-spacing:.12em;text-transform:uppercase}
+.meta dd{margin:4px 0 0;color:#fff}
+@media (max-width:720px){.meta{grid-template-columns:1fr 1fr}}
+
+section{padding:64px 0;border-bottom:1px solid var(--line)}
+h2{font-weight:500;font-size:28px;margin:0 0 8px;letter-spacing:-.005em}
+h2 .n{color:var(--lab-orange);font-weight:600;margin-right:10px}
+h3{font-weight:600;font-size:18px;margin:32px 0 8px}
+.lead{color:var(--muted);max-width:68ch;margin:0 0 24px}
+.tag{display:inline-block;font-size:11px;font-weight:600;letter-spacing:.14em;text-transform:uppercase;padding:4px 8px;background:var(--lab-orange);color:var(--lab-ink);margin-right:6px;vertical-align:2px}
+.tag--grey{background:var(--line);color:var(--text)}
+ul.points{margin:0 0 24px;padding-left:18px;max-width:72ch}
+ul.points li{margin:4px 0}
+figure{margin:0}
+.shot{background:#fff;border:1px solid var(--line);padding:8px}
+.shot img{display:block;width:100%;height:auto}
+.duo{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin:16px 0}
+.duo figcaption,.shot figcaption{font-size:13px;color:var(--muted);padding:8px 2px 0}
+.trio{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin:16px 0}
+.phones{display:grid;grid-template-columns:repeat(4,1fr);gap:16px;margin:16px 0}
+@media (max-width:720px){.duo,.trio{grid-template-columns:1fr}.phones{grid-template-columns:1fr 1fr}}
+
+.palette{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:12px;margin-top:16px}
+.sw{border:1px solid var(--line);background:#fff}
+.sw i{display:block;height:64px}
+.sw span{display:block;padding:8px 10px;font-size:13px}
+.sw code{color:var(--muted)}
+
+/* prompts */
+.prompts{background:var(--lab-ink);color:#eee;border-bottom:0}
+.prompts h2{color:#fff}
+.prompts .lead{color:#c9c9c9}
+details{border:1px solid rgba(255,255,255,.14);margin:12px 0;background:var(--lab-ink-2)}
+summary{cursor:pointer;padding:16px 20px;font-weight:500;list-style:none;display:flex;justify-content:space-between;gap:16px;align-items:center}
+summary::-webkit-details-marker{display:none}
+summary::after{content:"+";color:var(--lab-orange);font-size:22px;line-height:1}
+details[open] summary::after{content:"–"}
+summary .n{color:var(--lab-orange);margin-right:10px;font-weight:600}
+.pbody{padding:0 20px 20px}
+pre{white-space:pre-wrap;word-wrap:break-word;background:#1f1f1f;border-left:3px solid var(--lab-orange);padding:16px;margin:0;font:13px/1.6 ui-monospace,Consolas,monospace;color:#f0f0f0}
+.copy{margin-top:10px;background:transparent;border:1px solid var(--lab-orange);color:var(--lab-orange);padding:8px 14px;font:500 13px "Montserrat",sans-serif;cursor:pointer;min-height:40px}
+.copy:hover{background:var(--lab-orange);color:var(--lab-ink)}
+footer{background:var(--lab-ink);color:var(--lab-grey);padding:32px 0;font-size:13px;border-top:1px solid rgba(255,255,255,.1)}
+footer b{color:#fff;font-weight:500;letter-spacing:.16em}
+footer b i{font-style:normal;color:var(--lab-orange)}
+:focus-visible{outline:2px solid var(--lab-orange);outline-offset:3px}
+</style>
+</head>
+<body>
+
+<header class="cover">
+  <div class="wrap">
+    <div class="logo" aria-label="LAB by Host Up">
+      <svg viewBox="0 0 64 48" fill="none" stroke-width="2.6" aria-hidden="true"><path d="M2 46h20V30h20V4h18v24" stroke="#fff"/><path d="M60 28v18" stroke="#f0913c"/></svg>
+      <div><div class="lab">LAB</div><div class="by">by <b>HOST U<i>P</i></b></div></div>
+    </div>
+    <small>Informe de rediseño · Noviembre 2026</small>
+    <h1>Burano S.R.L.<br><strong>Landing one-page</strong></h1>
+    <p>Rediseño del sitio de Burano como una sola página, con la misma identidad: tipografías, rojo de marca y fotos reales de obra. Suma animaciones de texto, números crecientes, un recorrido de proyectos al scrollear y un navbar inspirado en Yodezeen. Al final hay un prompt por cambio, para aplicar solo los que se aprueben.</p>
+    <div class="links">
+      <a class="btn btn--fill" href="https://axelgonzalo06-debug.github.io/Burano-prototipo/">Ver el prototipo →</a>
+      <a class="btn btn--line" href="https://burano-web.vercel.app/">Sitio actual</a>
+      <a class="btn btn--line" href="#prompts">Ir a los prompts</a>
+    </div>
+    <dl class="meta">
+      <div><dt>Cliente</dt><dd>Burano S.R.L.</dd></div>
+      <div><dt>Tipo</dt><dd>Landing one-page</dd></div>
+      <div><dt>Referencias</dt><dd>Yodezeen, Powerhouse, BIG, Studio RHE, Fran Silvestre</dd></div>
+      <div><dt>Probado en</dt><dd>1440 · 1024 · 820 · 768 · 390 px</dd></div>
+    </dl>
+  </div>
+</header>
+
+<main>
+  <section>
+    <div class="wrap">
+      <h2><span class="n">00</span>Identidad que se mantiene</h2>
+      <p class="lead">No cambia la marca. Se toman los mismos tokens del sitio actual: Big Shoulders Display en los títulos, Hanken Grotesk en los textos, Archivo en el logo, esquinas rectas y el rojo Burano como único acento.</p>
+      <div class="palette">
+        <div class="sw"><i style="background:#e2231a"></i><span>Rojo Burano<br><code>#E2231A</code></span></div>
+        <div class="sw"><i style="background:#161616"></i><span>Tinta<br><code>#161616</code></span></div>
+        <div class="sw"><i style="background:#121212"></i><span>Fondo oscuro<br><code>#121212</code></span></div>
+        <div class="sw"><i style="background:#eeedea"></i><span>Fondo claro<br><code>#EEEDEA</code></span></div>
+        <div class="sw"><i style="background:#f7f6f3"></i><span>Superficie<br><code>#F7F6F3</code></span></div>
+        <div class="sw"><i style="background:#ff5247"></i><span>Rojo sobre oscuro<br><code>#FF5247</code></span></div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap">
+      <h2><span class="n">01</span>Hero</h2>
+      <p class="lead"><span class="tag">Corregido</span>Se quitaron los guiones rojos. El titular entra línea por línea al cargar, y las 4 portadas cambian cada 6 segundos con un contador y un botón de pausa.</p>
+      <div class="duo">
+        <figure class="shot"><img src="img/antes-hero.jpg" alt="Hero del sitio actual de Burano" loading="lazy"><figcaption>Antes: sitio actual</figcaption></figure>
+        <figure class="shot"><img src="img/hero.jpg" alt="Hero del prototipo sin guiones rojos" loading="lazy"><figcaption>Después: sin guiones, más aire</figcaption></figure>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap">
+      <h2><span class="n">02</span>Navbar estilo Yodezeen</h2>
+      <p class="lead">Lleva links a la izquierda, la marca al centro y, a la derecha, links y un botón píldora. Es transparente sobre el hero y toma fondo claro u oscuro según la sección. Cada link baja con scroll suave a su ancla y un punto rojo marca la sección actual. En el celular hay un menú a pantalla completa.</p>
+      <h3><span class="tag">Corregido</span>Hover de "Pedir presupuesto"</h3>
+      <p class="lead">Antes, el texto pasaba a rojo sobre el fondo rojo y desaparecía. Ahora el fondo pasa a rojo y el texto a blanco.</p>
+      <figure class="shot"><img src="img/nav-normal.jpg" alt="Navbar en estado normal" loading="lazy"><figcaption>Normal</figcaption></figure>
+      <figure class="shot" style="margin-top:12px"><img src="img/nav-hover.jpg" alt="Navbar con el botón Pedir presupuesto en hover, texto blanco sobre rojo" loading="lazy"><figcaption>Hover: texto blanco sobre rojo, legible</figcaption></figure>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap">
+      <h2><span class="n">03</span>Quiénes somos y números crecientes</h2>
+      <p class="lead">El párrafo se va oscureciendo palabra por palabra a medida que se lee. Las cuatro cifras suben desde cero al entrar en pantalla.</p>
+      <div class="duo">
+        <figure class="shot"><img src="img/contadores-mitad.jpg" alt="Cifras subiendo a mitad de animación" loading="lazy"><figcaption>Cifras a mitad de la animación</figcaption></figure>
+        <figure class="shot"><img src="img/estudio.jpg" alt="Cifras completas" loading="lazy"><figcaption>Cifras completas</figcaption></figure>
+      </div>
+      <h3><span class="tag">Corregido</span>Fotos del equipo</h3>
+      <p class="lead">Se sumaron los retratos de Carolina, Leandro y Marcelo Cantieri, tomados del sitio actual. Al pasar el mouse, la foto hace un zoom leve.</p>
+      <figure class="shot"><img src="img/equipo.jpg" alt="Tarjetas del equipo técnico con foto" loading="lazy"></figure>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap">
+      <h2><span class="n">04</span>Servicios</h2>
+      <p class="lead">Arquitectura, Construcción y Cálculo de estructuras quedan en tres columnas con los ítems del sitio actual. La foto se descubre al entrar en pantalla y la línea roja se completa al pasar el mouse.</p>
+      <figure class="shot"><img src="img/servicios.jpg" alt="Sección de servicios en tres columnas" loading="lazy"></figure>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap">
+      <h2><span class="n">05</span>Proyectos: scrollshow</h2>
+      <p class="lead">La sección queda fija mientras se scrollea, y la foto del siguiente proyecto tapa a la anterior de abajo hacia arriba. El texto nunca va sobre la foto: la ficha (número, categoría, nombre, ubicación, m² y fotos) tiene su propia columna, y un índice permite saltar a cualquier proyecto.</p>
+      <div class="trio">
+        <figure class="shot"><img src="img/proyectos-1.jpg" alt="Scrollshow, proyecto 1" loading="lazy"><figcaption>Proyecto 01</figcaption></figure>
+        <figure class="shot"><img src="img/proyectos-transicion.jpg" alt="Scrollshow, transición entre proyectos" loading="lazy"><figcaption>Transición: la foto sube</figcaption></figure>
+        <figure class="shot"><img src="img/proyectos-3.jpg" alt="Scrollshow, proyecto 3" loading="lazy"><figcaption>Proyecto 03</figcaption></figure>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap">
+      <h2><span class="n">06</span>Cálculo de estructuras y obras</h2>
+      <p class="lead">Las torres y edificios calculados, que antes estaban en una página aparte, ahora aparecen como lista con los m² creciendo y una barra roja proporcional a cada obra. Debajo, la galería de trabajos con zoom suave al pasar el mouse.</p>
+      <div class="duo">
+        <figure class="shot"><img src="img/calculo.jpg" alt="Lista de obras calculadas con barras" loading="lazy"></figure>
+        <figure class="shot"><img src="img/obras.jpg" alt="Galería de obras" loading="lazy"></figure>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap">
+      <h2><span class="n">07</span>Contacto</h2>
+      <p class="lead"><span class="tag">Corregido</span>Se muestra la dirección completa: Avenida Sarmiento N° 2504 /102, Montevideo. La misión entra palabra por palabra, al lado del formulario de presupuesto.</p>
+      <figure class="shot"><img src="img/contacto.jpg" alt="Sección de contacto con dirección completa" loading="lazy"></figure>
+      <p class="lead" style="margin-top:16px"><span class="tag tag--grey">Pendiente</span>El correo del prototipo es <code>contacto@burano.example</code>. Hay que reemplazarlo por el real antes de publicar.</p>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap">
+      <h2><span class="n">08</span>Responsive</h2>
+      <p class="lead">En el celular todo pasa a una columna y los botones ocupan el ancho completo. El scrollshow sigue funcionando: foto arriba, ficha abajo y barra de progreso. Si el dispositivo tiene activado "reducir movimiento", las animaciones pasan a fundidos suaves.</p>
+      <div class="phones">
+        <figure class="shot"><img src="img/m-hero.jpg" alt="Hero en celular" loading="lazy"></figure>
+        <figure class="shot"><img src="img/m-menu.jpg" alt="Menú a pantalla completa en celular" loading="lazy"></figure>
+        <figure class="shot"><img src="img/m-proyectos.jpg" alt="Scrollshow en celular" loading="lazy"></figure>
+        <figure class="shot"><img src="img/m-equipo.jpg" alt="Equipo en celular" loading="lazy"></figure>
+      </div>
+    </div>
+  </section>
+
+  <section class="prompts" id="prompts">
+    <div class="wrap">
+      <h2>Prompts para aplicar al sitio original</h2>
+      <p class="lead">Un prompt por cambio, independiente de los demás: se pueden saltear los que no se aprueben. Están pensados para pegarse en Claude Code dentro del repositorio del sitio actual (Next.js). Todos piden mantener las tipografías, los colores y los textos existentes.</p>
+      <div id="plist"></div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">Preparado por <b>LAB</b> · by <b>HOST U<i>P</i></b> · Prototipo: <a href="https://axelgonzalo06-debug.github.io/Burano-prototipo/">axelgonzalo06-debug.github.io/Burano-prototipo</a></div>
+</footer>
+
+<script>
+const BASE = `Contexto: sitio de Burano S.R.L. en Next.js. Mantené las fuentes actuales (Big Shoulders Display 800 en mayúsculas para títulos, Hanken Grotesk para texto, Archivo para el logo), los tokens de color (--bg #eeedea, --surface #f7f6f3, --ink #161616, --muted #5e5c58, --line #cfccc6, --accent #e2231a), radius 0 y los textos existentes. No inventes datos. Respetá prefers-reduced-motion: con movimiento reducido, cambiá desplazamientos por fundidos de opacidad, sin eliminar el contenido.`;
+const P = [
+["Convertir la home en landing one-page con anclas",
+`Convertí la home en una landing de una sola página con estas secciones y anclas, en orden: #inicio (hero), #estudio (quiénes somos, cifras y equipo), #servicios, #proyectos, #estructuras (cálculo de estructuras), #obras (galería de trabajos), #contacto. Traé el contenido de /empresa, /servicios, /obras y /proyectos como secciones resumidas y dejá esas páginas como "ver todo". Usá html{scroll-behavior:smooth}. Cada sección con un label "0N — Nombre" (número en rojo, línea de 48px y texto en mayúsculas de 13px, tracking .14em) y un h2 en Big Shoulders 800.`],
+["Navbar estilo Yodezeen con scroll a secciones",
+`Rehacé el header como navbar fijo de 76px en grilla de 3 columnas: a la izquierda Estudio, Servicios y Proyectos; al centro el isotipo y "BURANO" en Archivo 600 con tracking .32em; a la derecha Cálculo, Obras y un botón píldora "Pedir presupuesto +" (40px de alto, borde 1px, radio 999px). Links en Hanken 500 de 12px, mayúsculas, tracking .16em. Hover con "text roll": dos spans apilados dentro de un contenedor con overflow hidden; el segundo sube y queda en rojo. En el botón píldora, el segundo span hereda el color (color:inherit) y en hover el fondo pasa a #e2231a y el texto a #fff, para que nunca quede rojo sobre rojo. Comportamiento: transparente con texto blanco y logo claro sobre el hero; con fondo rgba(238,237,234,.94), blur y texto tinta sobre secciones claras; con fondo rgba(18,18,18,.92) sobre secciones oscuras (marcalas con data-tone="light|dark"). Un punto rojo de 5px a la izquierda del link marca la sección visible (IntersectionObserver o chequeo en scroll con requestAnimationFrame). Debajo de 1024px, logo a la izquierda y botón "Menú" con dos barras que forman una X; abre una hoja a pantalla completa con fondo #121212, links grandes numerados en Big Shoulders que entran escalonados, y al pie el botón "Pedir presupuesto" y la dirección. aria-expanded en el botón.`],
+["Hero sin guiones y con entrada animada",
+`En el hero de pantalla completa sacá los guiones rojos antes de "Ingeniería" y "Construcción". Dejá el h1 en tres líneas (Arquitectura / Ingeniería / Construcción) con clamp(52px,9.4vw,148px) y line-height .9. Animá la entrada una sola vez al cargar (cuando document.fonts.ready resuelve): cada línea en un contenedor con overflow hidden y padding-top .14em / margin-top -.14em para no cortar las tildes; el texto sube desde translateY(105%) en 1.1s con cubic-bezier(.22,1,.36,1) y 120ms de escalonado. El kicker "Burano S.R.L. · Montevideo · desde 2014" y los botones aparecen con fundido después. Mantené las 4 portadas con cambio cada 6s y un fundido de 1.4s, contador "01 / 04", barras de progreso clickeables y botón de pausa (aria-pressed).`],
+["Animaciones de texto e imágenes al scrollear",
+`Agregá revelados al entrar en pantalla con un IntersectionObserver (threshold .2), cada uno una sola vez: (1) los h2 marcados con .rv-lines se arman en líneas con overflow hidden y cada línea sube desde translateY(105%) en 1s, con 100ms de escalonado; (2) la línea del label se dibuja con scaleX de 0 a 1; (3) bloques .rv-up suben 24px con fundido en .9s; (4) las fotos .rv-img se descubren con clip-path de inset(0 0 100% 0) a inset(0) en 1.2s mientras la imagen pasa de scale(1.12) a 1. Sin parallax en textos. Con prefers-reduced-motion, solo fundidos de opacidad.`],
+["Quiénes somos: texto que se ilumina y números crecientes",
+`En #estudio, mostrá el párrafo de Quiénes somos en Hanken 400, clamp(24px,2.6vw,38px). Envolvé cada palabra en un span: arrancan en #85827c y pasan a tinta a medida que el párrafo atraviesa la pantalla (progreso calculado en scroll con requestAnimationFrame). Debajo, una fila de 4 cifras en Big Shoulders 800 (clamp(56px,6.4vw,104px)) con borde superior tinta y un tramo rojo de 40px: 2014 (sube desde 1990), +80.000 m², 10.000 m² y +10 años, con sus textos actuales. Al entrar en pantalla, cada cifra cuenta desde 0 en 1.8s con easing easeOutQuart y formato es-UY (separador de miles con punto). En celular: 2 columnas y cifras en clamp(40px,11.5vw,48px).`],
+["Equipo técnico con fotos",
+`Debajo de las cifras de #estudio, agregá 3 tarjetas del equipo (fondo #f7f6f3, sin radio) con la foto de cada uno arriba (las de /equipo/*.webp del sitio actual, aspect-ratio 4/3, object-fit cover, object-position center 28%), después el rol y año en rojo (13px, mayúsculas), el nombre en Big Shoulders 800 y una línea de experiencia tomada de /empresa. Hover: la tarjeta sube 2px con sombra suave y la foto hace zoom a 1.03. Alt descriptivo en cada foto. En celular, una columna.`],
+["Servicios en tres columnas",
+`En #servicios, poné encabezado con h2 "Del plano a la obra con un solo equipo" y una bajada a la derecha. Debajo, una foto de obra 21:8 con revelado al entrar, y tres columnas: 01 Arquitectura, 02 Construcción y 03 Cálculo de estructuras, cada una con su lista del sitio actual (ítems de 16px separados por línea de 1px). Al pie, "Asesoramiento inicial sin costo", "Presupuestos sin costo" y un link a #estructuras. Cada columna tiene borde superior con una línea roja que crece de 12% a 100% al pasar el mouse. En tablet y celular, una sola columna.`],
+["Scrollshow de proyectos (legibilidad primero)",
+`Creá #proyectos sobre fondo #121212 como recorrido fijado: un contenedor de alto calculado por JS, innerHeight*(1+(N-1)*0.8+0.35), con un hijo position:sticky de 100svh. En desktop, grilla de 12 columnas: columna 1-4 con label, contador grande "01 / 05", panel del proyecto activo (categoría en #ff5247, nombre en Big Shoulders, dl con Ubicación, Superficie o Tipo y Registro, link "Ver proyecto →") e índice de los 5 proyectos con una línea roja de progreso; columna 5-12 con el marco de fotos. Cada foto siguiente se apila y se descubre con clip-path de inset(100% 0 0 0) a inset(0), usando el 55% de su tramo de scroll (el resto queda quieta), con la imagen pasando de scale 1.08 a 1. El texto nunca va sobre la foto. Al cambiar de proyecto, el panel cambia con fundido y 18px de desplazamiento. El índice es clickeable y scrollea al tramo de ese proyecto. Proyectos: Vivienda San Francisco, Vivienda Jacarandá, Silos Puntas de Valdez, Hotel HEA Windham, Oficinas WeWork Uruguay. Debajo de 1024px: foto arriba, ficha abajo con los datos en 3 columnas y una barra de 5 segmentos. Con movimiento reducido, cambiar el clip por fundido de opacidad. Con menos de 520px de alto, mostrar una grilla estática.`],
+["Cálculo de estructuras con barras",
+`Creá #estructuras con h2 "Torres y edificios que calculamos". A la izquierda, la cifra +80.000 m² que sube al entrar en pantalla; a la derecha, una lista con las obras de /servicios: Torre Botavara 12.300, Vista Brava 9.200, Vista Carretas 4.000, M28 3.600, Tango Jardín 2.000, Edificio Piriápolis 1.000 y Ampliación ANCAP 750. Cada fila lleva el nombre en Big Shoulders, la ciudad, los m² que suben y una barra roja de 2px con ancho proporcional a la obra mayor, que se dibuja con scaleX en 1.4s al entrar. Hover: la fila se corre 12px. En tablet y celular, todo apilado.`],
+["Galería de obras con hover",
+`En #obras, mostrá 6 trabajos de /obras en grilla de 3 columnas (2 en tablet, 1 en celular): foto 4:3 con revelado al entrar, nombre en Big Shoulders con subrayado que se dibuja en hover, y la zona a la derecha. Hover en la tarjeta: sube 2px y la foto hace zoom a 1.03. Al pie, link "Ver las 16 obras →" a /obras.`],
+["Contacto con dirección completa y misión animada",
+`Creá #contacto sobre fondo #121212 con una foto de obra en escala de grises al 22% de opacidad detrás. Arriba, la misión en Big Shoulders 800 (clamp(36px,4.6vw,72px)), con la palabra "cordial" en rojo; cada palabra sube con 28ms de escalonado al entrar en pantalla. Debajo, dos columnas: datos (Oficina: "Avenida Sarmiento N° 2504 /102, Montevideo"; Correo: contacto@burano.com.uy; Redes: Facebook) y un formulario con Nombre, Correo, Tipo de trabajo (select) y "Contanos tu obra", con labels visibles, campos de 48px con línea inferior que pasa a roja al enfocar, y el botón "Pedir presupuesto". Al pie: "Asesoramiento inicial y presupuesto sin costo."`],
+["Revisión responsive y accesibilidad",
+`Revisá la landing en 1440, 1024, 820, 768, 390 y 320 px: sin scroll horizontal, gutter de 80/48/24 px, grilla de 12 columnas que pasa a 1 en celular, botones a ancho completo debajo de 640px, objetivos táctiles de al menos 44px y foco visible (outline de 2px rojo). Verificá contraste: texto sobre oscuro en #f4f3f0, rojo sobre oscuro en #ff5247. Agregá un parámetro ?motion=full que fuerce las animaciones completas aunque el sistema tenga "reducir movimiento", solo para revisar.`]
+];
+const list=document.getElementById('plist');
+P.forEach(([t,body],i)=>{
+  const d=document.createElement('details');
+  const n=String(i+1).padStart(2,'0');
+  d.innerHTML='<summary><span><span class="n">'+n+'</span></span></summary><div class="pbody"><pre></pre><button class="copy" type="button">Copiar prompt</button></div>';
+  d.querySelector('summary span span').after(document.createTextNode(t));
+  const full=body+'\n\n'+BASE;
+  d.querySelector('pre').textContent=full;
+  d.querySelector('.copy').addEventListener('click',e=>{navigator.clipboard.writeText(full).then(()=>{e.target.textContent='Copiado';setTimeout(()=>e.target.textContent='Copiar prompt',1500)})});
+  list.append(d);
+});
+</script>
+</body>
+</html>
