@@ -28,7 +28,13 @@ export const viewport: Viewport = { width: 'device-width', initialScale: 1, view
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="es-UY" className={`${titulos.variable} ${texto.variable} ${logo.variable}`} style={{ ['--f-display' as string]: 'var(--f-titulos)', ['--f-body' as string]: 'var(--f-texto)' }}>
-      <body>{children}<Analytics /></body>
+      <body>
+        {/* Antes de dibujar: habilita los estados iniciales de las animaciones (sin JS todo queda visible)
+            y ?motion=full fuerza las animaciones aunque el sistema pida movimiento reducido. */}
+        <script dangerouslySetInnerHTML={{ __html: "document.documentElement.classList.add('rv');if(/[?&]motion=full\\b/.test(location.search))document.documentElement.classList.add('motion-full')" }} />
+        {children}
+        <Analytics />
+      </body>
     </html>
   );
 }

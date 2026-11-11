@@ -1,5 +1,6 @@
 import Cabecera from '@/components/Cabecera';
 import Pie from '@/components/Pie';
+import Revelar from '@/components/Revelar';
 import { getAjustes } from '@/lib/ajustes';
 
 export const revalidate = 60;
@@ -32,6 +33,7 @@ export default async function SitioLayout({ children }: { children: React.ReactN
       <Cabecera />
       <main id="contenido">{children}</main>
       <Pie />
+      <Revelar />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(org) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(sitio) }} />
     </>

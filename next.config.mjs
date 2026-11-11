@@ -1,5 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  // Momento del build: el pie muestra la fecha y hora de la versión publicada.
+  env: { FECHA_VERSION: new Date().toISOString() },
   images: {
     remotePatterns: [{ protocol: 'https', hostname: '*.public.blob.vercel-storage.com' }],
     formats: ['image/avif', 'image/webp'],

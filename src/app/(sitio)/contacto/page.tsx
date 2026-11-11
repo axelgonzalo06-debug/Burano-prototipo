@@ -23,7 +23,7 @@ export default async function Contacto() {
             <span>Tel.: <a href={`tel:+598${a.telefono.replace(/\D/g, '')}`}>{a.telefono}</a></span>
             <span><a href={`mailto:${a.email}`}>{a.email}</a></span>
           </address>
-          <p className="mapa"><a href={mapa} target="_blank" rel="noopener">Ver en el mapa ↗</a></p>
+          <p className="mapa"><a href={mapa} target="_blank" rel="noopener">Ver en el mapa →</a></p>
         </div>
         <div><FormContacto whatsapp={a.whatsapp} /></div>
       </div>

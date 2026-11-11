@@ -95,7 +95,7 @@ export default async function Ficha({ slug, base }: { slug: string; base: 'obras
               </div>
             )}
             {p.lat && p.lng && (
-              <p className="mapa"><a href={`https://www.google.com/maps?q=${p.lat},${p.lng}`} target="_blank" rel="noopener">Ver ubicación en el mapa ↗</a></p>
+              <p className="mapa"><a href={`https://www.google.com/maps?q=${p.lat},${p.lng}`} target="_blank" rel="noopener">Ver ubicación en el mapa →</a></p>
             )}
             <div className="btns" style={{ marginTop: 28 }}>
               <a className="btn primario" href="#consulta">Consultar por una obra similar</a>

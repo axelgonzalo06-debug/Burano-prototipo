@@ -3,7 +3,7 @@ import { useState } from 'react';
 import { useFormState, useFormStatus } from 'react-dom';
 import { enviarConsulta, type EstadoForm } from '@/app/(sitio)/contacto/acciones';
 
-const TEMAS = [
+export const TEMAS = [
   ['Proyecto de arquitectura', 'Proyecto de arquitectura'],
   ['Reforma', 'Reforma y reciclaje'],
   ['Azotea', 'Impermeabilización de azotea'],

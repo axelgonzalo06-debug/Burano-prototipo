@@ -1,7 +1,22 @@
 // Cada cambio publicado sube APP_VERSION y suma una entrada arriba de todo en HISTORIAL (y en CHANGELOG.md).
-export const APP_VERSION = '0.3.0';
+export const APP_VERSION = '0.4.0';
 
 export const HISTORIAL: { version: string; fecha: string; cambios: string[] }[] = [
+  {
+    version: '0.4.0',
+    fecha: '2026-11-11',
+    cambios: [
+      'Inicio en una sola página con anclas: Estudio, Servicios, Proyectos, Cálculo de estructuras, Obras y Contacto. Las páginas de cada sección quedan como "ver todo".',
+      'Cabecera fija nueva: links a los costados, la marca al centro y el botón "Pedir presupuesto". Cambia de tono según la sección y marca con un punto rojo dónde estás.',
+      'Portada sin las rayas rojas, con el título que entra animado y barras de progreso en las fotos (cambian cada 6 segundos).',
+      'Animaciones al scrollear: títulos que suben línea por línea, fotos que se descubren y cifras que cuentan solas. Con movimiento reducido quedan solo fundidos.',
+      'Equipo con foto en la portada, servicios en tres columnas, recorrido fijado de 5 proyectos, barras de los trabajos de cálculo y galería de 6 obras.',
+      'Contacto con la misión, la dirección completa y un formulario corto de presupuesto.',
+      'Menú del celular: el botón "Cerrar" ya no queda tapado en iPhone.',
+      'Se sacaron las flechas que el iPhone mostraba como emoji (la de "Contacto" en el pie y las de los links).',
+      'El pie muestra la versión con fecha y hora, y el crédito de desarrollo de LAB.',
+    ],
+  },
   {
     version: '0.3.0',
     fecha: '2026-11-08',

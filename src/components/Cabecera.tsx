@@ -1,6 +1,5 @@
-import Link from 'next/link';
 import { db } from '@/lib/db';
-import { getAjustes, waLink } from '@/lib/ajustes';
+import { getAjustes } from '@/lib/ajustes';
 import MenuMovil from './MenuMovil';
 
 export const MENU_BASE = [
@@ -16,6 +15,7 @@ export const MENU_BASE = [
   { texto: 'Contacto', href: '/contacto' },
 ];
 
+// El menú editable del admin sigue alimentando el pie; la cabecera apunta a las secciones de la home.
 export async function menu() {
   const items = await db.itemMenu.findMany({ where: { activo: true }, orderBy: { orden: 'asc' } }).catch(() => []);
   if (!items.length) return MENU_BASE;
@@ -23,36 +23,17 @@ export async function menu() {
   return raiz.map((r) => ({ texto: r.texto, href: r.href, hijos: items.filter((h) => h.padre === r.id).map((h) => ({ texto: h.texto, href: h.href })) }));
 }
 
+export const ANCLAS_IZQ = [
+  { texto: 'Estudio', id: 'estudio' },
+  { texto: 'Servicios', id: 'servicios' },
+  { texto: 'Proyectos', id: 'proyectos' },
+];
+export const ANCLAS_DER = [
+  { texto: 'Cálculo', id: 'estructuras' },
+  { texto: 'Obras', id: 'obras' },
+];
+
 export default async function Cabecera() {
-  const [items, a] = await Promise.all([menu(), getAjustes()]);
-  return (
-    <header className="cab">
-      <a className="saltar" href="#contenido">Saltar al contenido</a>
-      <div className="wrap">
-        <Link className="logo" href="/" aria-label="Burano, inicio">
-          <img src="/isotipo.png" alt="" width={56} height={40} />
-          <span>
-            <b>Burano</b>
-            <small>{a.lema}</small>
-          </span>
-        </Link>
-        <MenuMovil contacto={{ telefono: a.telefono, email: a.email, direccion: a.direccion, wa: waLink(a.whatsapp, 'Hola, quisiera hacer una consulta.') || '', facebook: a.facebook }}>
-          <ul className="menu">
-            {items.map((i) => (
-              <li key={i.href + i.texto}>
-                <Link href={i.href}>{i.texto}</Link>
-                {i.hijos && i.hijos.length > 0 && (
-                  <ul>
-                    {i.hijos.map((h) => (
-                      <li key={h.href}><Link href={h.href}>{h.texto}</Link></li>
-                    ))}
-                  </ul>
-                )}
-              </li>
-            ))}
-          </ul>
-        </MenuMovil>
-      </div>
-    </header>
-  );
+  const a = await getAjustes();
+  return <MenuMovil izq={ANCLAS_IZQ} der={ANCLAS_DER} direccion={`${a.direccion}, Montevideo`} />;
 }
