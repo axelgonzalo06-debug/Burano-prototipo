@@ -245,8 +245,8 @@ textarea.campo { min-height: 130px; resize: vertical; }
 .pie-base a { display: inline-block; padding-block: 6px; }
 .pie-firma { display: flex; justify-content: space-between; align-items: center; gap: 8px 24px; flex-wrap: wrap; margin-top: 14px; font-size: 12px; letter-spacing: 0.08em; color: #6f6d68; }
 .pie-version { font-variant-numeric: tabular-nums; }
-.pie-lab { display: inline-flex; align-items: center; gap: 8px; text-transform: uppercase; letter-spacing: 0.14em; }
-.pie-lab b { color: #d9d7d2; font: 600 13px/1 var(--f-logo), Arial, sans-serif; font-stretch: 125%; letter-spacing: 0.32em; }
+.pie-lab { display: inline-flex; align-items: center; gap: 12px; text-transform: uppercase; letter-spacing: 0.14em; }
+.pie-lab img { width: 30px; height: auto; }
 .migas a { display: inline-block; padding-block: 6px; }
 .wa-flot { position: fixed; right: max(18px, env(safe-area-inset-right, 0px)); bottom: calc(18px + env(safe-area-inset-bottom, 0px)); z-index: 40; width: 56px; height: 56px; border-radius: 50%; background: #1faf54; color: #fff; display: grid; place-items: center; box-shadow: 0 6px 24px rgba(0, 0, 0, 0.25); }
 .wa-flot svg { width: 28px; height: 28px; }

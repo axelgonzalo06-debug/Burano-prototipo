@@ -51,8 +51,8 @@ export default async function Pie() {
           </div>
           <div className="pie-firma">
             <span className="pie-version">v{APP_VERSION} · {fechaVersion()}</span>
-            {/* Cuando esté el logo de LAB, va en public/lab.svg y reemplaza la palabra */}
-            <span className="pie-lab">Desarrollo <b>LAB</b></span>
+            {/* Logo de LAB recortado del perfil de WhatsApp de HOSTUP (no hay versión vectorial) */}
+            <span className="pie-lab">Desarrollo <img src="/lab.png" alt="LAB" width={30} height={35} /></span>
           </div>
         </div>
       </footer>

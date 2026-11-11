@@ -1,5 +1,9 @@
 # Historial de cambios
 
+## 0.4.1 — 2026-11-11
+
+- En el pie, el crédito de desarrollo lleva el logo de LAB.
+
 ## 0.4.0 — 2026-11-11
 
 - Inicio en una sola página con anclas: Estudio, Servicios, Proyectos, Cálculo de estructuras, Obras y Contacto. Las páginas de cada sección quedan como "ver todo".
