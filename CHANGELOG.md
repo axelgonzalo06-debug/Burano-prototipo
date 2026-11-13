@@ -1,5 +1,9 @@
 # Historial de cambios
 
+## 0.4.4 — 2026-11-13
+
+- Retratos del equipo encuadrados iguales: los ojos a la misma altura y las caras del mismo tamaño (solo recorte, sin agregar nada).
+
 ## 0.4.3 — 2026-11-13
 
 - La cabecera toma fondo oscuro apenas se empieza a bajar, para que el título de la portada no quede por debajo de los links.

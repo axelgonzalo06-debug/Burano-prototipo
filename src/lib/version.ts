@@ -1,7 +1,12 @@
 // Cada cambio publicado sube APP_VERSION y suma una entrada arriba de todo en HISTORIAL (y en CHANGELOG.md).
-export const APP_VERSION = '0.4.3';
+export const APP_VERSION = '0.4.4';
 
 export const HISTORIAL: { version: string; fecha: string; cambios: string[] }[] = [
+  {
+    version: '0.4.4',
+    fecha: '2026-11-13',
+    cambios: ['Retratos del equipo encuadrados iguales: los ojos a la misma altura y las caras del mismo tamaño (solo recorte, sin agregar nada).'],
+  },
   {
     version: '0.4.3',
     fecha: '2026-11-13',
