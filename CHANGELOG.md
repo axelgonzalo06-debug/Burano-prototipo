@@ -1,5 +1,9 @@
 # Historial de cambios
 
+## 0.4.6 — 2026-11-13
+
+- Retratos del equipo con las cabezas del mismo tamaño (antes Carolina se veía más grande).
+
 ## 0.4.5 — 2026-11-13
 
 - Se sacó del pie el texto heredado de Wix «© 2018 Burano srl | Diseño web Datatex».
