@@ -1,5 +1,9 @@
 # Historial de cambios
 
+## 0.4.3 — 2026-11-13
+
+- La cabecera toma fondo oscuro apenas se empieza a bajar, para que el título de la portada no quede por debajo de los links.
+
 ## 0.4.2 — 2026-11-13
 
 - Fotos del equipo en el inicio en formato vertical, con la cara completa (antes se cortaba la cabeza).

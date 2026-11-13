@@ -42,7 +42,8 @@ export default function MenuMovil({ izq, der, direccion }: { izq: Ancla[]; der: 
         const r = el.getBoundingClientRect();
         if (r.top <= 38 && r.bottom > 38) t = el.dataset.tone!;
       }
-      setTono(t);
+      // Transparente solo arriba de todo: al bajar, el título de la portada pasaría por debajo de los links.
+      setTono(t === 'hero' && scrollY > 8 ? 'dark' : t);
       const linea = innerHeight * 0.4;
       let v = '';
       for (const id of ids) {
