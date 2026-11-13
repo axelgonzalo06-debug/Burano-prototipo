@@ -1,5 +1,9 @@
 # Historial de cambios
 
+## 0.4.8 — 2026-11-13
+
+- Proyectos: la foto y la ficha cambian solo al tocar cada proyecto de la lista; el scroll ya no las pasa.
+
 ## 0.4.7 — 2026-11-13
 
 - Retratos del equipo con el mismo aire sobre la cabeza y el mismo tamaño de cabeza en los tres.

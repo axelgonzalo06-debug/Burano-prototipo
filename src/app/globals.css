@@ -442,17 +442,17 @@ html.rv .rv-img.visto .rv-img-in img { transform: none; transition: transform 1.
 .oscura { background: var(--oscuro); color: var(--tinta-osc); }
 .oscura a:hover { color: var(--rojo-osc); }
 
-/* 03 · Proyectos: recorrido fijado */
-#proyectos { padding-top: clamp(64px, 8vw, 110px); }
+/* 03 · Proyectos: el proyecto cambia solo al tocarlo en el índice (no con el scroll) */
+#proyectos { padding-top: clamp(64px, 8vw, 110px); padding-bottom: clamp(64px, 8vw, 110px); }
 .cab-fila { display: flex; justify-content: space-between; align-items: end; gap: 20px; flex-wrap: wrap; }
 .reco-cab { padding-bottom: clamp(24px, 3vw, 40px); }
-.reco-fijo { position: sticky; top: 0; height: 100svh; display: grid; grid-template-columns: repeat(12, minmax(0, 1fr)); gap: 0 28px; padding: calc(var(--nav) + 28px) var(--gutter-r) 40px var(--gutter); max-width: calc(var(--max) + 0px); margin-inline: auto; }
+.reco-fijo { display: grid; grid-template-columns: repeat(12, minmax(0, 1fr)); gap: 0 28px; height: clamp(560px, 72vh, 760px); padding: 0 var(--gutter-r) 0 var(--gutter); max-width: var(--max); margin-inline: auto; }
 .reco-info { grid-column: 1 / 5; display: flex; flex-direction: column; justify-content: space-between; gap: 24px; min-height: 0; }
 .reco-cuenta { font: 800 22px/1 var(--f-display), Arial, sans-serif; letter-spacing: 0.04em; }
 .reco-cuenta i { font-style: normal; color: #77746e; }
-.reco-paneles { position: relative; flex: 1; min-height: 220px; }
-.reco-panel { position: absolute; inset: 0; display: flex; flex-direction: column; justify-content: center; gap: 14px; opacity: 0; visibility: hidden; transition: opacity 0.6s var(--ease), visibility 0s 0.6s; }
-.reco-panel.on { opacity: 1; visibility: visible; transition: opacity 0.6s var(--ease) 0.1s; }
+.reco-paneles { position: relative; flex: 1; min-height: 240px; }
+.reco-panel { position: absolute; inset: 0; display: flex; flex-direction: column; justify-content: center; gap: 14px; opacity: 0; visibility: hidden; transition: opacity 0.5s var(--ease), visibility 0s 0.5s; }
+.reco-panel.on { opacity: 1; visibility: visible; transition: opacity 0.6s var(--ease) 0.15s; }
 .reco-cat { font-size: 12px; font-weight: 600; letter-spacing: 0.14em; text-transform: uppercase; color: var(--rojo-osc); }
 .reco-panel h3 { font-size: clamp(36px, 3.6vw, 58px); }
 .reco-panel dl { display: grid; gap: 10px; margin: 6px 0 0; font-size: 15px; }
@@ -461,39 +461,32 @@ html.rv .rv-img.visto .rv-img-in img { transform: none; transition: transform 1.
 .reco-panel dd { margin: 0; }
 .reco-ver { align-self: flex-start; display: inline-flex; align-items: center; min-height: 44px; font-size: 13px; font-weight: 600; letter-spacing: 0.12em; text-transform: uppercase; text-decoration: none; border-bottom: 1px solid currentColor; }
 .reco-indice { list-style: none; margin: 0; padding: 0; display: grid; }
-.reco-indice button { all: unset; cursor: pointer; position: relative; display: flex; gap: 14px; align-items: center; width: 100%; min-height: 44px; font-size: 13px; letter-spacing: 0.06em; text-transform: uppercase; color: #8d8a83; border-top: 1px solid #2c2b29; transition: color 0.3s; }
+.reco-indice button { all: unset; cursor: pointer; position: relative; display: flex; gap: 14px; align-items: center; width: 100%; min-height: 48px; font-size: 13px; letter-spacing: 0.06em; text-transform: uppercase; color: #8d8a83; border-top: 1px solid #2c2b29; transition: color 0.3s; }
 .reco-indice button small { font-size: 11px; color: #5f5c57; }
 .reco-indice button.on, .reco-indice button:hover { color: var(--tinta-osc); }
 .reco-indice button.on small { color: var(--rojo-osc); }
 .reco-indice button:focus-visible { outline: 2px solid var(--rojo-osc); outline-offset: 2px; }
-.reco-indice i { position: absolute; left: 0; right: 0; top: -1px; height: 1px; background: var(--rojo-osc); transform: scaleX(0); transform-origin: left; }
+.reco-indice i { position: absolute; left: 0; right: 0; top: -1px; height: 1px; background: var(--rojo-osc); transform: scaleX(0); transform-origin: left; transition: transform 0.6s var(--ease); }
+.reco-indice button.on i { transform: none; }
 .reco-marco { grid-column: 5 / 13; position: relative; overflow: hidden; background: #1d1d1d; min-height: 0; }
-.reco-foto { position: absolute; inset: 0; will-change: clip-path; }
+/* La foto que entra se descubre de abajo hacia arriba por encima de la anterior */
+.reco-foto { position: absolute; inset: 0; z-index: 0; clip-path: inset(100% 0 0 0); transition: clip-path 0.9s var(--ease); }
+.reco-foto.on { z-index: 1; clip-path: inset(0); }
 .reco-foto img { object-fit: cover; }
-.reco-segmentos { display: none; }
-.reco-estatico { display: none; }
 @media (max-width: 1023px) {
-  .reco-fijo { grid-template-columns: 1fr; grid-template-rows: minmax(0, 1fr) auto auto; gap: 18px; padding-bottom: 24px; }
-  .reco-marco { grid-column: 1; grid-row: 1; }
-  .reco-segmentos { grid-row: 2; display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 6px; }
-  .reco-segmentos span { position: relative; height: 2px; background: #3a3936; overflow: hidden; }
-  .reco-segmentos i { position: absolute; inset: 0; background: var(--rojo-osc); transform: scaleX(0); transform-origin: left; }
-  .reco-info { grid-column: 1; grid-row: 3; }
-  .reco-cuenta, .reco-indice { display: none; }
-  .reco-paneles { min-height: 240px; flex: none; }
+  .reco-fijo { grid-template-columns: 1fr; height: auto; gap: 20px; }
+  .reco-marco { grid-column: 1; grid-row: 1; aspect-ratio: 4 / 3; }
+  .reco-info { grid-column: 1; grid-row: 2; gap: 18px; }
+  .reco-cuenta { display: none; }
+  .reco-paneles { min-height: 272px; flex: none; }
   .reco-panel { justify-content: flex-start; gap: 10px; }
   .reco-panel h3 { font-size: clamp(30px, 8vw, 44px); }
   .reco-panel dl { font-size: 14px; gap: 6px; }
   .reco-panel dl div { padding-top: 6px; grid-template-columns: 96px minmax(0, 1fr); }
 }
-/* Con menos de 520 px de alto no hay lugar para fijar nada: grilla quieta */
-@media (max-height: 519px) {
-  .reco { display: none; }
-  .reco-estatico { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 28px 20px; padding: 0 var(--gutter-r) 64px var(--gutter); max-width: var(--max); margin-inline: auto; }
-  .reco-ficha { display: grid; gap: 8px; text-decoration: none; }
-  .reco-ficha .ph { position: relative; aspect-ratio: 4 / 3; overflow: hidden; }
-  .reco-ficha .ph img { object-fit: cover; }
-  .reco-ficha h3 { font-size: 26px; }
+@media (prefers-reduced-motion: reduce) {
+  html:not(.motion-full) .reco-foto { clip-path: none; opacity: 0; }
+  html:not(.motion-full) .reco-foto.on { opacity: 1; }
 }
 
 /* 04 · Cálculo de estructuras */

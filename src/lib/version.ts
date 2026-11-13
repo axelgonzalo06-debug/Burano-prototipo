@@ -1,7 +1,12 @@
 // Cada cambio publicado sube APP_VERSION y suma una entrada arriba de todo en HISTORIAL (y en CHANGELOG.md).
-export const APP_VERSION = '0.4.7';
+export const APP_VERSION = '0.4.8';
 
 export const HISTORIAL: { version: string; fecha: string; cambios: string[] }[] = [
+  {
+    version: '0.4.8',
+    fecha: '2026-11-13',
+    cambios: ['Proyectos: la foto y la ficha cambian solo al tocar cada proyecto de la lista; el scroll ya no las pasa.'],
+  },
   {
     version: '0.4.7',
     fecha: '2026-11-13',
