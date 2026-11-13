@@ -446,12 +446,13 @@ html.rv .rv-img.visto .rv-img-in img { transform: none; transition: transform 1.
 #proyectos { padding-top: clamp(64px, 8vw, 110px); padding-bottom: clamp(64px, 8vw, 110px); }
 .cab-fila { display: flex; justify-content: space-between; align-items: end; gap: 20px; flex-wrap: wrap; }
 .reco-cab { padding-bottom: clamp(24px, 3vw, 40px); }
-.reco-fijo { display: grid; grid-template-columns: repeat(12, minmax(0, 1fr)); gap: 0 28px; height: clamp(560px, 72vh, 760px); padding: 0 var(--gutter-r) 0 var(--gutter); max-width: var(--max); margin-inline: auto; }
-.reco-info { grid-column: 1 / 5; display: flex; flex-direction: column; justify-content: space-between; gap: 24px; min-height: 0; }
+.reco-fijo { display: grid; grid-template-columns: repeat(12, minmax(0, 1fr)); gap: 0 28px; align-items: stretch; padding: 0 var(--gutter-r) 0 var(--gutter); max-width: var(--max); margin-inline: auto; }
+.reco-info { grid-column: 1 / 5; display: flex; flex-direction: column; justify-content: space-between; gap: 28px; }
 .reco-cuenta { font: 800 22px/1 var(--f-display), Arial, sans-serif; letter-spacing: 0.04em; }
 .reco-cuenta i { font-style: normal; color: #77746e; }
-.reco-paneles { position: relative; flex: 1; min-height: 240px; }
-.reco-panel { position: absolute; inset: 0; display: flex; flex-direction: column; justify-content: center; gap: 14px; opacity: 0; visibility: hidden; transition: opacity 0.5s var(--ease), visibility 0s 0.5s; }
+/* Las fichas se apilan en la misma celda: el bloque mide lo que la más alta y nunca se monta sobre la lista */
+.reco-paneles { display: grid; align-items: center; flex: 1; }
+.reco-panel { grid-area: 1 / 1; display: flex; flex-direction: column; justify-content: center; gap: 14px; opacity: 0; visibility: hidden; transition: opacity 0.5s var(--ease), visibility 0s 0.5s; }
 .reco-panel.on { opacity: 1; visibility: visible; transition: opacity 0.6s var(--ease) 0.15s; }
 .reco-cat { font-size: 12px; font-weight: 600; letter-spacing: 0.14em; text-transform: uppercase; color: var(--rojo-osc); }
 .reco-panel h3 { font-size: clamp(36px, 3.6vw, 58px); }
@@ -468,17 +469,17 @@ html.rv .rv-img.visto .rv-img-in img { transform: none; transition: transform 1.
 .reco-indice button:focus-visible { outline: 2px solid var(--rojo-osc); outline-offset: 2px; }
 .reco-indice i { position: absolute; left: 0; right: 0; top: -1px; height: 1px; background: var(--rojo-osc); transform: scaleX(0); transform-origin: left; transition: transform 0.6s var(--ease); }
 .reco-indice button.on i { transform: none; }
-.reco-marco { grid-column: 5 / 13; position: relative; overflow: hidden; background: #1d1d1d; min-height: 0; }
+.reco-marco { grid-column: 5 / 13; position: relative; overflow: hidden; background: #1d1d1d; min-height: clamp(460px, 64vh, 700px); }
 /* La foto que entra se descubre de abajo hacia arriba por encima de la anterior */
 .reco-foto { position: absolute; inset: 0; z-index: 0; clip-path: inset(100% 0 0 0); transition: clip-path 0.9s var(--ease); }
 .reco-foto.on { z-index: 1; clip-path: inset(0); }
 .reco-foto img { object-fit: cover; }
 @media (max-width: 1023px) {
   .reco-fijo { grid-template-columns: 1fr; height: auto; gap: 20px; }
-  .reco-marco { grid-column: 1; grid-row: 1; aspect-ratio: 4 / 3; }
+  .reco-marco { grid-column: 1; grid-row: 1; aspect-ratio: 4 / 3; min-height: 0; }
   .reco-info { grid-column: 1; grid-row: 2; gap: 18px; }
   .reco-cuenta { display: none; }
-  .reco-paneles { min-height: 272px; flex: none; }
+  .reco-paneles { flex: none; align-items: start; }
   .reco-panel { justify-content: flex-start; gap: 10px; }
   .reco-panel h3 { font-size: clamp(30px, 8vw, 44px); }
   .reco-panel dl { font-size: 14px; gap: 6px; }

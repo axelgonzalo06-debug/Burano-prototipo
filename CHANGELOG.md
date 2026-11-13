@@ -1,5 +1,9 @@
 # Historial de cambios
 
+## 0.4.9 — 2026-11-13
+
+- Proyectos: la ficha ya no se monta sobre la lista ni el contador en pantallas de notebook; la foto acompaña el alto de la ficha.
+
 ## 0.4.8 — 2026-11-13
 
 - Proyectos: la foto y la ficha cambian solo al tocar cada proyecto de la lista; el scroll ya no las pasa.
