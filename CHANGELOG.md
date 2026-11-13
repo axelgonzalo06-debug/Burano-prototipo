@@ -1,5 +1,9 @@
 # Historial de cambios
 
+## 0.4.2 — 2026-11-13
+
+- Fotos del equipo en el inicio en formato vertical, con la cara completa (antes se cortaba la cabeza).
+
 ## 0.4.1 — 2026-11-11
 
 - En el pie, el crédito de desarrollo lleva el logo de LAB.

@@ -408,8 +408,9 @@ html.rv .rv-img.visto .rv-img-in img { transform: none; transition: transform 1.
 .equipo { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 24px; margin-top: clamp(56px, 7vw, 100px); }
 .miembro { background: var(--surface); transition: transform 0.5s var(--ease), opacity 1s var(--ease); }
 .miembro:hover { transform: translateY(-2px); }
-.miembro-foto { position: relative; aspect-ratio: 4 / 3; overflow: hidden; background: #e2e0dc; }
-.miembro-foto img { object-fit: cover; object-position: center 28%; transition: transform 0.8s var(--ease); }
+/* Mismo formato que los retratos (4:5): la cara entera, con aire arriba y los hombros */
+.miembro-foto { position: relative; aspect-ratio: 4 / 5; overflow: hidden; background: #e2e0dc; }
+.miembro-foto img { object-fit: cover; object-position: center top; transition: transform 0.8s var(--ease); }
 .miembro:hover .miembro-foto img { transform: scale(1.03); }
 .miembro-txt { padding: 20px 22px 24px; }
 .miembro-rol { font-size: 12px; font-weight: 600; letter-spacing: 0.12em; text-transform: uppercase; color: var(--muted); }
