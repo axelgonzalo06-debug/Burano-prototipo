@@ -1,7 +1,12 @@
 // Cada cambio publicado sube APP_VERSION y suma una entrada arriba de todo en HISTORIAL (y en CHANGELOG.md).
-export const APP_VERSION = '0.4.4';
+export const APP_VERSION = '0.4.5';
 
 export const HISTORIAL: { version: string; fecha: string; cambios: string[] }[] = [
+  {
+    version: '0.4.5',
+    fecha: '2026-11-13',
+    cambios: ['Se sacó del pie el texto heredado de Wix «© 2018 Burano srl | Diseño web Datatex».'],
+  },
   {
     version: '0.4.4',
     fecha: '2026-11-13',

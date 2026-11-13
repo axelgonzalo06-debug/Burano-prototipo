@@ -25,7 +25,7 @@ export const AJUSTES_BASE = {
   facebook: 'https://www.facebook.com/BuranoSRL/',
   instagram: '',
   linkedin: '',
-  pie: '© 2018 Burano srl | Diseño web Datatex',
+  pie: '', // Diego 13/11/2026: se saca el texto heredado de Wix («© 2018 Burano srl | Diseño web Datatex»)
   formOk: '¡Tus datos se enviaron con éxito!',
   avisoConsultas: 'contacto@burano.com.uy',
   remitente: 'Burano <onboarding@resend.dev>',

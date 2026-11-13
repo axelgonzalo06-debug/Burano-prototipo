@@ -1,5 +1,9 @@
 # Historial de cambios
 
+## 0.4.5 — 2026-11-13
+
+- Se sacó del pie el texto heredado de Wix «© 2018 Burano srl | Diseño web Datatex».
+
 ## 0.4.4 — 2026-11-13
 
 - Retratos del equipo encuadrados iguales: los ojos a la misma altura y las caras del mismo tamaño (solo recorte, sin agregar nada).
