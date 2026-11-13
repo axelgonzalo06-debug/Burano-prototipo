@@ -1,5 +1,9 @@
 # Historial de cambios
 
+## 0.4.7 — 2026-11-13
+
+- Retratos del equipo con el mismo aire sobre la cabeza y el mismo tamaño de cabeza en los tres.
+
 ## 0.4.6 — 2026-11-13
 
 - Retratos del equipo con las cabezas del mismo tamaño (antes Carolina se veía más grande).
