@@ -1,7 +1,12 @@
 // Cada cambio publicado sube APP_VERSION y suma una entrada arriba de todo en HISTORIAL (y en CHANGELOG.md).
-export const APP_VERSION = '0.4.9';
+export const APP_VERSION = '0.4.10';
 
 export const HISTORIAL: { version: string; fecha: string; cambios: string[] }[] = [
+  {
+    version: '0.4.10',
+    fecha: '2026-11-23',
+    cambios: ['Actualización de seguridad del motor del sitio (Next.js 14.2.35). No cambia nada de lo que se ve.'],
+  },
   {
     version: '0.4.9',
     fecha: '2026-11-13',

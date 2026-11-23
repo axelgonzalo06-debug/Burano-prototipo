@@ -1,5 +1,9 @@
 # Historial de cambios
 
+## 0.4.10 — 2026-11-23
+
+- Actualización de seguridad del motor del sitio (Next.js 14.2.35). No cambia nada de lo que se ve.
+
 ## 0.4.9 — 2026-11-13
 
 - Proyectos: la ficha ya no se monta sobre la lista ni el contador en pantallas de notebook; la foto acompaña el alto de la ficha.
