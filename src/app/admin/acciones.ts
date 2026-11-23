@@ -29,7 +29,7 @@ export async function ingresar(_: string, fd: FormData) {
 }
 
 export async function salir() {
-  cerrarSesion();
+  await cerrarSesion();
   redirect('/admin/ingresar');
 }
 

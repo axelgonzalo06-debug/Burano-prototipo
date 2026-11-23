@@ -1,5 +1,6 @@
 'use client';
-import { useFormState, useFormStatus } from 'react-dom';
+import { useActionState } from 'react';
+import { useFormStatus } from 'react-dom';
 import { enviarConsulta, type EstadoForm } from '@/app/(sitio)/contacto/acciones';
 import { TEMAS } from './FormContacto';
 
@@ -10,7 +11,7 @@ function Enviar() {
 
 // Formulario corto de la home: guarda la consulta igual que el de /contacto (el tipo de trabajo va como asunto).
 export default function FormPresupuesto() {
-  const [estado, accion] = useFormState<EstadoForm, FormData>(enviarConsulta, { ok: false, error: '' });
+  const [estado, accion] = useActionState<EstadoForm, FormData>(enviarConsulta, { ok: false, error: '' });
   if (estado.ok) return <p className="ok" role="status">{estado.mensaje}</p>;
   return (
     <form className="form-pres" action={accion}>

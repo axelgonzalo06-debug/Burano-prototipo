@@ -1,5 +1,12 @@
 # Historial de cambios
 
+## 0.5.0 — 2026-11-23
+
+- Motor del sitio actualizado a la versión nueva (Next.js 15.5 y React 19): quedan cerrados todos los problemas de seguridad conocidos. No cambia nada de lo que se ve.
+- La tipografía de los títulos queda guardada dentro del sitio, para que se vea igual aunque Google cambie la suya.
+- Seguridad: la vista previa del administrador ya no puede usarse para mandar visitas a otros sitios, y las fotos que se suben tienen un tope de tamaño para que no traben el servidor.
+- El menú del celular cerrado ya no se puede recorrer con el teclado ni con lectores de pantalla.
+
 ## 0.4.10 — 2026-11-23
 
 - Actualización de seguridad del motor del sitio (Next.js 14.2.35). No cambia nada de lo que se ve.

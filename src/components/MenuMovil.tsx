@@ -88,7 +88,7 @@ export default function MenuMovil({ izq, der, direccion }: { izq: Ancla[]; der: 
         </div>
       </div>
     </header>
-      <nav id="hoja-menu" className={abierto ? 'hoja abierta' : 'hoja'} aria-label="Principal" aria-hidden={!abierto} inert={!abierto ? ('' as unknown as boolean) : undefined}>
+      <nav id="hoja-menu" className={abierto ? 'hoja abierta' : 'hoja'} aria-label="Principal" aria-hidden={!abierto} inert={!abierto}>
         <ol>
           {[...izq, ...der].map((x, k) => (
             <li key={x.id} style={{ '--k': k } as React.CSSProperties}>

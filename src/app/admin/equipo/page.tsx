@@ -13,7 +13,8 @@ const C: Campo[] = [
   { k: 'diplomas', etq: 'Diplomas extracurriculares', tipo: 'area', ayuda: 'Uno por línea.' },
 ];
 
-export default async function Equipo({ searchParams }: { searchParams: { ok?: string; error?: string } }) {
+export default async function Equipo(props: { searchParams: Promise<{ ok?: string; error?: string }> }) {
+  const searchParams = await props.searchParams;
   const lista = await db.integrante.findMany({ orderBy: { orden: 'asc' } });
   return (
     <Panel ruta="/admin/equipo">

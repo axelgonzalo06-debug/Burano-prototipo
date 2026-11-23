@@ -8,7 +8,8 @@ export async function generateMetadata(): Promise<Metadata> {
   return metaPagina({ titulo: 'Galería de trabajos', descripcion: a.intro, ruta: '/obras' });
 }
 
-export default function Obras({ searchParams }: { searchParams: { estado?: string; zona?: string } }) {
+export default async function Obras(props: { searchParams: Promise<{ estado?: string; zona?: string }> }) {
+  const searchParams = await props.searchParams;
   return (
     <section className="sec">
       <div className="wrap">

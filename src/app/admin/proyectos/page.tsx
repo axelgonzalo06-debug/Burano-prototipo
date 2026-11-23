@@ -4,7 +4,8 @@ import { db } from '@/lib/db';
 import { ESTADOS, TIPOS, rutaProyecto } from '@/lib/proyectos';
 import Panel from '../Panel';
 
-export default async function Proyectos({ searchParams }: { searchParams: { tipo?: string; ok?: string } }) {
+export default async function Proyectos(props: { searchParams: Promise<{ tipo?: string; ok?: string }> }) {
+  const searchParams = await props.searchParams;
   const tipo = searchParams.tipo?.toUpperCase() as TipoProyecto | undefined;
   const lista = await db.proyecto.findMany({
     where: tipo && tipo in TIPOS ? { tipo } : {},

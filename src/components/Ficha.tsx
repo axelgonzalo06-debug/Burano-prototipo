@@ -14,14 +14,14 @@ import FormContacto from './FormContacto';
 import Tarjeta from './Tarjeta';
 
 export async function metaFicha(slug: string): Promise<Metadata> {
-  const p = await proyectoPublico(slug, draftMode().isEnabled);
+  const p = await proyectoPublico(slug, (await draftMode()).isEnabled);
   if (!p) return {};
   const desc = [p.ubicacion, p.trabajos || p.descripcion || p.situacionPrevia].filter(Boolean).join(' · ');
   return metaPagina({ titulo: p.titulo, descripcion: desc, ruta: rutaProyecto(p), tipo: 'article', imagen: p.portada ? { url: p.portada, width: p.portadaAncho, height: p.portadaAlto } : undefined });
 }
 
 export default async function Ficha({ slug, base }: { slug: string; base: 'obras' | 'proyectos' }) {
-  const borrador = draftMode().isEnabled;
+  const borrador = (await draftMode()).isEnabled;
   const p = await proyectoPublico(slug, borrador);
   if (!p || (base === 'obras') !== (p.tipo === 'OBRA')) notFound();
   const a = await getAjustes();

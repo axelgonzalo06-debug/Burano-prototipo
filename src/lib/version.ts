@@ -1,7 +1,17 @@
 // Cada cambio publicado sube APP_VERSION y suma una entrada arriba de todo en HISTORIAL (y en CHANGELOG.md).
-export const APP_VERSION = '0.4.10';
+export const APP_VERSION = '0.5.0';
 
 export const HISTORIAL: { version: string; fecha: string; cambios: string[] }[] = [
+  {
+    version: '0.5.0',
+    fecha: '2026-11-23',
+    cambios: [
+      'Motor del sitio actualizado a la versión nueva (Next.js 15.5 y React 19): quedan cerrados todos los problemas de seguridad conocidos. No cambia nada de lo que se ve.',
+      'La tipografía de los títulos queda guardada dentro del sitio, para que se vea igual aunque Google cambie la suya.',
+      'Seguridad: la vista previa del administrador ya no puede usarse para mandar visitas a otros sitios, y las fotos que se suben tienen un tope de tamaño para que no traben el servidor.',
+      'El menú del celular cerrado ya no se puede recorrer con el teclado ni con lectores de pantalla.',
+    ],
+  },
   {
     version: '0.4.10',
     fecha: '2026-11-23',

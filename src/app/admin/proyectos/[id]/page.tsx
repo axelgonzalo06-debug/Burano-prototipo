@@ -10,7 +10,9 @@ import SubirArchivo from './SubirArchivo';
 
 const fechaLocal = (d: Date | null) => (d ? new Date(d.getTime() - d.getTimezoneOffset() * 60000).toISOString().slice(0, 16) : '');
 
-export default async function Editar({ params, searchParams }: { params: { id: string }; searchParams: { ok?: string; error?: string } }) {
+export default async function Editar(props: { params: Promise<{ id: string }>; searchParams: Promise<{ ok?: string; error?: string }> }) {
+  const params = await props.params;
+  const searchParams = await props.searchParams;
   const nuevo = params.id === 'nuevo';
   const p = nuevo ? null : await db.proyecto.findUnique({ where: { id: params.id }, include: { fotos: { orderBy: { orden: 'asc' } }, archivos: { orderBy: { orden: 'asc' } } } });
   if (!nuevo && !p) notFound();

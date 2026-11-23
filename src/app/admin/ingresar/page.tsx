@@ -1,9 +1,9 @@
 'use client';
-import { useFormState } from 'react-dom';
+import { useActionState } from 'react';
 import { ingresar } from '../acciones';
 
 export default function Ingresar() {
-  const [error, accion] = useFormState(ingresar, '');
+  const [error, accion] = useActionState(ingresar, '');
   return (
     <div className="ingreso">
       <form action={accion}>

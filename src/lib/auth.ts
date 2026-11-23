@@ -10,11 +10,11 @@ export type Sesion = { id: string; nombre: string; email: string; rol: 'ADMIN' |
 
 export async function crearSesion(s: Sesion) {
   const token = await new SignJWT(s).setProtectedHeader({ alg: 'HS256' }).setExpirationTime('14d').sign(clave());
-  cookies().set(COOKIE, token, { httpOnly: true, secure: process.env.NODE_ENV === 'production', sameSite: 'lax', path: '/', maxAge: 60 * 60 * 24 * 14 });
+  (await cookies()).set(COOKIE, token, { httpOnly: true, secure: process.env.NODE_ENV === 'production', sameSite: 'lax', path: '/', maxAge: 60 * 60 * 24 * 14 });
 }
 
-export function cerrarSesion() {
-  cookies().delete(COOKIE);
+export async function cerrarSesion() {
+  (await cookies()).delete(COOKIE);
 }
 
 export async function leerToken(token?: string): Promise<Sesion | null> {
@@ -28,7 +28,7 @@ export async function leerToken(token?: string): Promise<Sesion | null> {
 }
 
 export async function sesion(): Promise<Sesion | null> {
-  const s = await leerToken(cookies().get(COOKIE)?.value);
+  const s = await leerToken((await cookies()).get(COOKIE)?.value);
   if (!s) return null;
   const u = await db.usuario.findUnique({ where: { id: s.id } });
   if (!u || !u.activo) return null;

@@ -4,7 +4,8 @@ import Panel from '../Panel';
 import Fila, { Aviso, type Campo } from '../Fila';
 import { cargarMenuBase } from './acciones';
 
-export default async function Menu({ searchParams }: { searchParams: { ok?: string; error?: string } }) {
+export default async function Menu(props: { searchParams: Promise<{ ok?: string; error?: string }> }) {
+  const searchParams = await props.searchParams;
   const items = await db.itemMenu.findMany({ orderBy: { orden: 'asc' } });
   const raices = items.filter((i) => !i.padre);
   const C: Campo[] = [

@@ -6,7 +6,8 @@ import { estadoConsulta, reintentarCorreos, responderConsulta } from '../accione
 
 const ESTADOS: Record<EstadoConsulta, string> = { NUEVA: 'Nueva', RESPONDIDA: 'Respondida', CERRADA: 'Cerrada' };
 
-export default async function Consultas({ searchParams }: { searchParams: { estado?: string; origen?: string; ok?: string; error?: string; enviados?: string; pendientes?: string } }) {
+export default async function Consultas(props: { searchParams: Promise<{ estado?: string; origen?: string; ok?: string; error?: string; enviados?: string; pendientes?: string }> }) {
+  const searchParams = await props.searchParams;
   const estado = searchParams.estado?.toUpperCase() as EstadoConsulta | undefined;
   const [lista, origenes, cola] = await Promise.all([
     db.consulta.findMany({

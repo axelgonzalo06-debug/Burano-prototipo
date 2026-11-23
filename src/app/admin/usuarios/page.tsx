@@ -19,7 +19,8 @@ function Form({ u }: { u?: { id: string; nombre: string; email: string; rol: str
   );
 }
 
-export default async function Usuarios({ searchParams }: { searchParams: { ok?: string; error?: string } }) {
+export default async function Usuarios(props: { searchParams: Promise<{ ok?: string; error?: string }> }) {
+  const searchParams = await props.searchParams;
   await exigirAdmin();
   const lista = await db.usuario.findMany({ orderBy: { creado: 'asc' } });
   return (

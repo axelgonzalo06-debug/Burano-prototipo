@@ -1,6 +1,6 @@
 'use client';
-import { useState } from 'react';
-import { useFormState, useFormStatus } from 'react-dom';
+import { useActionState, useState } from 'react';
+import { useFormStatus } from 'react-dom';
 import { enviarConsulta, type EstadoForm } from '@/app/(sitio)/contacto/acciones';
 
 export const TEMAS = [
@@ -18,7 +18,7 @@ function Enviar() {
 }
 
 export default function FormContacto({ proyecto, proyectoId, whatsapp }: { proyecto?: string; proyectoId?: string; whatsapp: string }) {
-  const [estado, accion] = useFormState<EstadoForm, FormData>(enviarConsulta, { ok: false, error: '' });
+  const [estado, accion] = useActionState<EstadoForm, FormData>(enviarConsulta, { ok: false, error: '' });
   const [asunto, setAsunto] = useState(proyecto ? `Consulta por ${proyecto}` : '');
   const [mensaje, setMensaje] = useState(proyecto ? `Hola, vi la obra «${proyecto}» en el sitio y quisiera consultar por un trabajo similar. Ubicación de la obra: ` : '');
   const [tema, setTema] = useState('');

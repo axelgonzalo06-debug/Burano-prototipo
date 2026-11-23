@@ -17,7 +17,8 @@ const IND: Campo[] = [
   { k: 'texto', etq: 'Texto', full: true },
 ];
 
-export default async function Portada({ searchParams }: { searchParams: { ok?: string; error?: string } }) {
+export default async function Portada(props: { searchParams: Promise<{ ok?: string; error?: string }> }) {
+  const searchParams = await props.searchParams;
   const [slides, ind] = await Promise.all([db.diapositiva.findMany({ orderBy: { orden: 'asc' } }), db.indicador.findMany({ orderBy: { orden: 'asc' } })]);
   return (
     <Panel ruta="/admin/portada">

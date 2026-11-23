@@ -11,7 +11,8 @@ export async function guardarImagen(
   opciones: { carpeta?: string; max?: number; recorte?: { x: number; y: number; w: number; h: number } } = {},
 ) {
   const max = opciones.max ?? 2400;
-  let img = sharp(buf, { limitInputPixels: false }).rotate();
+  // Límite de fábrica de sharp (16383 × 16383 px): alcanza para cualquier cámara y frena imágenes "bomba".
+  let img = sharp(buf).rotate();
   if (opciones.recorte) {
     const r = opciones.recorte;
     img = img.extract({ left: Math.round(r.x), top: Math.round(r.y), width: Math.round(r.w), height: Math.round(r.h) });

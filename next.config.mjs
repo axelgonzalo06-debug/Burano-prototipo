@@ -7,6 +7,8 @@ const nextConfig = {
     formats: ['image/avif', 'image/webp'],
   },
   experimental: { serverActions: { bodySizeLimit: '25mb' } },
+  // Solo en desarrollo: el indicador de Next tapaba el botón "Salir" del administrador.
+  devIndicators: { position: 'bottom-right' },
   // URLs del sitio en Wix → sitio nuevo (301, para no perder posicionamiento)
   async redirects() {
     return [

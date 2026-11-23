@@ -14,7 +14,8 @@ const CLI: Campo[] = [
   { k: 'orden', etq: 'Orden', tipo: 'num' },
 ];
 
-export default async function Historia({ searchParams }: { searchParams: { ok?: string; error?: string } }) {
+export default async function Historia(props: { searchParams: Promise<{ ok?: string; error?: string }> }) {
+  const searchParams = await props.searchParams;
   const [hitos, clientes] = await Promise.all([db.hito.findMany({ orderBy: [{ anio: 'asc' }, { orden: 'asc' }] }), db.cliente.findMany({ orderBy: { orden: 'asc' } })]);
   return (
     <Panel ruta="/admin/historia">

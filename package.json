@@ -1,6 +1,6 @@
 {
   "name": "burano-web",
-  "version": "0.4.10",
+  "version": "0.5.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -12,21 +12,21 @@
   "dependencies": {
     "@prisma/client": "5.22.0",
     "@vercel/analytics": "^1.5.0",
-    "@vercel/blob": "0.27.3",
+    "@vercel/blob": "2.9.0",
     "bcryptjs": "2.4.3",
     "jose": "5.9.6",
-    "next": "14.2.35",
-    "react": "18.3.1",
-    "react-dom": "18.3.1",
-    "resend": "4.0.1",
-    "sharp": "0.33.5"
+    "next": "15.5.29",
+    "react": "19.3.1",
+    "react-dom": "19.3.1",
+    "resend": "4.8.0",
+    "sharp": "0.35.5"
   },
   "devDependencies": {
     "@electric-sql/pglite-socket": "0.0.8",
     "@types/bcryptjs": "2.4.6",
     "@types/node": "20.17.6",
-    "@types/react": "18.3.12",
-    "@types/react-dom": "18.3.1",
+    "@types/react": "19.3.0",
+    "@types/react-dom": "19.3.0",
     "prisma": "5.22.0",
     "typescript": "5.6.3"
   },
@@ -35,5 +35,9 @@
     "sharp@0.33.5": true,
     "@prisma/engines@5.22.0": true,
     "@prisma/client@5.22.0": true
+  },
+  "overrides": {
+    "zod": "4.6.7",
+    "postcss": "8.5.33"
   }
 }

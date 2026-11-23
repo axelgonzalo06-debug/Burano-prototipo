@@ -2,7 +2,8 @@ import Link from 'next/link';
 import { db } from '@/lib/db';
 import Panel from './Panel';
 
-export default async function Inicio({ searchParams }: { searchParams: { error?: string } }) {
+export default async function Inicio(props: { searchParams: Promise<{ error?: string }> }) {
+  const searchParams = await props.searchParams;
   const [proy, pub, fotos, nuevas, total, pendientes, ultimas] = await Promise.all([
     db.proyecto.count(),
     db.proyecto.count({ where: { publicado: true } }),

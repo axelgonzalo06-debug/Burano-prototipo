@@ -16,7 +16,8 @@ const CALC: Campo[] = [
   { k: 'orden', etq: 'Orden', tipo: 'num' },
 ];
 
-export default async function Servicios({ searchParams }: { searchParams: { ok?: string; error?: string } }) {
+export default async function Servicios(props: { searchParams: Promise<{ ok?: string; error?: string }> }) {
+  const searchParams = await props.searchParams;
   const [serv, calc] = await Promise.all([db.servicio.findMany({ orderBy: { orden: 'asc' } }), db.trabajoCalculo.findMany({ orderBy: { orden: 'asc' } })]);
   return (
     <Panel ruta="/admin/servicios">

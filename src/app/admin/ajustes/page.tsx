@@ -22,7 +22,8 @@ const GRUPOS: { titulo: string; campos: [ClaveAjuste, string, 'area'?, string?][
   ] },
 ];
 
-export default async function Ajustes({ searchParams }: { searchParams: { ok?: string } }) {
+export default async function Ajustes(props: { searchParams: Promise<{ ok?: string }> }) {
+  const searchParams = await props.searchParams;
   await exigirAdmin();
   const a = await getAjustes();
   return (
