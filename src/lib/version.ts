@@ -1,7 +1,14 @@
 // Cada cambio publicado sube APP_VERSION y suma una entrada arriba de todo en HISTORIAL (y en CHANGELOG.md).
-export const APP_VERSION = '0.5.0';
+export const APP_VERSION = '0.5.1';
 
 export const HISTORIAL: { version: string; fecha: string; cambios: string[] }[] = [
+  {
+    version: '0.5.1',
+    fecha: '2026-11-24',
+    cambios: [
+      'Corrección de errores de ortografía en los textos: «edificio» y «El Castaño» (azotea), «Wyndham» (hotel), «enrollar», «de la ampliación» (galpón MRU), «del edificio» (Junta de Florida), «acústico» (diplomas de Carolina), «diagnóstico» (servicios), «Punta del Este», «pérgola» con tilde y el paréntesis que faltaba en Vivienda Jacarandá, y «Instalación de puntos» en los pies de foto de Sitiland. No se cambió ningún otro texto ni las direcciones de las páginas.',
+    ],
+  },
   {
     version: '0.5.0',
     fecha: '2026-11-23',
