@@ -38,6 +38,7 @@ Publicar: `vercel --prod`.
 - `scripts/medir.mjs <salida.json>` — resolución y nitidez de cada foto publicada.
 - `scripts/duplicados.mjs [umbral] [salida.json]` — fotos repetidas por obra (dHash).
 - `scripts/og.mjs` — regenera `public/og.jpg` desde la primera diapositiva.
+- `scripts/corregir-ortografia.mjs [--aplicar] [--base-real]` — corrige solo los errores de ortografía aprobados el 24/11 (sin `--aplicar` solo muestra).
 - `scripts/data/fotos-flojas.json` — las 27 fotos flojas a restaurar (pendiente).
 Todos se corren desde la raíz con `node --env-file=.env.production.local scripts/<script>.mjs`.
 
