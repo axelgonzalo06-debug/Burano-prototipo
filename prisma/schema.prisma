@@ -1,0 +1,228 @@
+// Burano · modelo de datos. Todo lo que se ve en el sitio sale de acá y se edita desde /admin.
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider  = "postgresql"
+  url       = env("DATABASE_URL")
+  directUrl = env("DATABASE_URL_UNPOOLED")
+}
+
+enum Rol {
+  ADMIN
+  EDITOR
+}
+
+model Usuario {
+  id        String   @id @default(cuid())
+  email     String   @unique
+  nombre    String
+  hash      String
+  rol       Rol      @default(EDITOR)
+  activo    Boolean  @default(true)
+  creado    DateTime @default(now())
+}
+
+// Ajustes globales editables (contacto, redes, WhatsApp, textos de portada, pie). Una fila por clave.
+model Ajuste {
+  clave String @id
+  valor String
+}
+
+model ItemMenu {
+  id     String  @id @default(cuid())
+  texto  String
+  href   String
+  orden  Int     @default(0)
+  padre  String?
+  activo Boolean @default(true)
+}
+
+model Diapositiva {
+  id       String  @id @default(cuid())
+  imagen   String
+  ancho    Int?
+  alto     Int?
+  titulo   String  @default("")
+  pie      String  @default("")
+  enlace   String  @default("")
+  orden    Int     @default(0)
+  activa   Boolean @default(true)
+}
+
+model Indicador {
+  id     String @id @default(cuid())
+  valor  Int
+  prefijo String @default("")
+  sufijo String @default("")
+  texto  String
+  orden  Int    @default(0)
+}
+
+model Servicio {
+  id       String @id @default(cuid())
+  titulo   String
+  intro    String @default("")
+  items    String // una línea por ítem
+  destacados String @default("") // líneas que se resaltan (p. ej. "SIN COSTO")
+  orden    Int    @default(0)
+}
+
+model TrabajoCalculo {
+  id       String @id @default(cuid())
+  nombre   String
+  lugar    String
+  metros   String
+  orden    Int    @default(0)
+}
+
+model Integrante {
+  id          String  @id @default(cuid())
+  nombre      String
+  titulo      String
+  celular     String  @default("")
+  linkedin    String  @default("")
+  foto        String  @default("")
+  experiencia String  @default("")
+  diplomas    String  @default("")
+  orden       Int     @default(0)
+  activo      Boolean @default(true)
+}
+
+model Hito {
+  id     String @id @default(cuid())
+  anio   Int
+  titulo String
+  texto  String @default("")
+  orden  Int    @default(0)
+}
+
+model Cliente {
+  id     String @id @default(cuid())
+  nombre String
+  logo   String @default("")
+  url    String @default("")
+  orden  Int    @default(0)
+}
+
+enum TipoProyecto {
+  VIVIENDA
+  INDUSTRIA
+  OFICINAS
+  OBRA
+}
+
+enum EstadoProyecto {
+  TERMINADO
+  EN_OBRA
+  EN_VENTA
+  EN_POZO
+}
+
+model Proyecto {
+  id               String         @id @default(cuid())
+  slug             String         @unique
+  titulo           String
+  subtitulo        String         @default("")
+  tipo             TipoProyecto
+  estado           EstadoProyecto @default(TERMINADO)
+  ubicacion        String         @default("")
+  zona             String         @default("")
+  programa         String         @default("")
+  superficies      String         @default("") // líneas "Etiqueta: valor", tal cual Wix
+  situacionPrevia  String         @default("")
+  trabajos         String         @default("")
+  descripcion      String         @default("")
+  avance           Int?
+  entrega          String         @default("")
+  lat              Float?
+  lng              Float?
+  portada          String         @default("")
+  portadaAncho     Int?
+  portadaAlto      Int?
+  destacado        Boolean        @default(false)
+  orden            Int            @default(0)
+  publicado        Boolean        @default(false)
+  publicarDesde    DateTime?
+  urlWix           String         @default("")
+  creado           DateTime       @default(now())
+  actualizado      DateTime       @updatedAt
+  fotos            Foto[]
+  archivos         Archivo[]
+  consultas        Consulta[]
+}
+
+model Foto {
+  id         String    @id @default(cuid())
+  proyectoId String
+  proyecto   Proyecto  @relation(fields: [proyectoId], references: [id], onDelete: Cascade)
+  url        String
+  ancho      Int?
+  alto       Int?
+  pie        String    @default("")
+  alt        String    @default("")
+  previa     Boolean   @default(false) // "Situación previa"
+  avance     Boolean   @default(false) // foto de avance de obra
+  fecha      DateTime?
+  orden      Int       @default(0)
+  @@index([proyectoId, orden])
+}
+
+model Archivo {
+  id         String   @id @default(cuid())
+  proyectoId String
+  proyecto   Proyecto @relation(fields: [proyectoId], references: [id], onDelete: Cascade)
+  nombre     String
+  url        String
+  tipo       String   @default("plano")
+  orden      Int      @default(0)
+}
+
+model Noticia {
+  id            String    @id @default(cuid())
+  slug          String    @unique
+  titulo        String
+  resumen       String    @default("")
+  cuerpo        String    @default("")
+  imagen        String    @default("")
+  etiquetas     String    @default("")
+  publicado     Boolean   @default(false)
+  publicarDesde DateTime?
+  creado        DateTime  @default(now())
+}
+
+enum EstadoConsulta {
+  NUEVA
+  RESPONDIDA
+  CERRADA
+}
+
+model Consulta {
+  id         String         @id @default(cuid())
+  nombre     String
+  email      String
+  telefono   String         @default("")
+  asunto     String         @default("")
+  mensaje    String         @default("")
+  origen     String         @default("formulario")
+  proyectoId String?
+  proyecto   Proyecto?      @relation(fields: [proyectoId], references: [id], onDelete: SetNull)
+  estado     EstadoConsulta @default(NUEVA)
+  notas      String         @default("")
+  creado     DateTime       @default(now())
+}
+
+// Cola de correos: si Resend agota el cupo diario, quedan pendientes y se reintentan.
+model Correo {
+  id       String    @id @default(cuid())
+  para     String
+  asunto   String
+  html     String
+  estado   String    @default("pendiente")
+  error    String    @default("")
+  intentos Int       @default(0)
+  creado   DateTime  @default(now())
+  enviado  DateTime?
+}
