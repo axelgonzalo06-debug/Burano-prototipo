@@ -2,6 +2,7 @@
 
 ## 0.5.1 — 2026-11-24
 
+- Botón de WhatsApp fijo abajo a la derecha en todo el sitio, con el número de Burano (+598 98 073 303) y el mensaje «Hola, quisiera hacer una consulta.». El número se cambia desde el administrador, en Ajustes.
 - Corrección de errores de ortografía en los textos: «edificio» y «El Castaño» (azotea), «Wyndham» (hotel), «enrollar», «de la ampliación» (galpón MRU), «del edificio» (Junta de Florida), «acústico» (diplomas de Carolina), «diagnóstico» (servicios), «Punta del Este», «pérgola» con tilde y el paréntesis que faltaba en Vivienda Jacarandá, y «Instalación de puntos» en los pies de foto de Sitiland. No se cambió ningún otro texto ni las direcciones de las páginas.
 
 ## 0.5.0 — 2026-11-23
