@@ -1,7 +1,12 @@
 // Cada cambio publicado sube APP_VERSION y suma una entrada arriba de todo en HISTORIAL (y en CHANGELOG.md).
-export const APP_VERSION = '0.5.1';
+export const APP_VERSION = '0.5.2';
 
 export const HISTORIAL: { version: string; fecha: string; cambios: string[] }[] = [
+  {
+    version: '0.5.2',
+    fecha: '2026-11-27',
+    cambios: ['Sitio preparado para el dominio burano.com.uy: queda conectado en Vercel (burano.com.uy lleva a www.burano.com.uy) y Google ya puede indexarlo. Empieza a verse en cuanto se cambien los datos del dominio en Wix. La dirección de prueba burano-web.vercel.app sigue andando, pero Google no la indexa.'],
+  },
   {
     version: '0.5.1',
     fecha: '2026-11-27',
