@@ -1,5 +1,9 @@
 # Historial de cambios
 
+## 0.5.2 — 2026-11-27
+
+- Sitio preparado para el dominio burano.com.uy: queda conectado en Vercel (burano.com.uy lleva a www.burano.com.uy) y Google ya puede indexarlo. Empieza a verse en cuanto se cambien los datos del dominio en Wix. La dirección de prueba burano-web.vercel.app sigue andando, pero Google no la indexa.
+
 ## 0.5.1 — 2026-11-27
 
 - Fotos del equipo en el inicio en blanco y negro, como en la página Empresa; toman color al pasar el mouse.

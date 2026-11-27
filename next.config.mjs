@@ -15,6 +15,11 @@ const nextConfig = {
   // el navegador no adivina tipos de archivo y no se piden cámara, micrófono ni ubicación.
   async headers() {
     return [{
+      // La dirección de prueba de Vercel no se indexa: Google solo debe ver www.burano.com.uy.
+      source: '/:path*',
+      has: [{ type: 'host', value: '(?<prueba>.*)\\.vercel\\.app' }],
+      headers: [{ key: 'X-Robots-Tag', value: 'noindex, nofollow' }],
+    }, {
       source: '/:path*',
       headers: [
         { key: 'X-Frame-Options', value: 'SAMEORIGIN' },
