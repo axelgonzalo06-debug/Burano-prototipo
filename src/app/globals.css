@@ -410,8 +410,8 @@ html.rv .rv-img.visto .rv-img-in img { transform: none; transition: transform 1.
 .miembro:hover { transform: translateY(-2px); }
 /* Mismo formato que los retratos (4:5): la cara entera, con aire arriba y los hombros */
 .miembro-foto { position: relative; aspect-ratio: 4 / 5; overflow: hidden; background: #e2e0dc; }
-.miembro-foto img { object-fit: cover; object-position: center top; transition: transform 0.8s var(--ease); }
-.miembro:hover .miembro-foto img { transform: scale(1.03); }
+.miembro-foto img { object-fit: cover; object-position: center top; filter: grayscale(1); transition: transform 0.8s var(--ease), filter 0.4s; }
+.miembro:hover .miembro-foto img { transform: scale(1.03); filter: none; }
 .miembro-txt { padding: 20px 22px 24px; }
 .miembro-rol { font-size: 12px; font-weight: 600; letter-spacing: 0.12em; text-transform: uppercase; color: var(--muted); }
 .miembro-rol span { color: var(--accent); }

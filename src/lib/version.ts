@@ -4,8 +4,11 @@ export const APP_VERSION = '0.5.1';
 export const HISTORIAL: { version: string; fecha: string; cambios: string[] }[] = [
   {
     version: '0.5.1',
-    fecha: '2026-11-24',
+    fecha: '2026-11-27',
     cambios: [
+      'Fotos del equipo en el inicio en blanco y negro, como en la página Empresa; toman color al pasar el mouse.',
+      'Foto de Leandro Cantieri: en lugar del retrato hecho con IA, su foto original con mejor calidad y un poco más grande.',
+      'Seguridad: el sitio ahora le indica al navegador que no se puede mostrar dentro de otras páginas, que no adivine tipos de archivo y que no pida cámara, micrófono ni ubicación; y ya no anuncia con qué tecnología está hecho. No cambia nada de lo que se ve.',
       'Botón de WhatsApp fijo abajo a la derecha en todo el sitio, con el número de Burano (+598 98 073 303) y el mensaje «Hola, quisiera hacer una consulta.». El número se cambia desde el administrador, en Ajustes.',
       'Corrección de errores de ortografía en los textos: «edificio» y «El Castaño» (azotea), «Wyndham» (hotel), «enrollar», «de la ampliación» (galpón MRU), «del edificio» (Junta de Florida), «acústico» (diplomas de Carolina), «diagnóstico» (servicios), «Punta del Este», «pérgola» con tilde y el paréntesis que faltaba en Vivienda Jacarandá, y «Instalación de puntos» en los pies de foto de Sitiland. No se cambió ningún otro texto ni las direcciones de las páginas.',
     ],
